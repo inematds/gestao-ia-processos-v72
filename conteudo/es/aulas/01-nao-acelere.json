@@ -190,7 +190,7 @@
           "p": "En Horizonte, Juliana envía un correo a finanzas con cada pedido separado. ¿Cuál es la etiqueta más probable de esa etapa?",
           "opcoes": [
             "P, traspaso de manos: solo existe porque el pedido no llega solo",
-            "X, exigencia real: sin el correo finanzas no factura el pedido",
+            "X, exigencia real: sin ese correo finanzas no factura el pedido",
             "H, hábito: el correo se pidió un día y nadie lo quitó después"
           ],
           "certa": 0,
@@ -211,7 +211,7 @@
         {
           "p": "¿Cuál de estas etapas sigue en manos de una persona después del rediseño?",
           "opcoes": [
-            "Comprobar si el cliente tiene CNPJ registrado antes de armar el pedido",
+            "Comprobar si el cliente tiene el CNPJ registrado antes de armar el pedido",
             "Copiar el pedido de la app al ERP cuando los dos no se comunican",
             "Decidir si un cliente antiguo merece una condición fuera de la política"
           ],

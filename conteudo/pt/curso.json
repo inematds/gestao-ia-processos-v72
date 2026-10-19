@@ -47,7 +47,7 @@
     ],
     "cursos": {
       "titulo": "Os 6 cursos da formação",
-      "sub": "Ordem sugerida: G0 → G2 → G3 → G4 → G1 → G5. O G1 (pessoas) pode correr em paralelo, e quem é de RH pode começar por ele. Os cursos marcados \"em breve\" abrem à medida que ficam prontos.",
+      "sub": "Ordem sugerida: G0 → G2 → G3 → G4 → G1 → G5. O G1 (pessoas) pode correr em paralelo, e quem é de RH pode começar por ele. Os seis já estão publicados.",
       "abrir": "Abrir o curso",
       "itens": [
         {
@@ -83,7 +83,7 @@
           "img": "assets/img/cursos/g4.jpg"
         },
         {
-          "rot": "G1 · pessoas · em breve",
+          "rot": "G1 · pessoas · publicado",
           "t": "Pessoas: liderar a equipe híbrida",
           "l": "O que fica com as pessoas, a conversa sobre mudança, o júnior que supervisiona agentes e a formação da equipe.",
           "href": "https://inematds.github.io/gestao-ia-pessoas-v72/",
@@ -91,7 +91,7 @@
           "img": "assets/img/cursos/g1.jpg"
         },
         {
-          "rot": "G5 · fechamento + projeto final · em breve",
+          "rot": "G5 · fechamento + projeto final · publicado",
           "t": "Governar, medir e evoluir",
           "l": "Responsáveis, permissões e registro; avaliação com indicadores; um ciclo LOOP-R e o projeto final da formação.",
           "href": "https://inematds.github.io/gestao-ia-governanca-v72/",

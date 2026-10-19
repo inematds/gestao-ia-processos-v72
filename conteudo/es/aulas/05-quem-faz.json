@@ -224,7 +224,7 @@
           "opcoes": [
             "Una persona confirma antes de grabar, y cada operación queda registrada",
             "Una semana de prueba; después pasa a grabar solo, sin confirmar",
-            "Un segundo agente que revisa la pantalla después de cada grabación"
+            "Un segundo agente que revisa la pantalla después de cada una de las grabaciones"
           ],
           "certa": 0,
           "ref": "diagrama",

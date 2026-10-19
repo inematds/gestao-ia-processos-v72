@@ -204,7 +204,7 @@
           "p": "¿Cuál de estas es un indicador completo?",
           "opcoes": [
             "Devueltos ÷ llegaron a facturación, por semana, contados en el ERP",
-            "Pedidos devueltos por facturación, contados en el ERP cada semana",
+            "Pedidos devueltos por facturación, contados en el ERP todas las semanas",
             "Porcentaje de clientes satisfechos con la entrega, por el botón"
           ],
           "certa": 0,
@@ -215,7 +215,7 @@
           "p": "Finanzas dice que \"unos 15 por semana vuelven\". ¿Cómo entra ese valor en la ficha?",
           "opcoes": [
             "Como observado, porque finanzas ve todos los pedidos",
-            "Queda en blanco hasta que termine el conteo de cuatro semanas",
+            "Queda en blanco hasta que termine el conteo de las cuatro semanas",
             "Como hipótesis declarada, con la fecha en que pasa a observado"
           ],
           "certa": 2,

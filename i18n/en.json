@@ -1281,5 +1281,8 @@
  "Nada: o canvas descreve o processo, não a ferramenta": "Nothing: the canvas describes the process, not the tool",
  "Basta trocar o nome da ferramenta no quadro de executores": "Just swap the tool's name in the executor chart",
  "É mudança de versão: registro, teste e caminho de volta": "It's a version change: record, test, and a way back",
- "Troca de ferramenta pode mudar o comportamento da etapa: o método sobrevive à troca, mas a evidência precisa ser refeita contra a linha de base. Trocar só o nome no quadro esconde essa mudança.": "Swapping a tool can change how a step behaves: the method survives the swap, but the evidence has to be redone against the baseline. Swapping only the name in the chart hides that change."
+ "Troca de ferramenta pode mudar o comportamento da etapa: o método sobrevive à troca, mas a evidência precisa ser refeita contra a linha de base. Trocar só o nome no quadro esconde essa mudança.": "Swapping a tool can change how a step behaves: the method survives the swap, but the evidence has to be redone against the baseline. Swapping only the name in the chart hides that change.",
+ "Ordem sugerida: G0 → G2 → G3 → G4 → G1 → G5. O G1 (pessoas) pode correr em paralelo, e quem é de RH pode começar por ele. Os seis já estão publicados.": "Suggested order: G0 → G2 → G3 → G4 → G1 → G5. G1 (people) can run in parallel, and if you work in HR, you can start with it. All six are already published.",
+ "G1 · pessoas · publicado": "G1 · people · published",
+ "G5 · fechamento + projeto final · publicado": "G5 · wrap-up + final project · published"
 }

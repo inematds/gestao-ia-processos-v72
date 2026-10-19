@@ -191,7 +191,7 @@
         {
           "p": "Un cliente importante se quejó de un retraso. El dueño quiere crear una nueva revisión ya. ¿Qué pide el proceso con versión?",
           "opcoes": [
-            "Crear la verificación hoy y registrarla después, si sale bien",
+            "Crear la verificación hoy mismo y registrarla después, si sale bien",
             "Esperar tres quejas iguales más antes de tocar algo",
             "Abrir una propuesta con el caso y la hipótesis, y probar antes"
           ],
@@ -214,7 +214,7 @@
           "p": "¿Cuándo escribir el gatillo de reversión?",
           "opcoes": [
             "Antes del cambio, con número, plazo y quién decide",
-            "Cuando aparezca el primer problema en la fase 1",
+            "Cuando aparezca el primer problema durante la fase 1",
             "Al final de la fase 1, mirando los indicadores"
           ],
           "certa": 0,

@@ -369,7 +369,7 @@
           "p": "La gerente revisa el precio de todos los pedidos desde un susto con descuentos. ¿Cuál es la simplificación?",
           "opcoes": [
             "Verificar solo las excepciones de la política y una muestra semanal",
-            "Revisar la mitad de los pedidos cada día, alternando los clientes",
+            "Revisar la mitad de los pedidos todos los días, alternando los clientes",
             "Hacer que la agente que arma el pedido revise lo que armó"
           ],
           "certa": 0,

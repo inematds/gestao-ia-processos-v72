@@ -57,7 +57,7 @@
           "titulo": "Decisión",
           "sub": "quien responde aprueba",
           "forte": true,
-          "detalhe": "Promover, rechazar o esperar más datos. Quien decide es quien responde por el proceso, y no quien propuso el cambio. La decisión queda registrada con el motivo."
+          "detalhe": "Promover, rechazar o esperar más datos. Quien decide responde por el resultado y no es quien propuso: si la propuesta viene del dueño del proceso, decide quien está por encima de él. La decisión queda registrada con el motivo."
         },
         {
           "icone": "camadas",
@@ -102,11 +102,11 @@
           "sub": "fases y aprobación",
           "texto": [
             "La versión nueva empieza en el alcance del piloto, por un plazo, con los indicadores comparados con la línea de base. Solo después vale para todos los casos.",
-            "La promoción es decisión de quien responde por el proceso, con los números sobre la mesa. Quien propuso presenta; quien responde decide."
+            "La promoción es decisión de quien responde por el resultado, con los números sobre la mesa, y nunca de quien propuso. Si quien propuso es el propio dueño del proceso, decide quien está por encima de él."
           ],
           "exemplo": {
             "rot": "En Horizonte",
-            "texto": "Fase 1, dos semanas: la v2.0 solo para clientes registrados con pedido de hasta R$ 5 mil. Fase 2: todos los pedidos. Patrícia propone; Carlos aprueba cada fase mirando los tres indicadores."
+            "texto": "Fase 1, dos semanas: la v2.0 solo para clientes registrados con pedido de hasta R$ 5 mil. Fase 2: todos los pedidos. Patrícia, dueña del proceso, propone; Carlos aprueba cada fase mirando los tres indicadores."
           }
         },
         {
@@ -157,7 +157,7 @@
           },
           {
             "rot": "Cómo revisar / errores comunes",
-            "html": "<ul><li><b>Cambio sin número.</b> Si no puedes decir en qué versión está el proceso, no puedes volver.</li><li><b>Quien propone aprueba.</b> La aprobación es de quien responde por el proceso.</li><li><b>Gatillo vago.</b> \"Si empeora\" no es gatillo; \"devolución por encima de X por dos semanas\" sí lo es.</li><li><b>Versión anterior borrada.</b> Guarda el mapa, la hoja de etiquetas y el cuadro de ejecutores de la v1.0.</li><li><b>Cambiar todo de una vez.</b> Las fases te dejan ver el efecto antes de que valga para todos.</li></ul>"
+            "html": "<ul><li><b>Cambio sin número.</b> Si no puedes decir en qué versión está el proceso, no puedes volver atrás.</li><li><b>Quien propone aprueba.</b> Aprueba quien responde por el resultado y no hizo la propuesta; si el dueño del proceso propuso, aprueba quien está por encima de él.</li><li><b>Disparador vago.</b> \"Si empeora\" no es un disparador; \"devolución por encima de X durante dos semanas\" sí lo es.</li><li><b>Versión anterior borrada.</b> Guarda el mapa, la hoja de etiquetas y el cuadro de ejecutores de la v1.0.</li><li><b>Cambiar todo de una vez.</b> Las fases te dejan ver el efecto antes de que valga para todos.</li></ul>"
           }
         ]
       }
@@ -191,46 +191,46 @@
         {
           "p": "Un cliente importante se quejó de un retraso. El dueño quiere crear una nueva revisión ya. ¿Qué pide el proceso con versión?",
           "opcoes": [
-            "Crear la revisión hoy, porque el cliente es importante",
-            "Abrir una propuesta con el caso de origen y la hipótesis, y probar antes de cambiar el proceso",
-            "Ignorarlo, porque fue un solo caso"
+            "Crear la verificación hoy y registrarla después, si sale bien",
+            "Esperar tres quejas iguales más antes de tocar algo",
+            "Abrir una propuesta con el caso y la hipótesis, y probar antes"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Una queja es una señal, no evidencia. Abre una propuesta; el cambio entra probado y aprobado. Ignorarla también es un error: el caso puede apuntar a un problema real."
+          "explica": "Una queja es una señal, no evidencia. Abre una propuesta; el cambio entra probado y aprobado. Crearlo ya y registrar después es cambiar a lo loco; esperar más quejas ignora un caso que puede apuntar a un problema real."
         },
         {
           "p": "Cambiaste el tamaño de la muestra semanal de 10 a 15 pedidos, sin tocar los pasos. ¿Qué versión es?",
           "opcoes": [
-            "3.0",
             "2.1: un ajuste sin tocar los pasos sube el decimal",
-            "No necesita versión"
+            "3.0: todo cambio aprobado sube la versión completa",
+            "Ninguna: solo el cambio de etapa necesita versión"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Cortar, mover o juntar un paso sube la versión entera; un ajuste sin tocar los pasos sube el decimal. Hasta el ajuste va al historial."
         },
         {
           "p": "¿Cuándo escribir el gatillo de reversión?",
           "opcoes": [
-            "Antes del cambio, con número y plazo",
-            "Cuando aparezca el problema",
-            "Solo si el dueño lo pide"
+            "Antes del cambio, con número, plazo y quién decide",
+            "Cuando aparezca el primer problema en la fase 1",
+            "Al final de la fase 1, mirando los indicadores"
           ],
           "certa": 0,
           "ref": "passos",
-          "explica": "Un gatillo decidido después del problema se decide con el susto, y cada uno tira para su lado. Escrito antes, la vuelta es un paso previsto."
+          "explica": "Un disparador decidido después del problema, o mirando el resultado de la fase 1, se decide a lo loco, y cada uno tira para su lado. Escrito antes, la vuelta atrás es una etapa prevista."
         },
         {
           "p": "¿Quién aprueba la promoción de la versión 2.0 en Horizonte?",
           "opcoes": [
-            "Patrícia, que propuso y conoce el proceso",
-            "Carlos, con los indicadores comparados con la línea de base: quien propone no aprueba",
-            "La agente, que ve todos los pedidos"
+            "Patrícia, que responde por el proceso y conoce los números",
+            "Carlos, porque quien propone no aprueba su propio cambio",
+            "Rafael, que va a conectar la integración y sabe qué cambia"
           ],
           "certa": 1,
           "ref": "diagrama",
-          "explica": "Quien propone presenta la evidencia; quien responde por el resultado decide. Ninguna versión entra por decisión de un sistema."
+          "explica": "Patrícia responde por el proceso, pero fue ella quien propuso la v2.0: aprueba quien está por encima de ella, mirando los indicadores contra la línea de base. Quien propone presenta la evidencia; ninguna versión entra por decisión de un sistema."
         }
       ]
     },
@@ -248,7 +248,7 @@
         },
         {
           "t": "Fases y aprobación",
-          "texto": "Primero el alcance; decide quien responde, no quien propuso."
+          "texto": "Primero el alcance; aprueba quien responde, nunca quien propuso."
         },
         {
           "t": "La vuelta escrita antes",

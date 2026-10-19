@@ -192,53 +192,53 @@
         {
           "p": "Las atenciones de la agente subieron de 702 a 901 por semana. ¿Qué prueba eso?",
           "opcoes": [
-            "Que la agente mejoró las ventas",
-            "Nada por sí solo: falta el antes y falta un denominador; pedidos ÷ atenciones incluso bajó",
-            "Que la satisfacción de los clientes subió"
+            "Que la agente mejoró las ventas, ya que los pedidos también subieron",
+            "Nada por sí solo: falta el antes y falta el denominador; la conversión cayó",
+            "Que la agente se pagó, porque atiende a más gente por el mismo costo"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "El volumen puede subir por la época del año, por un descuento o porque la agente conversa más por pedido. La conversión pasó de 20,1% a 18,6%. Sin línea de base, la pregunta \"¿ayudó?\" queda en el terreno de la corazonada."
+          "explica": "El volumen puede subir por la época del año, por un descuento o porque la agente conversa más por pedido. La conversión pasó de 20,1% a 18,6%, y \"se pagó\" pide costo y el antes. Sin línea de base, la pregunta \"¿ayudó?\" queda en pura impresión."
         },
         {
           "p": "¿Cuál de estas es un indicador completo?",
           "opcoes": [
-            "Pedidos devueltos",
-            "Pedidos devueltos a atención ÷ pedidos que llegaron a facturación, por semana, contados en el ERP",
-            "Muchos pedidos vuelven"
+            "Devueltos ÷ llegaron a facturación, por semana, contados en el ERP",
+            "Pedidos devueltos por facturación, contados en el ERP cada semana",
+            "Porcentaje de clientes satisfechos con la entrega, por el botón"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Numerador, denominador, período y origen. Sin el denominador, el número sube y baja junto con el volumen y no dice si el proceso mejoró."
+          "explica": "Numerador, denominador, período y origen. Contar devueltos cada semana todavía no tiene denominador: el número sube y baja con el volumen. La satisfacción por el botón mide otra cosa, con cerca de 6% de respuesta."
         },
         {
           "p": "Finanzas dice que \"unos 15 por semana vuelven\". ¿Cómo entra ese valor en la ficha?",
           "opcoes": [
-            "Como observado: finanzas conoce el proceso",
-            "Como hipótesis declarada, con la fecha en que pasa a observado después del conteo",
-            "No entra"
+            "Como observado, porque finanzas ve todos los pedidos",
+            "Queda en blanco hasta que termine el conteo de cuatro semanas",
+            "Como hipótesis declarada, con la fecha en que pasa a observado"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Lo declarado es una pista valiosa, pero no es una medida. Marcarlo como hipótesis, con fecha, protege la comparación de antes y después."
+          "explica": "Lo declarado es una pista valiosa, pero no es una medida, y dejarlo en blanco pierde la pista. Marcarlo como hipótesis, con fecha, protege la comparación de antes y después."
         },
         {
-          "p": "¿Por qué usar la mediana y no el promedio para el tiempo hasta la nota?",
+          "p": "¿Por qué usar la mediana y no el promedio para el tiempo hasta la factura?",
           "opcoes": [
-            "Porque la mediana siempre es menor",
-            "Porque unos pocos casos trabados suben el promedio y esconden el tiempo normal; el p95 muestra aparte los casos trabados",
-            "Porque es más fácil de calcular"
+            "Porque pocos casos trabados jalan el promedio y esconden lo normal",
+            "Porque la mediana da siempre un número menor y una meta más fácil",
+            "Porque el promedio solo sirve cuando hay más de cien casos en la semana"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "Un pedido de 75 horas entre cuatro de 22 a 30 horas distorsiona el promedio. Mediana para lo normal, p95 para el peor caso típico."
+          "explica": "En los cinco casos, el pedido de 75 horas jala el promedio a cerca de 40 horas; la mediana queda en 30. Mediana para lo normal, p95 para el peor caso típico. No es para facilitar la meta: es para no esconder lo normal."
         },
         {
           "p": "El rediseño liberó 20 horas de personas por semana. ¿Qué puedes decirle al dueño?",
           "opcoes": [
-            "Que la empresa ahorró 20 horas de salario",
-            "Que hay 20 horas de capacidad liberada, estimadas, que solo se vuelven ahorro si se usan o se recortan de forma verificable",
-            "Que el retorno del proyecto está garantizado"
+            "Que la empresa ahorró 20 horas de salario por semana",
+            "Que liberó 20 horas estimadas, que todavía no son ahorro",
+            "Que el retorno del proyecto está garantizado desde el mes que viene"
           ],
           "certa": 1,
           "ref": "passos",

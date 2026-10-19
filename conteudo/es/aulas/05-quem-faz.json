@@ -189,31 +189,31 @@
         {
           "p": "\"Pedido sobre R$ 5 mil va a la gerente\" es siempre igual y el valor está en la app. ¿Quién aplica esta regla?",
           "opcoes": [
-            "Un agente, que entiende el contexto",
-            "Una automatización simple, configurada en el sistema",
-            "La gerente, mirando todos los pedidos"
+            "Un agente, que entiende el contexto de cada pedido",
+            "La gerente, viendo todos los pedidos del día en la pantalla",
+            "Una automatización simple, configurada en la app con la regla de la política"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Regla fija con dato en el sistema es automatización simple: hace lo mismo cada vez y se revisa fácil. La gerente decide el pedido que la regla le envió; no necesita buscar los pedidos."
+          "explica": "Una regla fija con datos en el sistema es automatización simple: hace lo mismo cada vez y se revisa fácil. Un agente aquí solo traería costo y variación. La gerente decide el pedido que la regla encaminó; no necesita buscar los pedidos."
         },
         {
           "p": "El cliente escribe \"quiero el de siempre, pero con más desinfectante y sin el multiuso\". ¿Quién convierte eso en pedido?",
           "opcoes": [
-            "Una automatización de pantalla",
-            "Un agente, con nivel de autorización escrito y una persona responsable",
-            "Nadie: el cliente tiene que usar un formulario"
+            "Un agente, con nivel de autorización escrito y un responsable",
+            "Una automatización de pantalla que copia el mensaje a la app",
+            "Una regla fija que busca las palabras del catálogo"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Texto libre, distinto en cada conversación, con consulta al historial: es donde el agente vale lo que cuesta. Con límites escritos, que es el tema de G3."
+          "explica": "Texto libre, distinto en cada conversación, con consulta al historial: ahí es donde el agente vale lo que cuesta. La automatización de pantalla y la regla de palabras no interpretan \"lo de siempre\". Con límites escritos, que es el tema del G3."
         },
         {
           "p": "El ERP no tiene integración conocida con la app. ¿Cuál es la primera pregunta a TI?",
           "opcoes": [
-            "¿Se puede usar Computer Use?",
-            "¿El ERP tiene puerta de servicio (API) o conector para esta operación?",
-            "¿Cuánto cuesta un agente?"
+            "¿Se puede usar Computer Use directamente, sin tocar el ERP?",
+            "¿El ERP tiene puerta de servicio (API) o conector para esto?",
+            "¿Cuánto cuesta un agente que vuelva a digitar los pedidos en el ERP?"
           ],
           "certa": 1,
           "ref": "passos",
@@ -222,24 +222,24 @@
         {
           "p": "Cuando Computer Use es la elección correcta, ¿qué acompaña la decisión?",
           "opcoes": [
-            "Nada: entiende la pantalla solo",
-            "Una persona confirma lo que se completó antes de guardar, y cada operación queda registrada",
-            "Guarda directo para ganar tiempo"
+            "Una persona confirma antes de grabar, y cada operación queda registrada",
+            "Una semana de prueba; después pasa a grabar solo, sin confirmar",
+            "Un segundo agente que revisa la pantalla después de cada grabación"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Computer Use mira la pantalla y decide dónde hacer clic: es flexible y menos predecible. Por eso queda en el último nivel y con confirmación humana antes del efecto."
+          "explica": "Computer Use mira la pantalla y decide dónde hacer clic: es flexible y menos predecible. Por eso queda en el último nivel, con confirmación humana antes del efecto. Una prueba de una semana o un revisor después de grabar no reemplazan esa confirmación."
         },
         {
           "p": "¿Qué llama Microsoft Frontier Professionals en el Work Trend Index 2026?",
           "opcoes": [
-            "Programadores que construyen agentes",
-            "El 16% que usa agentes en flujos de varios pasos y rediseña el trabajo",
-            "Gestores que prohíben la IA en el equipo"
+            "Programadores que construyen los agentes que usan las empresas",
+            "El 16% que usa IA todos los días, pero sin cambiar su forma de trabajar",
+            "El 16% que rediseña el trabajo con agentes en varios pasos"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Es una encuesta del proveedor (05/2026, 20 mil personas en 10 países), que vende las herramientas. El punto útil: el grupo que más provecho saca rediseña el flujo, no solo usa la herramienta."
+          "explica": "Es una encuesta del proveedor (05/2026, 20 mil personas en 10 países), que vende las herramientas. Lo que define al grupo no es usar mucho: es usar agentes en flujos de varias etapas y rediseñar el trabajo."
         }
       ]
     },

@@ -168,7 +168,7 @@
           "sub": "exemplos trocáveis",
           "texto": [
             "OpenAI: os Workspace Agents, que substituem os Custom GPTs, passaram a ser cobrados por token (06/07/2026); o ChatGPT Work entrega documento, planilha e slide (09/07/2026). O Agent Builder do AgentKit será desativado em 30/11/2026.",
-            "Anthropic: Managed Agents e, no Claude Code, uso do computador em segundo plano (09/2026). Microsoft: Agent 365, anunciado no Build (06/2026). Fontes: notas de lançamento e anúncios de cada fornecedor."
+            "Anthropic: Managed Agents; no Claude Code, uso do computador em segundo plano, em beta (09/2026). Microsoft: Agent 365, anunciado no Build (06/2026). Fontes: notas de lançamento e anúncios de cada fornecedor."
           ],
           "exemplo": {
             "rot": "Para o canvas",
@@ -192,7 +192,7 @@
           "sub": "compare a definição antes do número",
           "texto": [
             "KPMG Global Tech Report 2026 (04/2026): 45% dos executivos brasileiros relatam vários projetos de IA desconectados. ABES e IDC (15/06/2026, 103 executivos): 40% já investem em agentes e 33% planejam em 12 meses; obstáculos citados: dados, legado, governança e falta de profissionais.",
-            "GFT, Tech Trends 2026 LATAM, com dados da BCG: 18% das empresas brasileiras integram agentes, contra 13% no mundo. Gartner (2026): só 17% das empresas têm agentes em uso."
+            "GFT, Tech Trends 2026 LATAM, com dados da BCG: 18% das empresas brasileiras integram agentes, contra 13% no mundo. Gartner (2026, análise do ciclo de hype da IA agêntica): só 17% das empresas têm agentes em uso."
           ],
           "exemplo": {
             "rot": "Por que os números não batem",
@@ -355,31 +355,31 @@
         {
           "p": "O canvas fez 90 pontos, mas a linha de base aparece como \"30 h\" sem dizer se foi observada ou é hipótese. Resultado?",
           "opcoes": [
-            "Aprovado: 90 é bem acima de 75",
-            "Reprovado: linha de base sem a marca observado/hipótese é obrigatório que falta",
-            "Aprovado com ressalva"
+            "Aprovado: 90 pontos está bem acima do mínimo de 75",
+            "Aprovado com ressalva, desde que a marca entre antes da fase 1",
+            "Reprovado: falta um obrigatório, a marca da linha de base"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
-          "explica": "Os obrigatórios existem para que uma nota alta não esconda o que mais engana. O canvas volta para o bloco de medida, não para o zero."
+          "explica": "Os obrigatórios existem para que uma nota alta não esconda o que mais engana, e ressalva não substitui obrigatório. O canvas volta para o bloco de medida, não para o zero."
         },
         {
           "p": "Quem assina o canvas da Horizonte?",
           "opcoes": [
-            "A Patrícia, que montou e conhece tudo",
-            "O Carlos, depois de a equipe que executa as etapas ler a coluna \"como fica\"",
-            "A agente, que executa duas etapas"
+            "O Carlos, depois de quem executa as etapas ler o \"como fica\"",
+            "A Patrícia, que montou o canvas e responde pelo processo",
+            "A Juliana, que executa a maior parte das etapas que mudam"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "Quem monta apresenta; quem responde pelo resultado assina, depois de ouvir quem perde etapas. É o mesmo princípio da promoção de versão."
+          "explica": "Quem monta apresenta; quem responde pelo resultado assina. Como a Patrícia montou e é a dona do processo, assina quem está acima dela, depois de ouvir quem perde etapas. É o mesmo princípio da promoção de versão (aula 7)."
         },
         {
           "p": "Um relatório diz que 40% das empresas investem em agentes; outro, que só 17% têm agentes em uso. O que fazer antes de citar?",
           "opcoes": [
-            "Escolher o número que ajuda o seu argumento",
-            "Comparar a definição (investir × ter em uso), a amostra e quem publicou",
-            "Fazer a média dos dois"
+            "Usar o número mais recente, que é o mais confiável",
+            "Comparar a definição, a amostra e quem publicou cada um",
+            "Citar os dois e fazer a média para ficar no meio"
           ],
           "certa": 1,
           "ref": "passos",
@@ -388,13 +388,13 @@
         {
           "p": "A ferramenta que executa uma etapa do seu processo vai sair de linha. O que muda no canvas?",
           "opcoes": [
-            "Nada: o canvas é sobre o processo, não sobre a ferramenta",
-            "É uma mudança de versão: registro, teste na ferramenta nova contra a linha de base e caminho de volta",
-            "Basta trocar o nome da ferramenta no quadro"
+            "Nada: o canvas descreve o processo, não a ferramenta",
+            "Basta trocar o nome da ferramenta no quadro de executores",
+            "É mudança de versão: registro, teste e caminho de volta"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Troca de ferramenta pode mudar o comportamento da etapa. O método sobrevive à troca, mas a evidência precisa ser refeita."
+          "explica": "Troca de ferramenta pode mudar o comportamento da etapa: o método sobrevive à troca, mas a evidência precisa ser refeita contra a linha de base. Trocar só o nome no quadro esconde essa mudança."
         }
       ]
     },

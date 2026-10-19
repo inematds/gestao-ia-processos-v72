@@ -38,7 +38,7 @@
           "icone": "x",
           "titulo": "Eliminar",
           "sub": "no necesita existir",
-          "detalhe": "Etapas marcadas como hábito o traspaso de manos, sin un motivo real confirmado por quien las hace. Cortar exige encontrar a quien usaba el resultado de la etapa y darle otra fuente. En Horizonte: la planilla, el papel, el aviso por WhatsApp y el correo al área financiera."
+          "detalhe": "Etapas marcadas como hábito o traspaso de manos, sin un motivo real confirmado por quien las hace. Cortar exige encontrar a quien usaba el resultado de la etapa y darle a esa persona otra fuente. En Horizonte: la planilla, el papel, el aviso por WhatsApp, el correo a finanzas y la redigitación en el ERP."
         },
         {
           "icone": "lupa",
@@ -77,7 +77,7 @@
           ],
           "exemplo": {
             "rot": "En Horizonte",
-            "texto": "La planilla del área comercial (etapa 3) alimentaba el informe de metas de Patrícia; el informe pasa a salir de la app. El papel (6), el aviso (9) y el correo (10) desaparecen cuando almacén y finanzas ven el pedido en pantalla."
+            "texto": "La planilla del área comercial (etapa 3) alimentaba el informe de metas de Patrícia; el informe pasa a salir de la app. El papel (6), el aviso (9) y el correo (10) desaparecen cuando almacén y finanzas ven el pedido en pantalla; la redigitación (11), cuando el pedido pasa de la app al ERP solo."
           }
         },
         {
@@ -297,7 +297,7 @@
         "abas": [
           {
             "rot": "Hoja de Horizonte (ejemplo)",
-            "html": "<p><b>Pedido por WhatsApp → factura · v1.0 → v2.0</b> · Horizonte, empresa ficticia de estudio</p><table><tr><th># v1</th><th>Etapa</th><th>Verbo</th><th>Motivo y nueva fuente</th></tr><tr><td>3</td><td>Copiar a la planilla</td><td>eliminar</td><td>hábito; el reporte de metas sale de la app</td></tr><tr><td>4</td><td>Verificar el precio de todos</td><td>simplificar</td><td>solo excepciones de la política + 10 sorteados por semana</td></tr><tr><td>6</td><td>Imprimir y llevar al almacén</td><td>eliminar</td><td>traspaso de manos; el almacén ve el pedido en la pantalla</td></tr><tr><td>9</td><td>Avisar que se separó</td><td>eliminar</td><td>traspaso de manos; la baja en la app avisa</td></tr><tr><td>10</td><td>Correo a Finanzas</td><td>eliminar</td><td>traspaso de manos; el pedido va al ERP</td></tr><tr><td>11</td><td>Volver a digitar en el ERP</td><td>eliminar</td><td>solo existía porque la app y el ERP no se comunican (cómo conectarlos: clase 5)</td></tr><tr><td>12</td><td>Verificar el registro</td><td>mover</td><td>pasa a la entrada; el cliente nuevo pasa antes por Juliana</td></tr><tr><td>4 y 5</td><td>Verificación simplificada y aprobación por encima de R$ 5 mil</td><td>juntar</td><td>pasan a ser una sola cola de excepciones de Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Responder, armar, verificar el stock, separar, enviar la factura</td><td>mantener</td><td>exigencia (cliente, stock, factura)</td></tr></table><p>v1 = 13 etapas · v2 = 8 etapas: 5 eliminadas, la 4 y la 5 juntadas en una sola cola, y un traspaso automático de la app al ERP en lugar de volver a digitar.</p>"
+            "html": "<p><b>Pedido por WhatsApp → factura · v1.0 → v2.0</b> · Horizonte, empresa ficticia de estudio</p><table><tr><th># v1</th><th>Etapa</th><th>Verbo</th><th>Motivo y nueva fuente</th></tr><tr><td>3</td><td>Copiar a la planilla</td><td>eliminar</td><td>hábito; el informe de metas sale de la app</td></tr><tr><td>4</td><td>Verificar el precio de todos</td><td>simplificar</td><td>solo excepciones de la política + 10 sorteados por semana</td></tr><tr><td>6</td><td>Imprimir y llevar al almacén</td><td>eliminar</td><td>traspaso de manos; el almacén ve el pedido en pantalla</td></tr><tr><td>9</td><td>Avisar que se separó</td><td>eliminar</td><td>traspaso de manos; la baja en la app avisa</td></tr><tr><td>10</td><td>Correo a finanzas</td><td>eliminar</td><td>traspaso de manos; el pedido va al ERP</td></tr><tr><td>11</td><td>Redigitar en el ERP</td><td>eliminar</td><td>solo existía porque la app y el ERP no se hablan (cómo conectarlos: clase 5)</td></tr><tr><td>12</td><td>Verificar el registro y emitir la factura</td><td>mover</td><td>la verificación del registro va a la entrada (el cliente nuevo pasa por Juliana antes); la emisión de la factura se queda</td></tr><tr><td>4 y 5</td><td>Verificación simplificada y aprobación por encima de R$ 5 mil</td><td>juntar</td><td>se vuelven una sola cola de excepciones de Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Responder, armar, verificar el stock, separar, enviar la factura</td><td>mantener</td><td>exigencia (cliente, stock, factura)</td></tr></table><p>v1 = 13 etapas · v2 = 8 etapas: 5 eliminadas, la 4 y la 5 juntadas en una sola cola, y un traspaso automático de la app al ERP en lugar de la redigitación.</p>"
           },
           {
             "rot": "La versión 2.0",
@@ -346,42 +346,42 @@
         {
           "p": "¿Cuál es el orden correcto del rediseño?",
           "opcoes": [
-            "Automatizar, medir, después cortar lo que sobró",
-            "Eliminar, simplificar, rediseñar, y solo entonces automatizar",
-            "Simplificar todo de una vez y automatizar el mismo día"
+            "Eliminar, simplificar, rediseñar, y solo entonces automatizar lo que quedó",
+            "Automatizar lo que más tarda, medir, y luego cortar el resto",
+            "Simplificar, automatizar y, con el tiempo ganado, eliminar etapas"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Cada verbo reduce lo que el siguiente necesita tratar. Automatizar primero deja fijadas en el sistema las etapas que deberían haber salido."
+          "explica": "Cada verbo reduce lo que el siguiente necesita tratar. Automatizar antes de cortar fija en el sistema las etapas que deberían haber salido, y entonces cortar sale más caro."
         },
         {
           "p": "Vas a eliminar la copia del pedido a la planilla. ¿Qué necesitas hacer antes?",
           "opcoes": [
-            "Nada: es un hábito, se puede cortar",
-            "Encontrar a quien usaba la planilla (el reporte de metas) y darle a esa persona otra fuente",
-            "Pedirle a un agente que siga copiando, por si acaso"
+            "Avisar al equipo y cortar el lunes siguiente, sin excepción",
+            "Mantener la copia durante un mes en paralelo, hasta que nadie reclame",
+            "Encontrar a quien usaba la planilla y darle a esa persona otra fuente"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Toda etapa cortada alimentaba a alguien. Sin una nueva fuente, la etapa vuelve escondida, en una planilla paralela que nadie controla."
+          "explica": "Toda etapa cortada alimentaba a alguien, aquí el informe de metas. Sin una nueva fuente, la etapa vuelve escondida en una planilla paralela. Mantenerla en paralelo \"hasta que nadie reclame\" no encuentra a quien dependía: solo posterga el descubrimiento."
         },
         {
           "p": "La gerente revisa el precio de todos los pedidos desde un susto con descuentos. ¿Cuál es la simplificación?",
           "opcoes": [
-            "Dejar de revisar",
-            "Revisar una por una las excepciones que define la política y sortear cada semana una muestra pequeña de los pedidos comunes",
-            "Poner a la agente que arma el pedido a revisar sus propios pedidos"
+            "Verificar solo las excepciones de la política y una muestra semanal",
+            "Revisar la mitad de los pedidos cada día, alternando los clientes",
+            "Hacer que la agente que arma el pedido revise lo que armó"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "La necesidad continúa; la forma se reduce. Excepción con atención, muestra para vigilar la regla. Y quien registra no aprueba su propio trabajo."
+          "explica": "La necesidad continúa; la forma se reduce. Excepción con atención, muestra para vigilar la regla. Revisar la mitad al azar deja pasar excepciones, y quien registra no aprueba su propio trabajo."
         },
         {
           "p": "El pedido de un cliente sin CNPJ solo se descubre en la facturación, después de la separación. ¿Qué verbo lo resuelve?",
           "opcoes": [
-            "Eliminar la revisión del registro",
+            "Eliminar la revisión, porque genera retrabajo",
             "Mover la revisión a la entrada del pedido",
-            "Automatizar el cobro del CNPJ al final"
+            "Automatizar el cobro del CNPJ al cliente al final"
           ],
           "certa": 1,
           "ref": "passos",

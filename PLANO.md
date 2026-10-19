@@ -91,4 +91,4 @@ Somas: `fim-acelera` 0; `fim-manter` ≤ 2; `fim-dado` ≤ 6; `fim-painel` ≤ 8
 - **Etapas e números da Horizonte** (13 etapas, 5 casos, "uns 15 por semana") foram criados para este curso, coerentes com o lab (168 pedidos fechados na semana de 13/10 vêm do `indicadores.json`) e com a política do G3; sempre rotulados como fictícios. Os 5 casos são exploração, não amostra (PLANO-CURSO mód. 1).
 - **Conta do painel (aula 6):** pedidos fechados ÷ atendimentos caiu de 20,1% (141/702, 01/09) para 18,6% (168/901, 13/10): calculado do `indicadores.json` do lab.
 - **Aula 5:** a escada de quatro escolhas para entrar num sistema vem do copilot-agentic; o curso não ensina a construir a integração, só a decidir e a pedir.
-- `lado_card` aponta para o G0 (`gestao-ia-base-v72`, em produção: 404 esperado no `validar --links`).
+- `lado_card` aponta para o G0 (`gestao-ia-base-v72`, publicado). Revisão de 19/10: quizzes sem viés, bloco "Os 6 cursos da formação" na inicial, coerência Carlos/cobrança (aula 2), aprovação de quem não propôs (aula 7).

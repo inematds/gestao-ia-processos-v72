@@ -57,7 +57,7 @@
           "titulo": "Decisão",
           "sub": "quem responde aprova",
           "forte": true,
-          "detalhe": "Promover, rejeitar ou esperar mais dados. Quem decide é quem responde pelo processo, e não quem propôs a mudança. A decisão fica registrada com o motivo."
+          "detalhe": "Promover, rejeitar ou esperar mais dados. Quem decide responde pelo resultado e não é quem propôs: se a proposta vem do dono do processo, decide quem está acima dele. A decisão fica registrada com o motivo."
         },
         {
           "icone": "camadas",
@@ -102,11 +102,11 @@
           "sub": "fases e aprovação",
           "texto": [
             "A versão nova começa no recorte do piloto, por um prazo, com os indicadores comparados à linha de base. Só depois vale para todos os casos.",
-            "A promoção é decisão de quem responde pelo processo, com os números na mesa. Quem propôs apresenta; quem responde decide."
+            "A promoção é decisão de quem responde pelo resultado, com os números na mesa, e nunca de quem propôs. Se quem propôs é o próprio dono do processo, decide quem está acima dele."
           ],
           "exemplo": {
             "rot": "Na Horizonte",
-            "texto": "Fase 1, duas semanas: a v2.0 só para clientes cadastrados com pedido até R$ 5 mil. Fase 2: todos os pedidos. A Patrícia propõe; o Carlos aprova cada fase olhando os três indicadores."
+            "texto": "Fase 1, duas semanas: a v2.0 só para clientes cadastrados com pedido até R$ 5 mil. Fase 2: todos os pedidos. A Patrícia, dona do processo, propõe; o Carlos aprova cada fase olhando os três indicadores."
           }
         },
         {
@@ -157,7 +157,7 @@
           },
           {
             "rot": "Como conferir / erros comuns",
-            "html": "<ul><li><b>Mudança sem número.</b> Se não dá para dizer em que versão o processo está, não dá para voltar.</li><li><b>Quem propõe aprova.</b> A aprovação é de quem responde pelo processo.</li><li><b>Gatilho vago.</b> \"Se piorar\" não é gatilho; \"devolução acima de X por duas semanas\" é.</li><li><b>Versão anterior apagada.</b> Guarde o mapa, a folha de etiquetas e o quadro de executores da v1.0.</li><li><b>Mudar tudo de uma vez.</b> Fases deixam ver o efeito antes de valer para todos.</li></ul>"
+            "html": "<ul><li><b>Mudança sem número.</b> Se não dá para dizer em que versão o processo está, não dá para voltar.</li><li><b>Quem propõe aprova.</b> Aprova quem responde pelo resultado e não fez a proposta; se o dono do processo propôs, aprova quem está acima dele.</li><li><b>Gatilho vago.</b> \"Se piorar\" não é gatilho; \"devolução acima de X por duas semanas\" é.</li><li><b>Versão anterior apagada.</b> Guarde o mapa, a folha de etiquetas e o quadro de executores da v1.0.</li><li><b>Mudar tudo de uma vez.</b> Fases deixam ver o efeito antes de valer para todos.</li></ul>"
           }
         ]
       }
@@ -191,46 +191,46 @@
         {
           "p": "Um cliente importante reclamou de um atraso. O dono quer criar uma nova conferência já. O que o processo com versão pede?",
           "opcoes": [
-            "Criar a conferência hoje, porque o cliente é importante",
-            "Abrir uma proposta com o caso de origem e a hipótese, e testar antes de mudar o processo",
-            "Ignorar, porque foi um caso só"
+            "Criar a conferência hoje e registrar depois, se der certo",
+            "Esperar mais três reclamações iguais antes de mexer em algo",
+            "Abrir uma proposta com o caso e a hipótese, e testar antes"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Reclamação é sinal, não evidência. Ela abre uma proposta; a mudança entra testada e aprovada. Ignorar também é erro: o caso pode apontar um problema real."
+          "explica": "Reclamação é sinal, não evidência. Ela abre uma proposta; a mudança entra testada e aprovada. Criar já e registrar depois é mudar no susto; esperar mais reclamações ignora um caso que pode apontar um problema real."
         },
         {
           "p": "Você trocou o tamanho da amostra semanal de 10 para 15 pedidos, sem mexer nas etapas. Que versão é?",
           "opcoes": [
-            "3.0",
             "2.1: ajuste sem mexer nas etapas sobe o decimal",
-            "Não precisa de versão"
+            "3.0: toda mudança aprovada sobe a versão inteira",
+            "Nenhuma: só mudança de etapa precisa de versão"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Cortar, mover ou juntar etapa sobe a versão inteira; ajuste sem mexer nas etapas sobe o decimal. Até o ajuste vai para o histórico."
         },
         {
           "p": "Quando escrever o gatilho de reversão?",
           "opcoes": [
-            "Antes da mudança, com número e prazo",
-            "Quando o problema aparecer",
-            "Só se o dono pedir"
+            "Antes da mudança, com número, prazo e quem decide",
+            "Quando o primeiro problema aparecer na fase 1",
+            "No fim da fase 1, olhando os indicadores"
           ],
           "certa": 0,
           "ref": "passos",
-          "explica": "Gatilho decidido depois do problema é decidido no susto, e cada um puxa para um lado. Escrito antes, a volta é uma etapa prevista."
+          "explica": "Gatilho decidido depois do problema, ou olhando o resultado da fase 1, é decidido no susto, e cada um puxa para um lado. Escrito antes, a volta é uma etapa prevista."
         },
         {
           "p": "Quem aprova a promoção da versão 2.0 na Horizonte?",
           "opcoes": [
-            "A Patrícia, que propôs e conhece o processo",
-            "O Carlos, com os indicadores comparados à linha de base: quem propõe não aprova",
-            "A agente, que vê todos os pedidos"
+            "A Patrícia, que responde pelo processo e conhece os números",
+            "O Carlos, porque quem propõe não aprova a própria mudança",
+            "O Rafael, que vai ligar a integração e sabe o que muda"
           ],
           "certa": 1,
           "ref": "diagrama",
-          "explica": "Quem propõe apresenta a evidência; quem responde pelo resultado decide. Nenhuma versão entra por decisão de um sistema."
+          "explica": "A Patrícia responde pelo processo, mas foi ela quem propôs a v2.0: aprova quem está acima dela, olhando os indicadores contra a linha de base. Quem propõe apresenta a evidência; nenhuma versão entra por decisão de um sistema."
         }
       ]
     },
@@ -248,7 +248,7 @@
         },
         {
           "t": "Fases e aprovação",
-          "texto": "Recorte primeiro; quem responde decide, não quem propôs."
+          "texto": "Recorte primeiro; aprova quem responde, nunca quem propôs."
         },
         {
           "t": "Volta escrita antes",

@@ -38,7 +38,7 @@
           "icone": "x",
           "titulo": "Eliminate",
           "sub": "doesn't need to exist",
-          "detalhe": "Steps marked as habit or handoff, with no real reason confirmed by the person who does them. Cutting means finding who used the step's result and giving that person another source. At Horizonte: the spreadsheet, the paper, the WhatsApp notice, and the email to finance."
+          "detalhe": "Steps marked as habit or handoff, with no real reason confirmed by the person who does them. Cutting requires finding who used the output of the step and giving that person another source. At Horizonte: the spreadsheet, the paper, the WhatsApp notice, the email to finance, and the retyping into the ERP."
         },
         {
           "icone": "lupa",
@@ -77,7 +77,7 @@
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "The sales spreadsheet (step 3) fed Patrícia's goals report; the report now comes out of the app. The paper (6), the notice (9) and the email (10) disappear once inventory and finance see the order on screen."
+            "texto": "The sales spreadsheet (step 3) fed Patrícia's targets report; the report will now come out of the app. The paper (6), the notice (9), and the email (10) go away when stock and finance see the order on screen; the retyping (11), when the order passes from the app to the ERP on its own."
           }
         },
         {
@@ -297,7 +297,7 @@
         "abas": [
           {
             "rot": "Horizonte sheet (example)",
-            "html": "<p><b>Order via WhatsApp → invoice · v1.0 → v2.0</b> · Horizonte, fictional study company</p><table><tr><th># v1</th><th>Step</th><th>Verb</th><th>Reason and new source</th></tr><tr><td>3</td><td>Copy to the spreadsheet</td><td>eliminate</td><td>habit; the goals report comes from the app</td></tr><tr><td>4</td><td>Check the price on every order</td><td>simplify</td><td>only policy exceptions + 10 drawn at random each week</td></tr><tr><td>6</td><td>Print and take to the warehouse</td><td>eliminate</td><td>handoff; the warehouse sees the order on screen</td></tr><tr><td>9</td><td>Notify that it was picked</td><td>eliminate</td><td>handoff; the stock write-off in the app notifies</td></tr><tr><td>10</td><td>Email to finance</td><td>eliminate</td><td>handoff; the order goes to the ERP</td></tr><tr><td>11</td><td>Retype into the ERP</td><td>eliminate</td><td>only existed because the app and ERP don't talk to each other (how to connect them: lesson 5)</td></tr><tr><td>12</td><td>Check the record</td><td>move</td><td>goes to intake; a new customer goes through Juliana first</td></tr><tr><td>4 and 5</td><td>Simplified check and approval above R$ 5 thousand</td><td>merge</td><td>become a single queue of Patrícia's exceptions</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Reply, build the order, check stock, pick, send the invoice</td><td>keep</td><td>requirement (customer, stock, invoice)</td></tr></table><p>v1 = 13 steps · v2 = 8 steps: 5 eliminated, 4 and 5 merged into a single queue, and an automatic handoff from the app to the ERP in place of retyping.</p>"
+            "html": "<p><b>WhatsApp order → invoice · v1.0 → v2.0</b> · Horizonte, fictional study company</p><table><tr><th># v1</th><th>Step</th><th>Verb</th><th>Reason and new source</th></tr><tr><td>3</td><td>Copy to the spreadsheet</td><td>eliminate</td><td>habit; the targets report comes from the app</td></tr><tr><td>4</td><td>Check everyone's price</td><td>simplify</td><td>only policy exceptions + 10 sampled per week</td></tr><tr><td>6</td><td>Print and take to stock</td><td>eliminate</td><td>handoff; stock sees the order on screen</td></tr><tr><td>9</td><td>Notify that it was picked</td><td>eliminate</td><td>handoff; the stock write-off in the app notifies</td></tr><tr><td>10</td><td>Email to finance</td><td>eliminate</td><td>handoff; the order goes to the ERP</td></tr><tr><td>11</td><td>Retype into the ERP</td><td>eliminate</td><td>only existed because the app and the ERP don't talk to each other (how to connect them: lesson 5)</td></tr><tr><td>12</td><td>Check the record and issue the invoice</td><td>move</td><td>the record check moves to intake (a new customer goes through Juliana first); issuing the invoice stays</td></tr><tr><td>4 and 5</td><td>Simplified check and approval above R$ 5 thousand</td><td>merge</td><td>become a single exceptions queue for Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Reply, build, check stock, pick, send the invoice</td><td>keep</td><td>real requirement (customer, stock, invoice)</td></tr></table><p>v1 = 13 steps · v2 = 8 steps: 5 eliminated, 4 and 5 merged into a single queue, and an automatic handoff from the app to the ERP in place of the retyping.</p>"
           },
           {
             "rot": "Version 2.0",
@@ -346,42 +346,42 @@
         {
           "p": "What is the right order for the redesign?",
           "opcoes": [
-            "Automate, measure, then cut what's left",
-            "Eliminate, simplify, redesign, and only then automate",
-            "Simplify everything at once and automate the same day"
+            "Eliminate, simplify, redesign, and only then automate what's left",
+            "Automate what takes longest, measure, and then cut the rest",
+            "Simplify, automate, and, with the time saved, eliminate steps"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Each verb shrinks what the next one has to handle. Automating first locks into the system the steps that should have gone away."
+          "explica": "Each verb shrinks what the next one has to handle. Automating before cutting locks into the system the steps that should have gone, and then cutting costs more."
         },
         {
           "p": "You are going to eliminate copying the order into the spreadsheet. What do you need to do first?",
           "opcoes": [
-            "Nothing: it's a habit, you can cut it",
-            "Find who used the spreadsheet (the goals report) and give that person another source",
-            "Ask an agent to keep copying, just in case"
+            "Tell the team and cut on the following Monday, no exceptions",
+            "Keep the copy running in parallel for a month, until nobody complains",
+            "Find who used the spreadsheet and give that person another source"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Every step you cut fed someone. Without a new source, the step comes back in hiding, in a side spreadsheet nobody controls."
+          "explica": "Every step that was cut fed someone, here the targets report. Without a new source, the step comes back hidden in a side spreadsheet. Keeping it in parallel \"until nobody complains\" doesn't find who depended on it: it only postpones the discovery."
         },
         {
           "p": "The manager checks the price on every order since a scare with discounts. What is the simplification?",
           "opcoes": [
-            "Stop checking",
-            "Check one by one the exceptions the policy defines, and pull a small sample of regular orders every week",
-            "Have the agent that builds the order check its own orders"
+            "Check only the policy exceptions and a weekly sample",
+            "Check half of the orders every day, alternating customers",
+            "Have the agent that builds the order check what it built"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "The need stays; the form shrinks. Attention on exceptions, a sample to watch the rule. And whoever enters the work does not approve their own work."
+          "explica": "The need stays; the form shrinks. Exceptions get attention, and a sample watches the rule. Checking half at random lets exceptions slip through, and whoever enters the order does not approve their own work."
         },
         {
           "p": "A customer order with no CNPJ is only discovered at billing, after picking. Which verb solves it?",
           "opcoes": [
-            "Eliminate the registration check",
+            "Eliminate the check, because it creates rework",
             "Move the check to order entry",
-            "Automate the CNPJ request at the end"
+            "Automate asking the customer for the CNPJ at the end"
           ],
           "certa": 1,
           "ref": "passos",

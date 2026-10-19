@@ -167,7 +167,7 @@
           "sub": "com origem de cada número",
           "texto": [
             "Quatro medidas: volume por semana, minutos de gente por caso, tempo do gatilho à conclusão e retrabalho. Junte a maior espera: quase sempre o tempo do processo é fila, não trabalho.",
-            "Cada número leva a origem: contado num sistema, observado nos casos ou declarado. O declarado entra como hipótese até ser contado (aula 6)."
+            "Cada número leva a origem: contado num sistema, observado nos casos ou declarado. O declarado entra como hipótese até ser contado; o observado em cinco casos é pista, e só vira linha de base depois de semanas contadas (aula 6)."
           ],
           "exemplo": {
             "rot": "Na Horizonte",
@@ -251,57 +251,57 @@
         {
           "p": "O dono descreveu 9 etapas; os casos acompanhados mostraram 13. Qual mapa vale?",
           "opcoes": [
-            "O do dono, que conhece o processo",
-            "O dos casos: o mapa é do que acontece, e as 4 etapas a mais costumam ser as passagens de mão",
-            "Uma média dos dois"
+            "O do dono, porque ele responde pelo resultado e conhece as exceções",
+            "O do dono, completado com as etapas que a equipe achar úteis",
+            "O dos casos: o mapa é do que acontece, não do que se lembra"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "A entrevista mostra o processo como o dono acha que ele é. As etapas que ninguém lembra de contar (copiar, imprimir, avisar) são justamente as candidatas a sair no redesenho."
+          "explica": "A entrevista mostra o processo como o dono acha que ele é. As 4 etapas que ninguém lembrou de contar (copiar, imprimir, avisar) são justamente as candidatas a sair no redesenho; completar o mapa do dono com opinião repete o erro."
         },
         {
           "p": "\"Cliente tem cadastro completo?\" Duas pessoas treinadas, com o mesmo cadastro aberto, responderiam igual. É o quê?",
           "opcoes": [
-            "Julgamento: precisa de uma pessoa experiente",
-            "Regra: pode virar uma verificação do sistema, de preferência logo na entrada",
-            "Nem regra nem julgamento: é detalhe"
+            "Julgamento: depende de quem conhece o cliente e a história dele",
+            "Regra: pode virar verificação do sistema, logo na entrada do pedido",
+            "Julgamento: cadastro incompleto às vezes é aceito pelo financeiro"
           ],
           "certa": 1,
           "ref": "diagrama",
-          "explica": "Mesma informação, mesma resposta: é regra. O problema da Horizonte não é quem responde, é onde: a pergunta só aparece no faturamento, depois da separação."
+          "explica": "Mesma informação, mesma resposta: é regra. Conhecer a história do cliente não muda se o CNPJ está ou não no cadastro. O problema da Horizonte não é quem responde, é onde: a pergunta só aparece no faturamento, depois da separação."
         },
         {
           "p": "Nos cinco casos, a mediana foi de 21 minutos de gente e 30 horas até a nota. O que isso sugere?",
           "opcoes": [
-            "Que as pessoas trabalham devagar",
             "Que quase todo o tempo é espera entre etapas, não trabalho",
-            "Que é preciso um agente para trabalhar mais rápido"
+            "Que o trabalho de cada etapa é lento e precisa de mais gente",
+            "Que só um agente trabalhando à noite resolveria o tempo total"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "21 minutos de trabalho em 30 horas: o tempo está nas filas (lotes do estoque, faturamento no dia seguinte). Acelerar o trabalho de cada etapa quase não muda o total; tirar esperas e passagens muda."
         },
         {
           "p": "O financeiro diz que \"uns 15 pedidos por semana voltam\". Como entra no mapa?",
           "opcoes": [
-            "Como 15 por semana, medido",
-            "Como hipótese declarada pelo financeiro, a ser contada antes de decidir",
-            "Não entra, porque não foi medido"
+            "Como 15 por semana, medido, porque o financeiro vê todos os pedidos",
+            "Fica fora do mapa até alguém contar, para não contaminar a medida",
+            "Como hipótese declarada pelo financeiro, a ser contada depois"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Declarado vale como pista e entra com a origem marcada. Jogar fora perde a pista; tratar como medido engana quem decide. A contagem vem na aula 6."
         },
         {
           "p": "Por que acompanhar só cinco casos, e não cem?",
           "opcoes": [
-            "Porque cinco bastam para afirmar a média do processo",
-            "Porque o objetivo aqui é desenhar o mapa e achar onde medir; a medida para decidir vem depois, com mais casos",
-            "Porque cem casos dão o mesmo resultado"
+            "Porque cinco casos bem escolhidos já dão a média do processo",
+            "Para desenhar o mapa e achar onde medir; a medida que decide vem depois",
+            "Porque acompanhar mais casos mudaria o processo durante a observação"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "Cinco casos são exploração. Mostram etapas escondidas, desvios e esperas. Para dizer quanto o processo leva, e comparar antes e depois, você precisa de semanas de dados contados (aula 6)."
+          "explica": "Cinco casos são exploração: mostram etapas escondidas, desvios e esperas, mas não dão uma média confiável. Para dizer quanto o processo leva, e comparar antes e depois, você precisa de semanas de dados contados (aula 6)."
         }
       ]
     },

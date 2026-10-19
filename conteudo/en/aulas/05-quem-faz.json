@@ -189,31 +189,31 @@
         {
           "p": "\"Orders above R$ 5 mil go to the manager\" is always the same and the amount is in the app. Who applies this rule?",
           "opcoes": [
-            "An agent, who understands the context",
-            "A simple automation, set up in the system",
-            "The manager, looking at every order"
+            "An agent that understands the context of each order",
+            "The manager, looking at all the day's orders on the screen",
+            "A simple automation, set up in the app with the policy rule"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "A fixed rule with data in the system is a simple automation: it does the same thing every time and is easy to check. The manager decides on the order the rule sent over; there's no need to go looking for orders."
+          "explica": "A fixed rule with data in the system is a simple automation: it does the same thing every time and is easy to check. An agent here would only add cost and variation. The manager decides the order the rule routed to her; she does not need to go looking for orders."
         },
         {
           "p": "The customer writes \"I want the usual, but with more disinfectant and without the multipurpose cleaner.\" Who turns that into an order?",
           "opcoes": [
-            "A screen automation",
-            "An agent, with a written authority limit and a responsible person",
-            "No one: the customer has to use a form"
+            "An agent, with a written authority limit and a person in charge",
+            "A screen automation that copies the message into the app",
+            "A fixed rule that looks for the catalog's words"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Free text, different in every conversation, with a history lookup: this is where the agent is worth what it costs. With written limits, which is the subject of G3."
+          "explica": "Free text, different in every conversation, with a lookup in the history: this is where the agent is worth what it costs. Screen automation and a word rule do not interpret \"the usual.\" With written limits, which is the subject of G3."
         },
         {
           "p": "The ERP has no known integration with the app. What is the first question to IT?",
           "opcoes": [
-            "Can we use Computer Use?",
-            "Does the ERP have a service door (API) or a connector for this operation?",
-            "How much does an agent cost?"
+            "Can you use Computer Use directly, without touching the ERP?",
+            "Does the ERP have a service door (API) or a connector for this?",
+            "How much does an agent that retypes the orders into the ERP cost?"
           ],
           "certa": 1,
           "ref": "passos",
@@ -222,24 +222,24 @@
         {
           "p": "When Computer Use is the right choice, what comes with the decision?",
           "opcoes": [
-            "Nothing: it understands the screen on its own",
-            "A person confirms what was filled in before saving, and each operation is logged",
-            "It saves directly to save time"
+            "A person confirms before saving, and every operation is logged",
+            "A one-week trial; after that it saves on its own, without confirmation",
+            "A second agent that checks the screen after each save"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Computer Use looks at the screen and decides where to click: it is flexible and less predictable. That's why it sits on the last step, with human confirmation before the effect."
+          "explica": "Computer Use looks at the screen and decides where to click: it is flexible and less predictable. That is why it sits on the last step, with human confirmation before the effect. A one-week trial or a reviewer after saving do not replace that confirmation."
         },
         {
           "p": "What does Microsoft call Frontier Professionals in the Work Trend Index 2026?",
           "opcoes": [
-            "Programmers who build agents",
-            "The 16% who use agents in multi-step workflows and redesign the work",
-            "Managers who ban AI on the team"
+            "Programmers who build the agents that companies use",
+            "The 16% who use AI every day but without changing how they work",
+            "The 16% who redesign the work with multi-step agents"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "It's a vendor survey (05/2026, 20 thousand people in 10 countries), and the vendor sells the tools. The useful point: the group that gets the most out of it redesigns the workflow, not just uses the tool."
+          "explica": "This is a survey by the vendor (05/2026, 20 thousand people in 10 countries), which sells the tools. What defines the group is not heavy use: it is using agents in multi-step flows and redesigning the work."
         }
       ]
     },

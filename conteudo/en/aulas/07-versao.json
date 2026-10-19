@@ -57,7 +57,7 @@
           "titulo": "Decision",
           "sub": "whoever answers for it approves",
           "forte": true,
-          "detalhe": "Promote, reject, or wait for more data. The decision belongs to the person who answers for the process, not the person who proposed the change. The decision is recorded with the reason."
+          "detalhe": "Promote, reject, or wait for more data. Whoever decides answers for the result and is not the one who proposed it: if the proposal comes from the process owner, whoever is above them decides. The decision is logged with the reason."
         },
         {
           "icone": "camadas",
@@ -102,11 +102,11 @@
           "sub": "phases and approval",
           "texto": [
             "The new version starts in the pilot scope, for a set period, with the indicators compared to the baseline. Only after that does it apply to all cases.",
-            "Promotion is a decision for whoever answers for the process, with the numbers on the table. The proposer presents; the one who answers decides."
+            "Promotion is a decision for whoever answers for the result, with the numbers on the table, and never for whoever proposed it. If the proposer is the process owner, whoever is above them decides."
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "Phase 1, two weeks: v2.0 only for registered customers with orders up to R$ 5k. Phase 2: all orders. Patrícia proposes; Carlos approves each phase after looking at the three indicators."
+            "texto": "Phase 1, two weeks: v2.0 only for registered customers with orders up to R$ 5 thousand. Phase 2: all orders. Patrícia, the process owner, proposes; Carlos approves each phase by looking at the three indicators."
           }
         },
         {
@@ -157,7 +157,7 @@
           },
           {
             "rot": "How to check / common mistakes",
-            "html": "<ul><li><b>Change with no number.</b> If you can't say which version the process is on, you can't go back.</li><li><b>The proposer approves.</b> Approval belongs to whoever answers for the process.</li><li><b>Vague trigger.</b> \"If it gets worse\" is not a trigger; \"returns above X for two weeks\" is.</li><li><b>Previous version erased.</b> Keep the v1.0 map, tagging sheet, and executor chart.</li><li><b>Changing everything at once.</b> Phases let you see the effect before it applies to everyone.</li></ul>"
+            "html": "<ul><li><b>A change with no number.</b> If you can't say which version the process is on, you can't go back.</li><li><b>Whoever proposes doesn't approve.</b> Approval comes from whoever answers for the result and didn't make the proposal; if the process owner proposed it, whoever is above them approves.</li><li><b>A vague trigger.</b> \"If it gets worse\" is not a trigger; \"returns above X for two weeks\" is.</li><li><b>Previous version erased.</b> Keep the v1.0 map, tagging sheet, and executor chart.</li><li><b>Changing everything at once.</b> Phases let you see the effect before it applies to everyone.</li></ul>"
           }
         ]
       }
@@ -191,46 +191,46 @@
         {
           "p": "An important customer complained about a delay. The owner wants to create a new check right away. What does a versioned process call for?",
           "opcoes": [
-            "Create the check today, because the customer is important",
-            "Open a proposal with the source case and the hypothesis, and test before changing the process",
-            "Ignore it, because it was a single case"
+            "Create the check today and record it later, if it works",
+            "Wait for three more identical complaints before touching anything",
+            "Open a proposal with the case and the hypothesis, and test first"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "A complaint is a signal, not evidence. It opens a proposal; the change goes in tested and approved. Ignoring it is also a mistake: the case may point to a real problem."
+          "explica": "A complaint is a signal, not evidence. It opens a proposal; the change goes in tested and approved. Creating it now and recording it later is changing on impulse; waiting for more complaints ignores a case that may point to a real problem."
         },
         {
           "p": "You changed the weekly sample size from 10 to 15 orders, without touching the steps. What version is it?",
           "opcoes": [
-            "3.0",
             "2.1: an adjustment that doesn't touch the steps bumps the decimal",
-            "It doesn't need a version"
+            "3.0: every approved change bumps the whole version",
+            "None: only a change to a step needs a version"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Cutting, moving, or merging a step bumps the whole number; an adjustment that doesn't touch the steps bumps the decimal. Even the adjustment goes into the history."
         },
         {
           "p": "When do you write the rollback trigger?",
           "opcoes": [
-            "Before the change, with a number and a deadline",
-            "When the problem shows up",
-            "Only if the owner asks"
+            "Before the change, with a number, a deadline, and who decides",
+            "When the first problem shows up in phase 1",
+            "At the end of phase 1, looking at the indicators"
           ],
           "certa": 0,
           "ref": "passos",
-          "explica": "A trigger decided after the problem is decided in a panic, and everyone pulls in a different direction. Written beforehand, going back is a planned step."
+          "explica": "A trigger decided after the problem, or after looking at the phase 1 result, is decided on impulse, and everyone pulls in a different direction. Written beforehand, the rollback is a planned step."
         },
         {
           "p": "Who approves promoting version 2.0 at Horizonte?",
           "opcoes": [
-            "Patrícia, who proposed it and knows the process",
-            "Carlos, with the indicators compared to the baseline: whoever proposes doesn't approve",
-            "The agent, who sees all the orders"
+            "Patrícia, who answers for the process and knows the numbers",
+            "Carlos, because whoever proposes doesn't approve their own change",
+            "Rafael, who will turn on the integration and knows what changes"
           ],
           "certa": 1,
           "ref": "diagrama",
-          "explica": "Whoever proposes presents the evidence; whoever answers for the result decides. No version goes in by a system's decision."
+          "explica": "Patrícia answers for the process, but she is the one who proposed v2.0: whoever is above her approves, looking at the indicators against the baseline. Whoever proposes presents the evidence; no version goes in by a system's decision."
         }
       ]
     },
@@ -248,7 +248,7 @@
         },
         {
           "t": "Phases and approval",
-          "texto": "Scope first; whoever answers for it decides, not whoever proposed."
+          "texto": "Pilot scope first; whoever answers for it approves, never whoever proposed."
         },
         {
           "t": "Way back written beforehand",

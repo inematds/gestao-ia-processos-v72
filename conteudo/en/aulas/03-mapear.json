@@ -167,7 +167,7 @@
           "sub": "with the source of each number",
           "texto": [
             "Four measures: volume per week, people-minutes per case, time from trigger to completion and rework. Add the longest wait: almost always, process time is queue, not work.",
-            "Every number carries its origin: counted in a system, observed in the cases, or declared. A declared number enters as a hypothesis until it is counted (lesson 6)."
+            "Every number carries its source: counted in a system, observed in the cases, or declared. Declared numbers go in as a hypothesis until they are counted; what's observed in five cases is a clue, and only becomes a baseline after weeks of counting (lesson 6)."
           ],
           "exemplo": {
             "rot": "At Horizonte",
@@ -251,57 +251,57 @@
         {
           "p": "The owner described 9 steps; the cases followed showed 13. Which map counts?",
           "opcoes": [
-            "The owner's, who knows the process",
-            "The cases': the map is of what happens, and the 4 extra steps are usually the handoffs",
-            "An average of the two"
+            "The owner's, because they answer for the result and know the exceptions",
+            "The owner's, completed with the steps the team finds useful",
+            "The cases': the map shows what happens, not what people remember"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "The interview shows the process as the owner thinks it is. The steps nobody remembers to mention (copying, printing, notifying) are exactly the candidates to go in the redesign."
+          "explica": "The interview shows the process as the owner thinks it is. The 4 steps nobody remembered to count (copying, printing, notifying) are exactly the candidates to go in the redesign; completing the owner's map with opinion repeats the mistake."
         },
         {
           "p": "\"Does the customer have a complete record?\" Two trained people, with the same record open, would answer the same. What is it?",
           "opcoes": [
-            "Judgment: it takes an experienced person",
-            "Rule: it can become a system check, preferably right at the entry",
-            "Neither rule nor judgment: it's a detail"
+            "Judgment: it depends on who knows the customer and their history",
+            "Rule: it can become a system check, right when the order is entered",
+            "Judgment: an incomplete record is sometimes accepted by finance"
           ],
           "certa": 1,
           "ref": "diagrama",
-          "explica": "Same information, same answer: it's a rule. Horizonte's problem is not who answers, it's where: the question only shows up at invoicing, after picking."
+          "explica": "Same information, same answer: it's a rule. Knowing the customer's history doesn't change whether the CNPJ is in the record or not. Horizonte's problem isn't who answers, it's where: the question only shows up at invoicing, after picking."
         },
         {
           "p": "In the five cases, the median was 21 minutes of people time and 30 hours until the invoice. What does that suggest?",
           "opcoes": [
-            "That people work slowly",
             "That almost all the time is waiting between steps, not work",
-            "That you need an agent to work faster"
+            "That the work in each step is slow and needs more people",
+            "That only an agent working at night would fix the total time"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "21 minutes of work in 30 hours: the time is in the queues (warehouse batches, invoicing the next day). Speeding up the work in each step barely changes the total; removing waits and handoffs does."
         },
         {
           "p": "Finance says \"about 15 orders a week come back.\" How does it go on the map?",
           "opcoes": [
-            "As 15 a week, measured",
-            "As a hypothesis declared by finance, to be counted before deciding",
-            "It doesn't count, because it wasn't measured"
+            "As 15 per week, measured, because finance sees all the orders",
+            "It stays off the map until someone counts it, so it doesn't contaminate the measurement",
+            "As a hypothesis declared by finance, to be counted later"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Declared counts as a clue and goes in with its source marked. Throwing it out loses the clue; treating it as measured misleads whoever decides. Counting comes in lesson 6."
         },
         {
           "p": "Why follow only five cases, and not a hundred?",
           "opcoes": [
-            "Because five are enough to state the process average",
-            "Because the goal here is to draw the map and find where to measure; the measurement for deciding comes later, with more cases",
-            "Because a hundred cases give the same result"
+            "Because five well-chosen cases already give the process average",
+            "To draw the map and find where to measure; the measurement that decides comes later",
+            "Because following more cases would change the process during the observation"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "Five cases are exploration. They show hidden steps, detours, and waits. To say how long the process takes, and to compare before and after, you need weeks of counted data (lesson 6)."
+          "explica": "Five cases are exploration: they show hidden steps, detours, and waits, but they don't give a reliable average. To say how long the process takes, and to compare before and after, you need weeks of counted data (lesson 6)."
         }
       ]
     },

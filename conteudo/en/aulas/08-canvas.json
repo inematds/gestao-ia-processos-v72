@@ -168,7 +168,7 @@
           "sub": "swappable examples",
           "texto": [
             "OpenAI: Workspace Agents, which replace Custom GPTs, are now billed per token (07/06/2026); ChatGPT Work delivers documents, spreadsheets, and slides (07/09/2026). AgentKit's Agent Builder will be shut down on 11/30/2026.",
-            "Anthropic: Managed Agents and, in Claude Code, background computer use (09/2026). Microsoft: Agent 365, announced at Build (06/2026). Sources: release notes and announcements from each vendor."
+            "Anthropic: Managed Agents; in Claude Code, background computer use, in beta (09/2026). Microsoft: Agent 365, announced at Build (06/2026). Sources: release notes and announcements from each vendor."
           ],
           "exemplo": {
             "rot": "For the canvas",
@@ -192,7 +192,7 @@
           "sub": "compare the definition before the number",
           "texto": [
             "KPMG Global Tech Report 2026 (04/2026): 45% of Brazilian executives report several disconnected AI projects. ABES and IDC (06/15/2026, 103 executives): 40% already invest in agents and 33% plan to within 12 months; obstacles cited: data, legacy systems, governance, and a shortage of professionals.",
-            "GFT, Tech Trends 2026 LATAM, with data from BCG: 18% of Brazilian companies integrate agents, versus 13% worldwide. Gartner (2026): only 17% of companies have agents in use."
+            "GFT, Tech Trends 2026 LATAM, with data from BCG: 18% of Brazilian companies integrate agents, versus 13% worldwide. Gartner (2026, analysis of the agentic AI hype cycle): only 17% of companies have agents in use."
           ],
           "exemplo": {
             "rot": "Why the numbers don't match",
@@ -355,31 +355,31 @@
         {
           "p": "The canvas scored 90 points, but the baseline shows up as \"30 h\" without saying whether it was observed or is a hypothesis. Result?",
           "opcoes": [
-            "Approved: 90 is well above 75",
-            "Failed: a baseline without the observed/hypothesis mark is a required item that is missing",
-            "Approved with a caveat"
+            "Approved: 90 points is well above the minimum of 75",
+            "Approved with a caveat, as long as the baseline mark is in before phase 1",
+            "Rejected: a required item is missing, the baseline mark"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
-          "explica": "The required items exist so that a high score does not hide what misleads the most. The canvas goes back to the measurement block, not to zero."
+          "explica": "The required items exist so that a high score doesn't hide what misleads the most, and a caveat doesn't replace a required item. The canvas goes back to the measurement block, not to zero."
         },
         {
           "p": "Who signs the Horizonte canvas?",
           "opcoes": [
-            "Patrícia, who built it and knows everything",
-            "Carlos, after the team that carries out the steps reads the \"how it looks\" column",
-            "The agent, who carries out two steps"
+            "Carlos, after whoever runs the steps reads the \"how it looks\"",
+            "Patrícia, who built the canvas and answers for the process",
+            "Juliana, who runs most of the steps that change"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "Whoever builds it presents it; whoever answers for the result signs, after hearing from those who lose steps. It is the same principle as promoting a version."
+          "explica": "Whoever builds it presents it; whoever answers for the result signs. Since Patrícia built it and is the process owner, whoever is above her signs, after hearing from those who lose steps. It's the same principle as version promotion (lesson 7)."
         },
         {
           "p": "One report says 40% of companies invest in agents; another says only 17% have agents in use. What should you do before citing either?",
           "opcoes": [
-            "Pick the number that helps your argument",
-            "Compare the definition (investing × having in use), the sample, and who published it",
-            "Average the two"
+            "Use the most recent number, since it's the most reliable",
+            "Compare the definition, the sample, and who published each one",
+            "Cite both and take the average to land in the middle"
           ],
           "certa": 1,
           "ref": "passos",
@@ -388,13 +388,13 @@
         {
           "p": "The tool that carries out a step of your process is being discontinued. What changes in the canvas?",
           "opcoes": [
-            "Nothing: the canvas is about the process, not the tool",
-            "It is a version change: record it, test the new tool against the baseline, and have a way back",
-            "Just swap the tool name on the board"
+            "Nothing: the canvas describes the process, not the tool",
+            "Just swap the tool's name in the executor chart",
+            "It's a version change: record, test, and a way back"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Swapping a tool can change how the step behaves. The method survives the swap, but the evidence has to be redone."
+          "explica": "Swapping a tool can change how a step behaves: the method survives the swap, but the evidence has to be redone against the baseline. Swapping only the name in the chart hides that change."
         }
       ]
     },

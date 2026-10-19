@@ -192,53 +192,53 @@
         {
           "p": "Os atendimentos da agente subiram de 702 para 901 por semana. O que isso prova?",
           "opcoes": [
-            "Que a agente melhorou as vendas",
-            "Nada sozinho: falta o antes e falta um denominador; pedidos ÷ atendimentos até caiu",
-            "Que a satisfação dos clientes subiu"
+            "Que a agente melhorou as vendas, já que os pedidos também subiram",
+            "Nada sozinho: falta o antes e falta o denominador; a conversão caiu",
+            "Que a agente se pagou, porque atende mais gente pelo mesmo custo"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "Volume pode subir por época do ano, por desconto ou porque a agente conversa mais por pedido. A conversão foi de 20,1% para 18,6%. Sem linha de base, a pergunta \"ajudou?\" fica no achismo."
+          "explica": "Volume pode subir por época do ano, por desconto ou porque a agente conversa mais por pedido. A conversão foi de 20,1% para 18,6%, e \"se pagou\" pede custo e o antes. Sem linha de base, a pergunta \"ajudou?\" fica no achismo."
         },
         {
           "p": "Qual destas é um indicador completo?",
           "opcoes": [
-            "Pedidos devolvidos",
-            "Pedidos devolvidos ao atendimento ÷ pedidos que chegaram ao faturamento, por semana, contados no ERP",
-            "Muitos pedidos voltam"
+            "Devolvidos ÷ chegaram ao faturamento, por semana, contados no ERP",
+            "Pedidos devolvidos pelo faturamento, contados no ERP toda semana",
+            "Percentual de clientes satisfeitos com a entrega, pelo botão"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Numerador, denominador, período e origem. Sem o denominador, o número sobe e desce junto com o volume e não diz se o processo melhorou."
+          "explica": "Numerador, denominador, período e origem. Contar devolvidos toda semana ainda não tem denominador: o número sobe e desce com o volume. A satisfação pelo botão mede outra coisa, com cerca de 6% de resposta."
         },
         {
           "p": "O financeiro diz que \"uns 15 por semana voltam\". Como esse valor entra na ficha?",
           "opcoes": [
-            "Como observado: o financeiro conhece o processo",
-            "Como hipótese declarada, com a data em que vira observado depois da contagem",
-            "Não entra"
+            "Como observado, porque o financeiro vê todos os pedidos",
+            "Fica em branco até a contagem de quatro semanas terminar",
+            "Como hipótese declarada, com a data em que vira observado"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Declarado é pista valiosa, mas não é medida. Marcar como hipótese, com data, protege a comparação de antes e depois."
+          "explica": "Declarado é pista valiosa, mas não é medida, e deixar em branco perde a pista. Marcar como hipótese, com data, protege a comparação de antes e depois."
         },
         {
           "p": "Por que usar mediana, e não média, para o tempo até a nota?",
           "opcoes": [
-            "Porque a mediana é sempre menor",
-            "Porque poucos casos travados puxam a média para cima e escondem o tempo normal; o p95 mostra os travados à parte",
-            "Porque é mais fácil de calcular"
+            "Porque poucos casos travados puxam a média e escondem o normal",
+            "Porque a mediana dá sempre um número menor e uma meta mais fácil",
+            "Porque a média só serve quando há mais de cem casos na semana"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "Um pedido de 75 horas entre quatro de 22 a 30 horas distorce a média. Mediana para o normal, p95 para o pior caso típico."
+          "explica": "Nos cinco casos, o pedido de 75 horas puxa a média para cerca de 40 horas; a mediana fica em 30. Mediana para o normal, p95 para o pior caso típico. Não é para facilitar a meta: é para não esconder o normal."
         },
         {
           "p": "O redesenho liberou 20 horas de gente por semana. O que você pode dizer ao dono?",
           "opcoes": [
-            "Que a empresa economizou 20 horas de salário",
-            "Que há 20 horas de capacidade liberada, estimadas, que só viram economia se forem usadas ou cortadas de forma verificável",
-            "Que o retorno do projeto é garantido"
+            "Que a empresa economizou 20 horas de salário por semana",
+            "Que liberou 20 horas estimadas, que ainda não são economia",
+            "Que o retorno do projeto está garantido a partir do mês que vem"
           ],
           "certa": 1,
           "ref": "passos",

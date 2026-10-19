@@ -5,7 +5,7 @@
   "titulo": "Elegir el primer proceso",
   "titulo_curto": "Primer proceso",
   "minutos": 15,
-  "lead": "Carlos quiere el agente en facturación; un vendedor ya pega la hoja de clientes en un chatbot personal; el resumen de atención corre solo a las 18 h. Cada uno empezó por su lado, y nadie eligió. En esta clase comparas los candidatos por valor, viabilidad y riesgo, eliges uno, escribes por qué no los otros y defines el alcance.",
+  "lead": "Carlos quiere al agente en finanzas, de la facturación al cobro; un vendedor ya pega la planilla de clientes en un chatbot personal; el resumen de atención corre solo a las 18 h. Cada uno empezó por un lado, y nadie eligió. En esta clase comparas los candidatos por valor, viabilidad y riesgo, eliges uno, escribes por qué no los otros y defines el alcance.",
   "objetivo": "priorizar procesos por valor, viabilidad y riesgo en una matriz y justificar por escrito el elegido y lo que queda fuera.",
   "competencias": [
     "priorizar-processos",
@@ -81,7 +81,7 @@
           ],
           "exemplo": {
             "rot": "En Horizonte",
-            "texto": "Cinco candidatos: pedido por WhatsApp hasta la factura; cobro de boletos vencidos (lo que quiere Carlos); resumen diario de atención; propuesta para cliente grande (el vendedor usa un chatbot personal); compra de reposición con proveedores."
+            "texto": "Cinco candidatos: pedido por WhatsApp hasta la factura; cobro de boletos vencidos (por donde Carlos quiere empezar en finanzas); resumen diario de atención; propuesta para cliente grande (el vendedor usa un chatbot personal); compra de reposición con proveedores."
           }
         },
         {
@@ -180,48 +180,48 @@
       "sub": "4 preguntas. La explicación aparece después de tu intento.",
       "perguntas": [
         {
-          "p": "El dueño quiere empezar por el cobro, que tiene el mayor valor. La matriz dio suma 7 para él y 12 para el pedido. ¿Qué haces?",
+          "p": "El dueño quiere empezar por el cobro, que tiene un valor alto. La matriz dio suma 7 para él y 12 para el pedido. ¿Qué haces?",
           "opcoes": [
-            "Empiezas por el cobro: es lo que quiere el dueño",
-            "Escribes por qué no el cobro ahora (sin línea de base, mayor riesgo) y qué debe cambiar para que suba en la cola",
-            "Haces los dos al mismo tiempo para agradar a todos"
+            "Empiezas por el cobro, porque quien paga el proyecto elige el proceso",
+            "Escribe por qué no el cobro ahora y qué lo hace subir en la cola",
+            "Empieza por los dos, cada uno con la mitad del equipo, para ganar tiempo"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "La elección escrita es lo que permite discrepar del jefe con argumentos. Y el cobro no desaparece: va a la cola con la condición para subir. Hacer los dos al mismo tiempo es el comienzo de los proyectos desconectados."
+          "explica": "La elección escrita es lo que te permite discrepar del jefe con argumentos. Y el cobro no desaparece: va a la cola con la condición para subir. Dividir el equipo entre los dos es el comienzo de los proyectos desconectados."
         },
         {
           "p": "¿Por qué el riesgo entra invertido en la suma (6 − R)?",
           "opcoes": [
-            "Porque un proceso riesgoso debe elegirse primero",
-            "Porque cuanto mayor es el daño posible, menos sirve como primer proceso, cuando el equipo todavía está aprendiendo",
-            "Porque el riesgo no importa en la elección"
+            "Porque un proceso de riesgo alto debe ir primero, cuando hay más atención",
+            "Porque así la suma queda entre 3 y 15, más fácil de comparar entre áreas",
+            "Porque el primer proceso es donde el equipo aprende; equivocarse debe salir barato"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
-          "explica": "El primer proceso es donde el equipo aprende a mapear, medir y versionar. Equivocarse ahí tiene que salir barato. Los procesos de riesgo alto vienen después, con el método ya probado."
+          "explica": "El primer proceso es donde el equipo aprende a mapear, medir y versionar. Equivocarse ahí tiene que salir barato. El riesgo alto no gana prioridad por llamar la atención, y la cuenta no existe para estandarizar la escala: empuja los procesos riesgosos para después, con el método ya probado."
         },
         {
           "p": "¿Qué relata el KPMG Global Tech Report 2026 sobre Brasil?",
           "opcoes": [
-            "Que el 45% de los ejecutivos brasileños tiene varios proyectos de IA desconectados entre sí",
-            "Que el 45% de las empresas ya rediseñó todos los procesos",
-            "Que los proyectos de IA no dan resultado en Brasil"
+            "Que el 45% de los ejecutivos de Brasil tienen proyectos de IA desconectados",
+            "Que el 45% de las empresas brasileñas ya usan agentes en todos los procesos",
+            "Que el 45% de los proyectos de IA en Brasil se abandonan antes del final"
           ],
           "certa": 0,
           "ref": "passos",
-          "explica": "Es una encuesta a ejecutivos (04/2026). No dice que la IA no funciona; dice que muchos empiezan por varios lados sin conectar una cosa con la otra. Un proceso a la vez, con medición, es la respuesta de gestión."
+          "explica": "Es una encuesta con ejecutivos (04/2026). No habla de abandono ni de uso en todos los procesos; dice que muchos empiezan por varios lados sin conectar una cosa con la otra. Un proceso a la vez, con medida, es la respuesta de gestión."
         },
         {
           "p": "¿Cuál de estos nombres sirve como proceso en la matriz?",
           "opcoes": [
-            "Finanzas",
-            "Atención al cliente",
-            "Pedido por WhatsApp hasta la factura emitida"
+            "Finanzas y facturación de la distribuidora",
+            "Pedido por WhatsApp hasta la factura emitida",
+            "Atención al cliente por WhatsApp"
           ],
-          "certa": 2,
+          "certa": 1,
           "ref": "diagrama",
-          "explica": "Un proceso tiene principio y fin. \"Finanzas\" es un área; \"atención\" es una función. Sin los extremos, no se puede mapear, medir ni decir cuándo quedó listo."
+          "explica": "Un proceso tiene principio y fin. \"Finanzas y facturación\" es un área; \"atención\" es una función, aunque el canal esté en el nombre. Sin los extremos, no se puede mapear, medir ni decir cuándo quedó listo."
         }
       ]
     },

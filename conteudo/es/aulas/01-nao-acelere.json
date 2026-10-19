@@ -101,7 +101,7 @@
           ],
           "exemplo": {
             "rot": "En Horizonte",
-            "texto": "Si el pedido nace completo en la app, el almacén lo ve en la pantalla y el área financiera lo recibe en el ERP, cuatro etapas dejan de tener motivo: la hoja de cálculo, el papel, el aviso por WhatsApp y el correo al área financiera."
+            "texto": "Si el pedido nace completo en la app, el almacén lo ve en pantalla y finanzas lo recibe en el ERP, cinco etapas dejan de tener sentido: la planilla, el papel, el aviso por WhatsApp, el correo a finanzas y la redigitación."
           }
         },
         {
@@ -178,46 +178,46 @@
         {
           "p": "Una empresa puso un agente a hacer exactamente las etapas que hacía el equipo, en el mismo orden. El tiempo se redujo a la mitad. ¿Qué pasó con el proceso?",
           "opcoes": [
-            "Fue rediseñado, porque el tiempo bajó",
-            "Quedó igual, solo que más rápido: los aciertos y los errores del diseño antiguo siguen ahí",
-            "Empeoró, porque un agente no debe ejecutar etapas"
+            "Se rediseñó: el tiempo se redujo a la mitad, y eso ya prueba el nuevo diseño",
+            "Mejoró por completo, porque el agente no repite los errores de las personas",
+            "Quedó igual, solo que más rápido: los aciertos y los errores del diseño antiguo continúan"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Ganar tiempo no es rediseñar. Es IA sobre el proceso antiguo: una ganancia real, pero las etapas inútiles y los errores de diseño siguen ahí, ahora más rápidos y menos visibles."
         },
         {
           "p": "En Horizonte, Juliana envía un correo a finanzas con cada pedido separado. ¿Cuál es la etiqueta más probable de esa etapa?",
           "opcoes": [
-            "X, exigencia real: finanzas necesita saberlo",
-            "P, traspaso de manos: solo existe porque el pedido no llega solo a finanzas",
-            "Ninguna: el correo no es una etapa"
+            "P, traspaso de manos: solo existe porque el pedido no llega solo",
+            "X, exigencia real: sin el correo finanzas no factura el pedido",
+            "H, hábito: el correo se pidió un día y nadie lo quitó después"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Finanzas necesita el pedido; no necesita el correo. Si el pedido llegara al ERP directo desde la app, esta etapa perdería su motivo. El traspaso de manos es el hábito más común y el más fácil de encontrar."
         },
         {
           "p": "Sospechas que una revisión es solo hábito. ¿Qué haces antes de marcarla como H?",
           "opcoes": [
-            "Marcarla y eliminarla de inmediato, para ganar tiempo",
-            "Preguntarle a quien la hace por qué existe y qué ha salido mal cuando no se hizo",
-            "Pedirle a un agente que decida"
+            "Medir cuánto tiempo consume y cortarla si pasa de diez minutos",
+            "Preguntar a quien la hace por qué existe y qué ha salido mal sin ella",
+            "Ver si aparece en el manual del proceso; si no aparece, es hábito"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "A veces el hábito esconde un riesgo que nadie escribió. La respuesta de quien la hace decide si la etapa es una exigencia real. Y, aun cuando el riesgo es real, la forma de la revisión puede ser hábito, como la revisión de todos los pedidos que hace Patrícia."
+          "explica": "El hábito a veces esconde un riesgo que nadie escribió, y ni el tiempo gastado ni el manual dicen por qué existe la etapa. La respuesta de quien la hace decide si es una exigencia real. Y, aun cuando el riesgo es real, la forma puede ser hábito, como la revisión de todos los pedidos de Patrícia."
         },
         {
           "p": "¿Cuál de estas etapas sigue en manos de una persona después del rediseño?",
           "opcoes": [
-            "Copiar el pedido de un sistema a otro",
-            "Decidir si un cliente antiguo merece una condición fuera de la política",
-            "Avisarle a un colega que la separación terminó"
+            "Comprobar si el cliente tiene CNPJ registrado antes de armar el pedido",
+            "Copiar el pedido de la app al ERP cuando los dos no se comunican",
+            "Decidir si un cliente antiguo merece una condición fuera de la política"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Decidir fuera de la regla es juicio y excepción: queda en manos de una persona. Copiar y avisar son traspasos de manos, candidatas a desaparecer cuando el trabajo pasa a correr en un solo sistema."
+          "explica": "Decidir fuera de la regla es juicio y excepción: se queda con una persona. Comprobar el registro es regla (misma información, misma respuesta) y puede convertirse en una verificación del sistema; copiar de un sistema a otro es traspaso de manos, candidato a desaparecer."
         }
       ]
     },

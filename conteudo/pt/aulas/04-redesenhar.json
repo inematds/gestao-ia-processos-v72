@@ -38,7 +38,7 @@
           "icone": "x",
           "titulo": "Eliminar",
           "sub": "não precisa existir",
-          "detalhe": "Etapas marcadas como hábito ou passagem de mão, sem motivo real confirmado por quem faz. Cortar exige achar quem usava o resultado da etapa e dar a essa pessoa outra fonte. Na Horizonte: a planilha, o papel, o aviso por WhatsApp e o e-mail ao financeiro."
+          "detalhe": "Etapas marcadas como hábito ou passagem de mão, sem motivo real confirmado por quem faz. Cortar exige achar quem usava o resultado da etapa e dar a essa pessoa outra fonte. Na Horizonte: a planilha, o papel, o aviso por WhatsApp, o e-mail ao financeiro e a redigitação no ERP."
         },
         {
           "icone": "lupa",
@@ -77,7 +77,7 @@
           ],
           "exemplo": {
             "rot": "Na Horizonte",
-            "texto": "A planilha do comercial (etapa 3) alimentava o relatório de metas da Patrícia; o relatório passa a sair do app. O papel (6), o aviso (9) e o e-mail (10) somem quando estoque e financeiro veem o pedido na tela."
+            "texto": "A planilha do comercial (etapa 3) alimentava o relatório de metas da Patrícia; o relatório passa a sair do app. O papel (6), o aviso (9) e o e-mail (10) somem quando estoque e financeiro veem o pedido na tela; a redigitação (11), quando o pedido passa do app ao ERP sozinho."
           }
         },
         {
@@ -297,7 +297,7 @@
         "abas": [
           {
             "rot": "Folha da Horizonte (exemplo)",
-            "html": "<p><b>Pedido pelo WhatsApp → nota · v1.0 → v2.0</b> · Horizonte, empresa fictícia de estudo</p><table><tr><th># v1</th><th>Etapa</th><th>Verbo</th><th>Motivo e nova fonte</th></tr><tr><td>3</td><td>Copiar para a planilha</td><td>eliminar</td><td>hábito; o relatório de metas sai do app</td></tr><tr><td>4</td><td>Conferir preço de todos</td><td>simplificar</td><td>só exceções da política + 10 sorteados por semana</td></tr><tr><td>6</td><td>Imprimir e levar ao estoque</td><td>eliminar</td><td>passagem de mão; o estoque vê o pedido na tela</td></tr><tr><td>9</td><td>Avisar que separou</td><td>eliminar</td><td>passagem de mão; a baixa no app avisa</td></tr><tr><td>10</td><td>E-mail ao financeiro</td><td>eliminar</td><td>passagem de mão; o pedido vai ao ERP</td></tr><tr><td>11</td><td>Redigitar no ERP</td><td>eliminar</td><td>só existia porque app e ERP não se falam (como ligar: aula 5)</td></tr><tr><td>12</td><td>Conferir cadastro</td><td>mover</td><td>vai para a entrada; cliente novo passa pela Juliana antes</td></tr><tr><td>4 e 5</td><td>Conferência simplificada e aprovação acima de R$ 5 mil</td><td>juntar</td><td>viram uma fila só de exceções da Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Responder, montar, conferir estoque, separar, mandar a nota</td><td>manter</td><td>exigência (cliente, estoque, nota)</td></tr></table><p>v1 = 13 etapas · v2 = 8 etapas: 5 eliminadas, a 4 e a 5 juntadas numa fila só, e uma passagem automática do app ao ERP no lugar da redigitação.</p>"
+            "html": "<p><b>Pedido pelo WhatsApp → nota · v1.0 → v2.0</b> · Horizonte, empresa fictícia de estudo</p><table><tr><th># v1</th><th>Etapa</th><th>Verbo</th><th>Motivo e nova fonte</th></tr><tr><td>3</td><td>Copiar para a planilha</td><td>eliminar</td><td>hábito; o relatório de metas sai do app</td></tr><tr><td>4</td><td>Conferir preço de todos</td><td>simplificar</td><td>só exceções da política + 10 sorteados por semana</td></tr><tr><td>6</td><td>Imprimir e levar ao estoque</td><td>eliminar</td><td>passagem de mão; o estoque vê o pedido na tela</td></tr><tr><td>9</td><td>Avisar que separou</td><td>eliminar</td><td>passagem de mão; a baixa no app avisa</td></tr><tr><td>10</td><td>E-mail ao financeiro</td><td>eliminar</td><td>passagem de mão; o pedido vai ao ERP</td></tr><tr><td>11</td><td>Redigitar no ERP</td><td>eliminar</td><td>só existia porque app e ERP não se falam (como ligar: aula 5)</td></tr><tr><td>12</td><td>Conferir cadastro e emitir a nota</td><td>mover</td><td>a conferência de cadastro vai para a entrada (cliente novo passa pela Juliana antes); a emissão da nota fica</td></tr><tr><td>4 e 5</td><td>Conferência simplificada e aprovação acima de R$ 5 mil</td><td>juntar</td><td>viram uma fila só de exceções da Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Responder, montar, conferir estoque, separar, mandar a nota</td><td>manter</td><td>exigência (cliente, estoque, nota)</td></tr></table><p>v1 = 13 etapas · v2 = 8 etapas: 5 eliminadas, a 4 e a 5 juntadas numa fila só, e uma passagem automática do app ao ERP no lugar da redigitação.</p>"
           },
           {
             "rot": "A versão 2.0",
@@ -346,42 +346,42 @@
         {
           "p": "Qual é a ordem certa do redesenho?",
           "opcoes": [
-            "Automatizar, medir, depois cortar o que sobrou",
-            "Eliminar, simplificar, redesenhar, e só então automatizar",
-            "Simplificar tudo de uma vez e automatizar no mesmo dia"
+            "Eliminar, simplificar, redesenhar, e só então automatizar o que sobrou",
+            "Automatizar o que demora mais, medir, e então cortar o resto",
+            "Simplificar, automatizar e, com o tempo ganho, eliminar etapas"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Cada verbo diminui o que o seguinte precisa tratar. Automatizar primeiro trava no sistema as etapas que deveriam ter saído."
+          "explica": "Cada verbo diminui o que o seguinte precisa tratar. Automatizar antes de cortar trava no sistema as etapas que deveriam ter saído, e aí cortar fica mais caro."
         },
         {
           "p": "Você vai eliminar a cópia do pedido para a planilha. O que precisa fazer antes?",
           "opcoes": [
-            "Nada: é hábito, pode cortar",
-            "Achar quem usava a planilha (o relatório de metas) e dar a essa pessoa outra fonte",
-            "Pedir a um agente para continuar copiando, por garantia"
+            "Avisar a equipe e cortar na segunda seguinte, sem exceção",
+            "Manter a cópia por um mês em paralelo, até ninguém reclamar",
+            "Achar quem usava a planilha e dar a essa pessoa outra fonte"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Toda etapa cortada alimentava alguém. Sem nova fonte, a etapa volta escondida, numa planilha paralela que ninguém controla."
+          "explica": "Toda etapa cortada alimentava alguém, aqui o relatório de metas. Sem nova fonte, a etapa volta escondida numa planilha paralela. Manter em paralelo \"até ninguém reclamar\" não acha quem dependia: só adia a descoberta."
         },
         {
           "p": "A gerente confere o preço de todos os pedidos desde um susto com descontos. Qual é a simplificação?",
           "opcoes": [
-            "Parar de conferir",
-            "Conferir uma a uma as exceções que a política define e sortear uma amostra pequena dos pedidos comuns toda semana",
-            "Pôr a agente que monta o pedido para conferir os próprios pedidos"
+            "Conferir só as exceções da política e uma amostra semanal",
+            "Conferir metade dos pedidos todo dia, alternando os clientes",
+            "Pôr a agente que monta o pedido para conferir o que montou"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "A necessidade continua; a forma encolhe. Exceção com atenção, amostra para vigiar a regra. E quem lança não aprova o próprio trabalho."
+          "explica": "A necessidade continua; a forma encolhe. Exceção com atenção, amostra para vigiar a regra. Conferir metade ao acaso deixa passar exceções, e quem lança não aprova o próprio trabalho."
         },
         {
           "p": "O pedido de cliente sem CNPJ só é descoberto no faturamento, depois da separação. Qual verbo resolve?",
           "opcoes": [
-            "Eliminar a conferência de cadastro",
+            "Eliminar a conferência, porque ela gera retrabalho",
             "Mover a conferência para a entrada do pedido",
-            "Automatizar a cobrança do CNPJ no fim"
+            "Automatizar a cobrança do CNPJ ao cliente no fim"
           ],
           "certa": 1,
           "ref": "passos",

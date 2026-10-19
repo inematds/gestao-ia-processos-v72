@@ -189,31 +189,31 @@
         {
           "p": "\"Pedido acima de R$ 5 mil vai para a gerente\" é sempre igual e o valor está no app. Quem aplica essa regra?",
           "opcoes": [
-            "Um agente, que entende o contexto",
-            "Uma automação simples, configurada no sistema",
-            "A gerente, olhando todos os pedidos"
+            "Um agente, que entende o contexto de cada pedido",
+            "A gerente, olhando todos os pedidos do dia na tela",
+            "Uma automação simples, configurada no app com a regra da política"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Regra fixa com dado no sistema é automação simples: faz igual toda vez e se confere fácil. A gerente decide o pedido que a regra encaminhou; não precisa procurar os pedidos."
+          "explica": "Regra fixa com dado no sistema é automação simples: faz igual toda vez e se confere fácil. Um agente aqui só traria custo e variação. A gerente decide o pedido que a regra encaminhou; não precisa procurar os pedidos."
         },
         {
           "p": "O cliente escreve \"quero o de sempre, mas com mais desinfetante e sem o multiuso\". Quem transforma isso em pedido?",
           "opcoes": [
-            "Uma automação de tela",
-            "Um agente, com alçada escrita e uma pessoa responsável",
-            "Ninguém: o cliente precisa usar um formulário"
+            "Um agente, com alçada escrita e um responsável",
+            "Uma automação de tela que copia a mensagem para o app",
+            "Uma regra fixa que procura as palavras do catálogo"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Texto livre, diferente a cada conversa, com consulta ao histórico: é onde o agente vale o que custa. Com limites escritos, que é o assunto do G3."
+          "explica": "Texto livre, diferente a cada conversa, com consulta ao histórico: é onde o agente vale o que custa. Automação de tela e regra de palavras não interpretam \"o de sempre\". Com limites escritos, que é o assunto do G3."
         },
         {
           "p": "O ERP não tem integração conhecida com o app. Qual é a primeira pergunta à TI?",
           "opcoes": [
-            "Dá para usar Computer Use?",
-            "O ERP tem porta de serviço (API) ou conector para essa operação?",
-            "Quanto custa um agente?"
+            "Dá para usar Computer Use direto, sem mexer no ERP?",
+            "O ERP tem porta de serviço (API) ou conector para isso?",
+            "Quanto custa um agente que redigite os pedidos no ERP?"
           ],
           "certa": 1,
           "ref": "passos",
@@ -222,24 +222,24 @@
         {
           "p": "Quando o Computer Use é a escolha certa, o que acompanha a decisão?",
           "opcoes": [
-            "Nada: ele entende a tela sozinho",
-            "Uma pessoa confirma o que foi preenchido antes de gravar, e cada operação fica registrada",
-            "Ele grava direto para ganhar tempo"
+            "Uma pessoa confirma antes de gravar, e cada operação fica registrada",
+            "Uma semana de teste; depois ele passa a gravar sozinho, sem confirmar",
+            "Um segundo agente que confere a tela depois de cada gravação"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "O Computer Use olha a tela e decide onde clicar: é flexível e menos previsível. Por isso fica no último degrau e com confirmação humana antes do efeito."
+          "explica": "O Computer Use olha a tela e decide onde clicar: é flexível e menos previsível. Por isso fica no último degrau, com confirmação humana antes do efeito. Teste de uma semana ou revisor depois de gravar não substituem essa confirmação."
         },
         {
           "p": "O que a Microsoft chama de Frontier Professionals no Work Trend Index 2026?",
           "opcoes": [
-            "Programadores que constroem agentes",
-            "Os 16% que usam agentes em fluxos de várias etapas e redesenham o trabalho",
-            "Gestores que proíbem IA na equipe"
+            "Programadores que constroem os agentes usados pelas empresas",
+            "Os 16% que usam IA todo dia, mas sem mudar o jeito de trabalhar",
+            "Os 16% que redesenham o trabalho com agentes em vários passos"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "É uma pesquisa do fornecedor (05/2026, 20 mil pessoas em 10 países), que vende as ferramentas. O ponto útil: o grupo que mais tira proveito redesenha o fluxo, não só usa a ferramenta."
+          "explica": "É uma pesquisa do fornecedor (05/2026, 20 mil pessoas em 10 países), que vende as ferramentas. O que define o grupo não é usar muito: é usar agentes em fluxos de várias etapas e redesenhar o trabalho."
         }
       ]
     },

@@ -5,7 +5,7 @@
   "titulo": "Choosing the first process",
   "titulo_curto": "First process",
   "minutos": 15,
-  "lead": "Carlos wants the agent in billing; a salesperson already pastes the customer spreadsheet into a personal chatbot; the support summary runs on its own at 6 p.m. Each one started from a different side, and nobody chose. In this lesson you compare the candidates by value, feasibility, and risk, pick one, write down why not the others, and define the scope.",
+  "lead": "Carlos wants the agent in finance, from invoicing to collections; one salesperson already pastes the customer spreadsheet into a personal chatbot; the support summary runs on its own at 6 p.m. Each one started from a different side, and nobody chose. In this lesson you compare the candidates by value, feasibility, and risk, choose one, write down why not the others, and define the scope.",
   "objetivo": "prioritize processes by value, feasibility, and risk in a matrix and justify in writing the one you chose and what stays out.",
   "competencias": [
     "priorizar-processos",
@@ -81,7 +81,7 @@
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "Five candidates: order by WhatsApp through to the invoice; collection of overdue payment slips (what Carlos wants); daily service summary; proposal for a large client (the salesperson uses a personal chatbot); replenishment purchasing from suppliers."
+            "texto": "Five candidates: order via WhatsApp through to the invoice; collection of overdue payment slips (where Carlos wants to start in finance); daily support summary; proposal for a large customer (the salesperson uses a personal chatbot); replenishment purchasing from suppliers."
           }
         },
         {
@@ -180,48 +180,48 @@
       "sub": "4 questions. The explanation appears after your attempt.",
       "perguntas": [
         {
-          "p": "The owner wants to start with collections, which has the highest value. The matrix gave it a total of 7 and gave 12 to the order process. What do you do?",
+          "p": "The owner wants to start with collections, which has high value. The matrix gave it a total of 7 and the order flow 12. What do you do?",
           "opcoes": [
-            "Start with collections: it's what the owner wants",
-            "Write down why not collections now (no baseline, highest risk) and what needs to change for it to move up the queue",
-            "Do both at the same time to please everyone"
+            "Start with collections, because whoever pays for the project chooses the process",
+            "Write down why not the collection now, and what would move it up the queue",
+            "Start with both, each with half the team, to save time"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "The written choice is what lets you disagree with the boss with an argument. And collections doesn't disappear: it goes to the queue with a condition to move up. Doing both at the same time is the start of disconnected projects."
+          "explica": "Writing down the choice is what lets you disagree with your boss with an argument. And the collection doesn't go away: it goes into the queue with a condition to move up. Splitting the team between the two is how disconnected projects begin."
         },
         {
           "p": "Why does risk go into the total inverted (6 − R)?",
           "opcoes": [
-            "Because risky processes should be picked first",
-            "Because the bigger the possible damage, the less suited it is as a first process, while the team is still learning",
-            "Because risk doesn't matter in the choice"
+            "Because a high-risk process should come first, when there is more attention",
+            "Because that way the sum falls between 3 and 15, easier to compare across areas",
+            "Because the first process is where the team learns; mistakes should come cheap"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
-          "explica": "The first process is where the team learns to map, measure, and version. Mistakes there need to be cheap. High-risk processes come later, once the method has been tested."
+          "explica": "The first process is where the team learns to map, measure, and version. Mistakes there need to come cheap. High risk doesn't earn priority just by drawing attention, and the score isn't there to standardize scale: it pushes the risky processes to later, once the method has been tested."
         },
         {
           "p": "What does the KPMG Global Tech Report 2026 report about Brazil?",
           "opcoes": [
-            "That 45% of Brazilian executives have several AI projects disconnected from one another",
-            "That 45% of companies have already redesigned all their processes",
-            "That AI projects don't deliver results in Brazil"
+            "That 45% of executives in Brazil have disconnected AI projects",
+            "That 45% of Brazilian companies already use agents in every process",
+            "That 45% of AI projects in Brazil are abandoned before the end"
           ],
           "certa": 0,
           "ref": "passos",
-          "explica": "It is a survey of executives (04/2026). It does not say AI doesn't work; it says many start from several directions without connecting one thing to another. One process at a time, with measurement, is the management answer."
+          "explica": "It's a survey of executives (04/2026). It doesn't mention abandonment or use in every process; it says many start from several directions without connecting one thing to another. One process at a time, with measurement, is the management answer."
         },
         {
           "p": "Which of these names works as a process in the matrix?",
           "opcoes": [
-            "Finance",
-            "Customer service",
-            "WhatsApp order through to the issued invoice"
+            "The distributor's finance and invoicing",
+            "From the WhatsApp order to the invoice issued",
+            "Customer service over WhatsApp"
           ],
-          "certa": 2,
+          "certa": 1,
           "ref": "diagrama",
-          "explica": "A process has a beginning and an end. \"Finance\" is an area; \"customer service\" is a function. Without the endpoints, you can't map it, measure it, or say when it's done."
+          "explica": "A process has a beginning and an end. \"Finance and invoicing\" is an area; \"customer service\" is a function, even with the channel in the name. Without the endpoints, you can't map it, measure it, or say when it's done."
         }
       ]
     },

@@ -101,7 +101,7 @@
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "If the order is born complete in the app, the warehouse sees it on screen, and finance receives it in the ERP, four steps lose their reason to exist: the spreadsheet, the paper, the WhatsApp notice, and the email to finance."
+            "texto": "If the order is born complete in the app, the warehouse sees it on screen, and finance receives it in the ERP, five steps no longer have a reason to exist: the spreadsheet, the paper, the WhatsApp notice, the email to finance, and the retyping."
           }
         },
         {
@@ -178,46 +178,46 @@
         {
           "p": "A company put an agent in charge of doing exactly the steps the team used to do, in the same order. The time dropped by half. What happened to the process?",
           "opcoes": [
-            "It was redesigned, because the time dropped",
-            "It stayed the same, only faster: the hits and the misses of the old design are still there",
-            "It got worse, because an agent should not execute steps"
+            "It was redesigned: the time was cut in half, and that alone proves the new design",
+            "It improved across the board, because the agent doesn't repeat people's mistakes",
+            "It stayed the same, just faster: the right and wrong calls of the old design are still there"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Saving time is not redesigning. It is AI on top of the old process: a real gain, but the useless steps and the design errors are still there, now faster and less visible."
         },
         {
           "p": "At Horizonte, Juliana sends an email to finance with each picked order. What is the most likely tag for this step?",
           "opcoes": [
-            "X, real requirement: finance needs to know",
-            "P, handoff: it only exists because the order doesn't reach finance on its own",
-            "None: an email is not a step"
+            "P, handoff: it only exists because the order doesn't arrive on its own",
+            "X, real requirement: without the email, finance won't invoice the order",
+            "H, habit: the email was requested one day and nobody ever removed it"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Finance needs the order; it doesn't need the email. If the order reached the ERP straight from the app, this step would lose its reason. Handoff is the most common habit and the easiest to find."
         },
         {
           "p": "You suspect a check is only habit. What should you do before tagging it H?",
           "opcoes": [
-            "Tag it and cut it right away, to save time",
-            "Ask the person who does it why it exists and what has already gone wrong when it wasn't done",
-            "Ask an agent to decide"
+            "Measure how much time it takes and cut it if it goes over ten minutes",
+            "Ask the people who do it why it exists and what has gone wrong without it",
+            "Check whether it appears in the process manual; if it doesn't, it's a habit"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "Habit sometimes hides a risk nobody wrote down. The answer from the person who does it decides whether the step is a real requirement. And even when the risk is real, the form of the check can be habit, like Patrícia's check of every order."
+          "explica": "Habit sometimes hides a risk nobody wrote down, and neither the time spent nor the manual tells you why the step exists. The answer from the person who does it decides whether it's a real requirement. And even when the risk is real, the form can be habit, like checking every one of Patrícia's orders."
         },
         {
           "p": "Which of these steps still belongs to a person after the redesign?",
           "opcoes": [
-            "Copying the order from one system to another",
-            "Deciding whether an old customer deserves a term outside the policy",
-            "Telling a coworker that the picking is finished"
+            "Check that the customer has a registered CNPJ before building the order",
+            "Copy the order from the app to the ERP when the two don't talk to each other",
+            "Decide whether a longtime customer deserves terms outside the policy"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "Deciding outside the rule is judgment and exception: it stays with a person. Copying and notifying are handoffs, candidates to disappear when the work runs in a single system."
+          "explica": "Deciding outside the rule is judgment and exception: it stays with a person. Checking the registration is a rule (same information, same answer) and can become a system check; copying from one system to another is a handoff, a candidate to disappear."
         }
       ]
     },

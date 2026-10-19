@@ -179,7 +179,7 @@
           "titulo": "2 · Your process baseline",
           "min": "4 weeks",
           "dias": 28,
-          "texto": "Write the three indicator sheets for your process and start the baseline chart. Don't change anything in the process during the four weeks; if something changes, note it in the note column.",
+          "texto": "Write the three indicator sheets for your process and start the baseline chart. Don't change anything in the process during the four weeks; if something changes, write it in the notes column.",
           "pronto": "the 3 sheets are written with today's value as observed or hypothesis, and the chart has 4 weeks filled in with each week's denominator and the process owner's signature."
         }
       ]
@@ -192,53 +192,53 @@
         {
           "p": "The agent's conversations went from 702 to 901 a week. What does that prove?",
           "opcoes": [
-            "That the agent improved sales",
-            "Nothing on its own: the before is missing and so is a denominator; orders ÷ conversations even fell",
-            "That customer satisfaction went up"
+            "That the agent improved sales, since orders also went up",
+            "Nothing on its own: the before is missing and the denominator is missing; conversion fell",
+            "That the agent paid for itself, because it serves more people at the same cost"
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "Volume can rise because of the time of year, a discount, or because the agent talks more per order. Conversion went from 20.1% to 18.6%. Without a baseline, the question \"did it help?\" stays a guess."
+          "explica": "Volume can rise because of the time of year, a discount, or because the agent talks more per order. Conversion went from 20.1% to 18.6%, and \"paid for itself\" requires cost and the before. Without a baseline, the question \"did it help?\" stays a guess."
         },
         {
           "p": "Which of these is a complete indicator?",
           "opcoes": [
-            "Orders returned",
-            "Orders returned to customer service ÷ orders that reached invoicing, per week, counted in the ERP",
-            "Many orders come back"
+            "Returned ÷ arrived at billing, per week, counted in the ERP",
+            "Orders returned by billing, counted in the ERP every week",
+            "Percentage of customers satisfied with the delivery, via the button"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
-          "explica": "Numerator, denominator, period, and source. Without the denominator, the number goes up and down with volume and doesn't tell you whether the process improved."
+          "explica": "Numerator, denominator, period, and source. Counting returns every week still has no denominator: the number goes up and down with volume. Satisfaction via the button measures something else, with about 6% response."
         },
         {
           "p": "Finance says that \"about 15 a week come back\". How does this value go on the sheet?",
           "opcoes": [
-            "As observed: finance knows the process",
-            "As a stated hypothesis, with the date it becomes observed after the count",
-            "It doesn't go in"
+            "As observed, because finance sees all the orders",
+            "Leave it blank until the four-week count is finished",
+            "As a stated hypothesis, with the date it becomes observed"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
-          "explica": "What people say is a valuable clue, but it is not a measurement. Marking it as a hypothesis, with a date, protects the before-and-after comparison."
+          "explica": "Stated is a valuable clue, but it is not a measurement, and leaving it blank loses the clue. Marking it as a hypothesis, with a date, protects the before-and-after comparison."
         },
         {
           "p": "Why use the median, not the average, for time to invoice?",
           "opcoes": [
-            "Because the median is always lower",
-            "Because a few stuck cases pull the average up and hide the normal time; the p95 shows the stuck ones separately",
-            "Because it is easier to calculate"
+            "Because a few stuck cases pull the average up and hide the normal",
+            "Because the median always gives a lower number and an easier target",
+            "Because the average only works when there are more than a hundred cases in the week"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
-          "explica": "One 75-hour request among four of 22 to 30 hours skews the average. Use the median for the normal case and the p95 for the typical worst case."
+          "explica": "In the five cases, the 75-hour order pulls the average up to about 40 hours; the median stays at 30. Median for the normal, p95 for the typical worst case. It is not to make the target easier: it is to avoid hiding the normal."
         },
         {
           "p": "The redesign freed up 20 hours of people's time per week. What can you tell the owner?",
           "opcoes": [
-            "That the company saved 20 hours of salary",
-            "That 20 hours of capacity were freed up, as an estimate, and they only become savings if they are used or cut in a way you can verify",
-            "That the project's return is guaranteed"
+            "That the company saved 20 hours of salary per week",
+            "That it freed up an estimated 20 hours, which are not yet savings",
+            "That the project's return is guaranteed starting next month"
           ],
           "certa": 1,
           "ref": "passos",

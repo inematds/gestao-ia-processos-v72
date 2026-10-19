@@ -1,0 +1,281 @@
+{
+  "slug": "versao",
+  "num": 7,
+  "menu": "Version",
+  "titulo": "A process with a version",
+  "titulo_curto": "Version",
+  "minutos": 15,
+  "lead": "At Horizonte, the process changes when someone complains loudly: a scare created the check of every order, and nobody wrote down when or why. Software does not change like that. It has a version number, a record of each change, and a tested way to go back. In this lesson you treat the process the same way and record the move from version 1.0 to 2.0.",
+  "objetivo": "record the process change v1 → v2 with the reason, evidence, approver, phased rollout, and the way back, the way it is done with software.",
+  "competencias": [
+    "versionar-processo",
+    "registrar-mudanca-com-evidencia",
+    "planejar-reversao"
+  ],
+  "aprende": [
+    {
+      "t": "Give the process a version number"
+    },
+    {
+      "t": "Turn a complaint into a proposal, not a change"
+    },
+    {
+      "t": "Promote step by step, with approval from whoever is accountable"
+    },
+    {
+      "t": "Write the trigger and the way back first"
+    }
+  ],
+  "hero_alt": "In a meeting room, a screen shows two colored block diagrams side by side, the one on the left longer; a woman holds a sheet with a checkbox and the team listens.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The cycle of a version",
+      "sub": "From the version in use to the next one, with the way back written down. Click each step.",
+      "volta": "It got worse or hit the trigger: go back to the previous version, which was kept",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Version in use",
+          "sub": "v1.0, written",
+          "detalhe": "The process as it is today, with a number, a date, and an owner: the map from lesson 3 is v1.0. Without the version in use written down, there is nothing to compare and nowhere to go back to."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Proposal",
+          "sub": "problem and hypothesis",
+          "detalhe": "A change starts from an observed problem (with the source cases) and a hypothesis: \"if we change X, indicator Y improves without worsening Z\". An isolated complaint opens a proposal; it does not change the process by itself."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Test",
+          "sub": "against the baseline",
+          "detalhe": "The new version runs first in the pilot scope, for an agreed period, and the lesson 6 indicators are compared with the baseline, over similar periods."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Decision",
+          "sub": "whoever answers for it approves",
+          "forte": true,
+          "detalhe": "Promote, reject, or wait for more data. The decision belongs to the person who answers for the process, not the person who proposed the change. The decision is recorded with the reason."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "New version",
+          "sub": "v2.0 in use, v1.0 kept",
+          "detalhe": "The promoted version goes into use, in phases. The previous one stays written down and labeled, with the step-by-step to bring it back. No worse version replaces the current one because a system decided so."
+        }
+      ],
+      "legenda": "Rule 3 of the agentic process (AI Management area): promoting and rolling back are steps, not accidents. LOOP-R cycle and the change contract of the Gestoria method (INEMA)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Versioning in practice",
+      "sub": "Four rules. Horizonte is a fictional study company; the dates and decisions in the example are fictional too.",
+      "passos": [
+        {
+          "titulo": "Number and history",
+          "sub": "what changed, when, why",
+          "texto": [
+            "Give the process a number. A change that cuts, moves, or merges a step bumps the whole version (1.0 to 2.0). An adjustment that doesn't touch the steps, like changing the deadline for a reply, bumps the decimal (2.0 to 2.1).",
+            "Keep a one-line history per version: number, date, what changed, why, who approved. It's what answers, six months from now, why the process is the way it is."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The check of every order went in on 10/14 with no record. In the new history, it shows up as part of v1.0, with the reason Patrícia remembered: the improper discounts that week."
+          }
+        },
+        {
+          "titulo": "A complaint becomes a proposal",
+          "sub": "not a change",
+          "texto": [
+            "One bad case is a signal, not evidence. It opens a proposal with the problem, the source cases, and the hypothesis. The change only goes in after it is tested and approved.",
+            "This protects the process from whoever complained loudest last, even when the one complaining is the owner."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "A customer complained about an invoice that took three days. Instead of creating a new check, Patrícia opened a proposal: the source case is P3, and the hypothesis is to move the registration check to intake."
+          }
+        },
+        {
+          "titulo": "Promote a little at a time",
+          "sub": "phases and approval",
+          "texto": [
+            "The new version starts in the pilot scope, for a set period, with the indicators compared to the baseline. Only after that does it apply to all cases.",
+            "Promotion is a decision for whoever answers for the process, with the numbers on the table. The proposer presents; the one who answers decides."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Phase 1, two weeks: v2.0 only for registered customers with orders up to R$ 5k. Phase 2: all orders. Patrícia proposes; Carlos approves each phase after looking at the three indicators."
+          }
+        },
+        {
+          "titulo": "Going back is written down",
+          "sub": "trigger and step-by-step",
+          "texto": [
+            "Before changing, write down when to go back (the trigger, with a number) and how to go back (the steps, who does them, how fast). Deciding this after the problem is deciding in a panic.",
+            "Rolling back is not failure: it's what lets you test without fear. What can't happen is the previous version having disappeared."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Go back to v1.0 if the billing returns stay above the baseline for two weeks in a row, or if an order goes out with a discount outside the policy. Patrícia decides within one business day; the spreadsheet and the paper come back the next day."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy: change record and version history",
+      "sub": "The record follows each change; the history has one line per version. The tabs show Horizonte.",
+      "blocos": [
+        {
+          "rot": "Change record (v1 → v2)",
+          "icone": "arquivo",
+          "conteudo": "CHANGE RECORD · process: <...> · from v<1.0> to v<2.0> · no. <001>\n\nOBSERVED PROBLEM: <what happens> · source cases: <ids>\nHYPOTHESIS: if <change>, then <indicator> improves without worsening <guardrail>\nWHAT CHANGES: <steps eliminated, simplified, moved, merged> (redesign sheet attached)\nPROPOSED BY: <name> · APPROVES: <name, different from who proposed>\n\nEVIDENCE\n  Baseline (v<1.0>): <indicators and values, period>\n  Test (v<2.0>): <scope> from <date> to <date>\n  Result: <values in the same format> · limitations: <...>\n\nPHASED ROLLOUT\n  Phase 1: <scope> starting <date> · approved by <name> on <date>\n  Phase 2: <all cases> starting <date> · approved by <name> on <date>\n\nROLLBACK\n  Trigger: <indicator> worse than <value> for <period>, or <guardrail event>\n  Who decides: <name> · within how long: <...>\n  How to go back: <steps, who does each one>\n  Previous version kept at: <where>\n\nDECISION: [ ] promote  [ ] reject  [ ] wait for more data · reason: <...> · <date>"
+        },
+        {
+          "rot": "Process version history",
+          "icone": "lista",
+          "conteudo": "HISTORY · process: <...> · owner: <name>\n\n| Version | Date | What changed | Why (problem and evidence) | Approved by | Status |\n|---|---|---|---|---|---|\n| 1.0 | <date> | version mapped (as it was) | <...> | <name> | <in use / kept> |\n| 2.0 | <date> | <...> | <...> | <name> | <in testing / in use / rolled back> |\n\nRule: cutting, moving, or merging a step = a whole new version; an adjustment that doesn't touch the steps = decimal."
+        },
+        {
+          "rot": "Prompt · review the change record",
+          "icone": "chat",
+          "conteudo": "You are a process auditor. Below is the record of a process change in my\ncompany. Don't decide whether the change is good. Point out:\n\n1. Whether the problem has source cases or is just an impression.\n2. Whether the hypothesis says which indicator improves and which one can't get worse.\n3. Whether the person who approves is different from the person who proposed.\n4. Whether the rollback trigger has a number and a deadline, and whether the steps\n   to go back say who does each one.\n5. What would be missing for someone, six months from now, to understand this change.\n\nRecord:\n\"\"\"<paste>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte record (example)",
+            "html": "<p><b>Change no. 001 · WhatsApp order → invoice · v1.0 → v2.0</b> · Horizonte, fictional study company</p><ul><li><b>Problem:</b> orders come back from billing because of incomplete registration and go through 4 handoffs (cases P1 to P5).</li><li><b>Hypothesis:</b> by cutting the handoffs, checking only exceptions, and moving registration to intake, the time to invoice and the returns drop, with no discount outside the policy.</li><li><b>Proposed by:</b> Patrícia · <b>approves:</b> Carlos.</li><li><b>Evidence:</b> four-week baseline counted in the app and the ERP before the change; test in phase 1, for two weeks.</li><li><b>Phases:</b> 1) registered customers with orders up to R$ 5k; 2) all orders.</li><li><b>Rollback:</b> returns above the baseline for two weeks in a row, or one order with a discount outside the policy. Patrícia decides within one business day. Steps: Juliana goes back to copying into the spreadsheet and printing; Rafael turns off the automatic handoff to the ERP; finance goes back to typing it in. v1.0 is kept in the process folder.</li></ul>"
+          },
+          {
+            "rot": "History (example)",
+            "html": "<table><tr><th>Version</th><th>What changed</th><th>Status</th></tr><tr><td>1.0</td><td>Mapped with 13 steps, including the check of every order, created on 10/14 after the improper discounts</td><td>kept</td></tr><tr><td>2.0</td><td>8 steps: 5 eliminated, check of exceptions and sample, registration at intake</td><td>in testing (phase 1)</td></tr><tr><td>2.1</td><td>Weekly sample from 10 to 15 orders during phase 2 (adjustment, steps untouched)</td><td>proposed</td></tr></table><p>Fictional study dates and decisions.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>Change with no number.</b> If you can't say which version the process is on, you can't go back.</li><li><b>The proposer approves.</b> Approval belongs to whoever answers for the process.</li><li><b>Vague trigger.</b> \"If it gets worse\" is not a trigger; \"returns above X for two weeks\" is.</li><li><b>Previous version erased.</b> Keep the v1.0 map, tagging sheet, and executor chart.</li><li><b>Changing everything at once.</b> Phases let you see the effect before it applies to everyone.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Horizonte's record is for practice; your process's record is for real.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Horizonte's v1.0 → v2.0 record",
+          "min": "20 min",
+          "texto": "Use the redesign sheet from lesson 4, the chart from lesson 5, and the indicator sheets from lesson 6. Fill in the change record and the history without looking at the tabs. Run the review prompt and fix what it points out.",
+          "pronto": "the record has a problem with source cases, a hypothesis with an indicator and a guardrail, an approver different from whoever proposed it, 2 phases with a scope, 2 rollback triggers with a number and a deadline, and the steps back with who does each one; the history has the 1.0 and 2.0 rows."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your process record",
+          "min": "30 min",
+          "texto": "Make the change record from the current version of your process to the redesigned one, and the history. Agree with whoever approves it before you start phase 1.",
+          "pronto": "the record is complete, with the baseline from lesson 6 as starting evidence, the approver agreed in writing, the date for phase 1, and the current version saved somewhere another person can find it."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "An important customer complained about a delay. The owner wants to create a new check right away. What does a versioned process call for?",
+          "opcoes": [
+            "Create the check today, because the customer is important",
+            "Open a proposal with the source case and the hypothesis, and test before changing the process",
+            "Ignore it, because it was a single case"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A complaint is a signal, not evidence. It opens a proposal; the change goes in tested and approved. Ignoring it is also a mistake: the case may point to a real problem."
+        },
+        {
+          "p": "You changed the weekly sample size from 10 to 15 orders, without touching the steps. What version is it?",
+          "opcoes": [
+            "3.0",
+            "2.1: an adjustment that doesn't touch the steps bumps the decimal",
+            "It doesn't need a version"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cutting, moving, or merging a step bumps the whole number; an adjustment that doesn't touch the steps bumps the decimal. Even the adjustment goes into the history."
+        },
+        {
+          "p": "When do you write the rollback trigger?",
+          "opcoes": [
+            "Before the change, with a number and a deadline",
+            "When the problem shows up",
+            "Only if the owner asks"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "A trigger decided after the problem is decided in a panic, and everyone pulls in a different direction. Written beforehand, going back is a planned step."
+        },
+        {
+          "p": "Who approves promoting version 2.0 at Horizonte?",
+          "opcoes": [
+            "Patrícia, who proposed it and knows the process",
+            "Carlos, with the indicators compared to the baseline: whoever proposes doesn't approve",
+            "The agent, who sees all the orders"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Whoever proposes presents the evidence; whoever answers for the result decides. No version goes in by a system's decision."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Number and history",
+          "texto": "Step changed, whole number; adjustment, decimal. One row per version."
+        },
+        {
+          "t": "Proposal before change",
+          "texto": "Source case, hypothesis, test against the baseline."
+        },
+        {
+          "t": "Phases and approval",
+          "texto": "Scope first; whoever answers for it decides, not whoever proposed."
+        },
+        {
+          "t": "Way back written beforehand",
+          "texto": "Trigger with a number, steps with names, previous version saved."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "LOOP-R: guide to the improvement loop with a record and a back button",
+          "href": "https://inematds.github.io/loop-r/guia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "LOOP-R: course for owners and managers",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "alvo"
+        },
+        {
+          "t": "AI Management Area: rule 3, promoting and rolling back are steps",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "voltar"
+        }
+      ]
+    }
+  ]
+}

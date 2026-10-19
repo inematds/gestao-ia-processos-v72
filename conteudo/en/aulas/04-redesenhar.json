@@ -1,0 +1,436 @@
+{
+  "slug": "redesenhar",
+  "num": 4,
+  "menu": "Redesign",
+  "titulo": "Eliminate, simplify, redesign",
+  "titulo_curto": "Redesign",
+  "minutos": 20,
+  "lead": "With the map in hand, the temptation is to pick the slowest step and put an agent on it. Before that come three verbs, in this order: eliminate what doesn't need to exist, simplify what's needed but too big, and redesign what's in the wrong place. In this lesson you take apart Horizonte's process and talk with Carlos, who wanted to skip all of this.",
+  "objetivo": "take the process apart before automating: cut, simplify, and move steps, with the reason for each change written down.",
+  "competencias": [
+    "eliminar-etapas-sem-motivo",
+    "simplificar-conferencias",
+    "redesenhar-antes-de-automatizar"
+  ],
+  "aprende": [
+    {
+      "t": "The three verbs of redesign, in the right order"
+    },
+    {
+      "t": "Find who depended on the step you cut"
+    },
+    {
+      "t": "Replace \"check everything\" with exception and sampling"
+    },
+    {
+      "t": "Move the check to where the error starts"
+    }
+  ],
+  "hero_alt": "Two people in front of a glass wall with colorful sticky notes in a row; some notes have been taken off and piled on the table, and a pen line connects the ones that remain.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Three verbs before automating",
+      "sub": "Each step uses the map from lesson 3. Automating comes last. Click each step.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "x",
+          "titulo": "Eliminate",
+          "sub": "doesn't need to exist",
+          "detalhe": "Steps marked as habit or handoff, with no real reason confirmed by the person who does them. Cutting means finding who used the step's result and giving that person another source. At Horizonte: the spreadsheet, the paper, the WhatsApp notice, and the email to finance."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Simplify",
+          "sub": "needed, but smaller",
+          "detalhe": "The need is real, the form is too big. Checking every order becomes checking the exceptions the policy already defines plus a weekly sample of ordinary orders. Approval on everything becomes approval without reading."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Redesign",
+          "sub": "move and merge",
+          "forte": true,
+          "detalhe": "The right step in the wrong place changes places: the registration check leaves billing and moves to order entry. Steps that belonged to different people merge when the work runs in a single system."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Automate",
+          "sub": "only now",
+          "detalhe": "With a smaller process, each step that remains gets an executor: person, simple automation, agent, screen automation, or integration. That decision is lesson 5. The agent receives a redesigned process, never \"do it the same as the team.\""
+        }
+      ],
+      "legenda": "Competency 2 of the AI Management Area (INEMA): should this process still exist? Eliminate, simplify, redesign, and only then automate.",
+      "dica": "What always stays: real requirement, judgment, and exception. They change place and size, but they don't disappear."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Horizonte's redesign",
+      "sub": "From 13 steps (v1.0) to 8 (v2.0). Fictional study company; the discount policy is the same as in the agents course.",
+      "passos": [
+        {
+          "titulo": "Eliminate",
+          "sub": "and find who depended on it",
+          "texto": [
+            "Start with the H and P steps on the tagging sheet. For each one, ask: who used what this step produced? Every step you cut fed someone, even if it was just a Friday report.",
+            "Cut only when that person has another source. Otherwise the habit comes back in hiding: someone recreates the spreadsheet on their own the following week."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The sales spreadsheet (step 3) fed Patrícia's goals report; the report now comes out of the app. The paper (6), the notice (9) and the email (10) disappear once inventory and finance see the order on screen."
+          }
+        },
+        {
+          "titulo": "Simplify",
+          "sub": "exceptions plus a sample",
+          "texto": [
+            "Checking everything is born from a scare and stays forever. Within two weeks, someone who approves a hundred things a day approves without reading, and the check turns into a rubber stamp.",
+            "Swap it for two things: the exceptions the rule already defines, checked one by one, and a small sample of the common cases, looked at every week to see if the rule is still right."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia stops checking 170 orders a week. She sees only the discounts between 5% and 10% and the orders above R$ 5 thousand (fictional study policy), plus 10 common orders drawn at random every Monday."
+          }
+        },
+        {
+          "titulo": "Redesign",
+          "sub": "move the check to the entry point",
+          "texto": [
+            "The costliest error is the one found late. If a rule can be checked as soon as the case arrives, checking it at the end only guarantees rework: the case has already moved on, and it comes back.",
+            "Move the check to where the error is born, and merge the steps that were only separate because they belonged to different people."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "An order only enters the app with a customer whose record is complete. A new customer goes first to Juliana to be registered. Case P3, which came back from finance and took 75 hours, stops existing this way."
+          }
+        },
+        {
+          "titulo": "Only then automate",
+          "sub": "and what stays with people",
+          "texto": [
+            "The redesigned version has fewer steps, and each one has a reason. Now it makes sense to ask who does each one, and the answer comes in the next lesson.",
+            "Some steps don't change owners: the approval above the policy amount, the invoice, and the judgment calls. They get smaller and better informed, not automatic."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "v2.0: order on WhatsApp → built in the app only with a complete customer record → policy applied, exceptions go to Patrícia → inventory sees it on screen → picks and records the stock removal → order goes to the ERP without retyping → invoice → invoice to the customer."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulation: Carlos wants Hora in billing",
+      "sub": "Simulated conversation for practice. The owner wants to put the agent into the process as it is; you lead the redesign. The comment appears right after each answer.",
+      "personagem": {
+        "nome": "Carlos Mendes · owner (simulation)",
+        "papel": "Horizonte Distribuidora, fictional study company"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Patrícia, I saw the dashboard: Hora sells on its own. I want her in billing too. She takes the order, types it into the ERP and sends the invoice, exactly like Juliana and finance do today. Can we start Monday?",
+          "opcoes": [
+            {
+              "t": "We can. I'll ask Rafael to switch it on Monday.",
+              "vai": "fim-acelera",
+              "nota": 0,
+              "comenta": "\"Exactly like\" carries over all 13 steps, including the ones that exist only to pass paper from hand to hand. The agent will speed up today's process, along with its errors."
+            },
+            {
+              "t": "Maybe, but only on small orders, as a test.",
+              "vai": "etapas",
+              "nota": 1,
+              "comenta": "Narrowing the scope is good, but it doesn't change the design: the small order also goes through the spreadsheet, the paper and the retyping. You'd just be testing the error on a smaller scale."
+            },
+            {
+              "t": "Before switching it on, give me a week. I'll map the order's path with five cases and see which steps still need to exist.",
+              "vai": "etapas",
+              "nota": 2,
+              "comenta": "A week of mapping saves months of speeding up the wrong process. And you didn't say \"no\": you said \"first.\""
+            }
+          ]
+        },
+        "etapas": {
+          "cliente": "Mapped it? But why change anything? Juliana copies the order into the spreadsheet, you check every one, finance retypes it into the ERP. It's always been this way, and it works.",
+          "opcoes": [
+            {
+              "t": "You're right, let's keep it and just add Hora.",
+              "vai": "fim-manter",
+              "nota": 0,
+              "comenta": "\"It's always been this way\" is the definition of a habit. The map showed steps with no reason and an order that took 75 hours because of a check in the wrong place."
+            },
+            {
+              "t": "Let's cut everything that's manual.",
+              "vai": "conferencia",
+              "nota": 1,
+              "comenta": "The direction is right, the criterion isn't. \"Manual\" is not a reason: the approval above R$ 5 thousand and the invoice are manual and need to stay. Every cut needs its own reason."
+            },
+            {
+              "t": "It works, but slowly. The spreadsheet, the paper and the email exist only to carry the order from one desk to another. If inventory and finance see the order on screen, they disappear. The approval and the invoice stay.",
+              "vai": "conferencia",
+              "nota": 2,
+              "comenta": "You cut with a reason (handoff) and said what stays (real requirement). That's what convinces an owner: what changes, why, and what stays the same."
+            }
+          ]
+        },
+        "conferencia": {
+          "cliente": "And your price check on every order? If Hora does that part, you're free.",
+          "opcoes": [
+            {
+              "t": "Good: Hora checks the orders she built herself and approves them.",
+              "vai": "cadastro",
+              "nota": 0,
+              "comenta": "Whoever enters doesn't approve. Having the agent check its own work removes the check and keeps only its appearance."
+            },
+            {
+              "t": "I'd rather keep checking all of them, to be safe.",
+              "vai": "cadastro",
+              "nota": 1,
+              "comenta": "The risk is real, but checking 170 orders a week turns into a rubber stamp in no time. Real safety is looking closely at what the rule says to look at."
+            },
+            {
+              "t": "I simplify: the policy already says what an exception is. I check one by one the discounts between 5% and 10% and the orders above R$ 5 thousand, and I draw 10 common orders every Monday to see if the rule is still right.",
+              "vai": "cadastro",
+              "nota": 2,
+              "comenta": "Exception checked one by one, sample to watch the rule. The need stayed; the form shrank."
+            }
+          ]
+        },
+        "cadastro": {
+          "cliente": "Done. And what about the registration problem? Every week finance complains to me about orders without a CNPJ that come back.",
+          "opcoes": [
+            {
+              "t": "The Hora completes the record with whatever it finds on the internet.",
+              "vai": "fim-dado",
+              "nota": 0,
+              "comenta": "Made-up data in the record becomes a wrong invoice. Registering a new customer is a human decision, with a check (Horizonte's fictional study policy)."
+            },
+            {
+              "t": "Finance charges the customer when something is missing.",
+              "vai": "medida",
+              "nota": 1,
+              "comenta": "That fixes the case, not the process: the check still comes at the end, after picking. The order keeps coming back."
+            },
+            {
+              "t": "I'm moving the check: an order only enters the app with a complete record. A new customer goes to Juliana first to be registered. Finance no longer finds out at the end.",
+              "vai": "medida",
+              "nota": 2,
+              "comenta": "That's what redesign means: the right step in the right place. The error is caught where it starts, before the warehouse picks."
+            }
+          ]
+        },
+        "medida": {
+          "cliente": "I like it. And how will I know if it improved?",
+          "opcoes": [
+            {
+              "t": "From the dashboard: if it goes up, it improved.",
+              "vai": "fim-painel",
+              "nota": 0,
+              "comenta": "The dashboard started counting the day the Hora came on board, and it only shows volume. Without the before, any rise looks like a win (this is failure F11 from the lab)."
+            },
+            {
+              "t": "We'll see in a month.",
+              "vai": "fim-vago",
+              "nota": 1,
+              "comenta": "See what? Without an indicator chosen and measured before the change, a month from now the answer will depend on who is feeling more upbeat."
+            },
+            {
+              "t": "Before changing anything, I measure four weeks: time from order to invoice, orders sent back by billing, and people-minutes per order. I compare that with the four weeks after. And today's version stays written down, so we can go back if things get worse.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Baseline first, a comparison of equal periods, and a way to go back. That's what lessons 6 and 7 cover in detail."
+            }
+          ]
+        },
+        "fim-acelera": {
+          "fim": true,
+          "titulo": "The old process, just faster",
+          "texto": "The Hora started retyping orders into the ERP. The order without a CNPJ kept reaching finance, just earlier and already picked. A month later, no one can say whether it got better."
+        },
+        "fim-manter": {
+          "fim": true,
+          "titulo": "It's always been this way",
+          "texto": "The process stayed as it was, with the agent on top. All 13 steps remain, and a new customer's order still takes three days to become an invoice."
+        },
+        "fim-dado": {
+          "fim": true,
+          "titulo": "Made-up record",
+          "texto": "The agent filled in a CNPJ it found on a website. The invoice went to the wrong company and finance had to cancel it. Missing data is asked for from whoever has it; it is not filled in on your own."
+        },
+        "fim-painel": {
+          "fim": true,
+          "titulo": "Redesign without proof",
+          "texto": "The process changed, the dashboard went up, and no one can separate the effect of the redesign from the effect of the time of year. When someone asks, there is no before to show."
+        },
+        "fim-vago": {
+          "fim": true,
+          "titulo": "Almost there",
+          "texto": "The redesign is good, but \"we'll see in a month\" doesn't say what to look at or what to compare it with. Start over and choose the answer that measures before changing anything."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Redesigned process, with the before kept",
+          "texto": "Carlos approved v2: fewer steps, checking only the exceptions, registration at intake, and four weeks of baseline before the change. If your score came in below the maximum, start over and compare the comments."
+        }
+      },
+      "licao": "Before automating: eliminate what is habit, with a reason; simplify the check to exceptions and a sample; move verification to where the error starts. And measure the before, to prove the after."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: redesign sheet",
+      "sub": "One line per step of v1. Every change has a verb, a reason, and who depended on it. The tabs show Horizonte.",
+      "blocos": [
+        {
+          "rot": "Redesign sheet (v1 → v2)",
+          "icone": "caneta",
+          "conteudo": "REDESIGN SHEET · process: <from where to where> · from v<1.0> to v<2.0>\nOwner: <name> · Made by: <name> · Date: <dd/mm/yyyy> · Based on: map v<1.0>\n\nVerbs: ELIMINATE · SIMPLIFY · MOVE · MERGE · KEEP\n\n| # v1 | Step | Verb | Reason | Who used the result and where they'll get it now | Risk of the cut | How to tell it was missed |\n|---|---|---|---|---|---|---|\n| <1> | <...> | <verb> | <...> | <name · new source> | <...> | <signal you will watch> |\n\nREDESIGNED VERSION (v<2.0>)\n| # v2 | Step | Who does it (provisional; decided in lesson 5) | Came from (# v1) |\n|---|---|---|---|\n| 1 | <...> | <...> | <...> |\n\nCOUNT: v1 = <n> steps · v2 = <n> steps · eliminated <n> · simplified <n> · moved <n>\nWHAT STAYS WITH PEOPLE (requirement, judgment, exception): <list>"
+        },
+        {
+          "rot": "Prompt · what could break with the cut",
+          "icone": "chat",
+          "conteudo": "You are an operations manager and you will review the redesign of a process\nat my company. Do not approve or reject. For each step that was ELIMINATED or MOVED:\n\n1. Say who probably used its result and whether the sheet gave\n   that person another source.\n2. Point out a risk the cut may create that the sheet does not mention.\n3. Suggest the signal that would show, in the first two weeks, that the cut\n   was missed.\n\nAt the end, say whether any real requirement (law, contract, approval of an amount,\ninvoice) was cut by mistake.\n\nMap v1:\n\"\"\"<paste>\"\"\"\nRedesign sheet:\n\"\"\"<paste>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte sheet (example)",
+            "html": "<p><b>Order via WhatsApp → invoice · v1.0 → v2.0</b> · Horizonte, fictional study company</p><table><tr><th># v1</th><th>Step</th><th>Verb</th><th>Reason and new source</th></tr><tr><td>3</td><td>Copy to the spreadsheet</td><td>eliminate</td><td>habit; the goals report comes from the app</td></tr><tr><td>4</td><td>Check the price on every order</td><td>simplify</td><td>only policy exceptions + 10 drawn at random each week</td></tr><tr><td>6</td><td>Print and take to the warehouse</td><td>eliminate</td><td>handoff; the warehouse sees the order on screen</td></tr><tr><td>9</td><td>Notify that it was picked</td><td>eliminate</td><td>handoff; the stock write-off in the app notifies</td></tr><tr><td>10</td><td>Email to finance</td><td>eliminate</td><td>handoff; the order goes to the ERP</td></tr><tr><td>11</td><td>Retype into the ERP</td><td>eliminate</td><td>only existed because the app and ERP don't talk to each other (how to connect them: lesson 5)</td></tr><tr><td>12</td><td>Check the record</td><td>move</td><td>goes to intake; a new customer goes through Juliana first</td></tr><tr><td>4 and 5</td><td>Simplified check and approval above R$ 5 thousand</td><td>merge</td><td>become a single queue of Patrícia's exceptions</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Reply, build the order, check stock, pick, send the invoice</td><td>keep</td><td>requirement (customer, stock, invoice)</td></tr></table><p>v1 = 13 steps · v2 = 8 steps: 5 eliminated, 4 and 5 merged into a single queue, and an automatic handoff from the app to the ERP in place of retyping.</p>"
+          },
+          {
+            "rot": "Version 2.0",
+            "html": "<ol><li>The customer orders via WhatsApp; the Hora or Juliana replies.</li><li>Order built in the app <b>only with a complete record</b>; a new customer goes to Juliana first to be registered.</li><li>The policy becomes a fixed rule in the app: discounts up to 5% and orders up to R$ 5 thousand go through; discounts from 5% to 10% and orders above R$ 5 thousand go to Patrícia, one by one; above 10%, only Carlos. Every Monday, 10 ordinary orders drawn at random.</li><li>The warehouse sees the order on screen and checks availability.</li><li>It picks and writes off stock in the app.</li><li>The order goes from the app to the ERP without retyping.</li><li>Finance checks and issues the invoice.</li><li>The invoice goes to the customer through the conversation, with a record.</li></ol><p>Who does each step is still provisional: that's lesson 5. Writing the agent's authority limit action by action is course G3.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>A cut with no new source.</b> If the \"who used it\" column is empty, someone will quietly recreate the step.</li><li><b>\"Manual\" as the reason.</b> Manual is not a defect; habit and handoff are.</li><li><b>Requirement cut.</b> Invoice, approval of an amount, and legal obligations stay, even if their form changes.</li><li><b>A check the person who entered it approves herself.</b> Whoever enters does not approve.</li><li><b>Automating on the sheet.</b> The \"who does it\" column is provisional; don't write \"agent\" before lesson 5.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Horizonte's conversation and sheet to practice with; your own process's to do it for real.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The conversation with Carlos",
+          "min": "10 min",
+          "texto": "Run the simulation to the end. If you don't reach the maximum score, start over. Then write, for each of the five lines, one line on why the answer scored 2 is better than the one scored 1.",
+          "pronto": "you scored 10 out of 10 points and have the 5 lines written, one per line of dialogue."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Horizonte's version 2.0",
+          "min": "25 min",
+          "texto": "Use the map you made in lesson 3 and the tagging sheet from lesson 1. Fill in the redesign sheet for the 13 steps without looking at the tab, and only then compare. Run the prompt about what could break.",
+          "pronto": "all 13 steps have a verb and a reason, every eliminated step has who used the result and the new source, v2 has between 7 and 9 steps, and approval above R$ 5 thousand and the invoice are still there."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · The redesigned version of your process",
+          "min": "45 min",
+          "texto": "Build the redesign sheet for your process from the map in lesson 3. Show the new version to the people who carry out the eliminated steps and ask what they would lose. Adjust the sheet with their answers.",
+          "pronto": "the sheet has every step from v1 with a verb and a reason, at least 2 steps cut or moved with a reason and a new source, the v1 × v2 count, the list of what stays with people, and the name of who you consulted."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What is the right order for the redesign?",
+          "opcoes": [
+            "Automate, measure, then cut what's left",
+            "Eliminate, simplify, redesign, and only then automate",
+            "Simplify everything at once and automate the same day"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Each verb shrinks what the next one has to handle. Automating first locks into the system the steps that should have gone away."
+        },
+        {
+          "p": "You are going to eliminate copying the order into the spreadsheet. What do you need to do first?",
+          "opcoes": [
+            "Nothing: it's a habit, you can cut it",
+            "Find who used the spreadsheet (the goals report) and give that person another source",
+            "Ask an agent to keep copying, just in case"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Every step you cut fed someone. Without a new source, the step comes back in hiding, in a side spreadsheet nobody controls."
+        },
+        {
+          "p": "The manager checks the price on every order since a scare with discounts. What is the simplification?",
+          "opcoes": [
+            "Stop checking",
+            "Check one by one the exceptions the policy defines, and pull a small sample of regular orders every week",
+            "Have the agent that builds the order check its own orders"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The need stays; the form shrinks. Attention on exceptions, a sample to watch the rule. And whoever enters the work does not approve their own work."
+        },
+        {
+          "p": "A customer order with no CNPJ is only discovered at billing, after picking. Which verb solves it?",
+          "opcoes": [
+            "Eliminate the registration check",
+            "Move the check to order entry",
+            "Automate the CNPJ request at the end"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The check is necessary; it is in the wrong place. Catching the error where it starts avoids the picking, the return, and the 75 hours of case P3."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Eliminate",
+          "texto": "Habit and handoff go, after finding who depended on them."
+        },
+        {
+          "t": "Simplify",
+          "texto": "Checking everything becomes exceptions one by one plus a weekly sample."
+        },
+        {
+          "t": "Redesign",
+          "texto": "Verification where the error starts; steps joined in a single system."
+        },
+        {
+          "t": "Only then automate",
+          "texto": "The agent gets the redesigned process, never \"do it the same way.\""
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "AI Work Architect: the most common mistake is automating the wrong process",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "AI Management Area: rule 1, do not automate a bad process",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Agents: hire, delegate, and supervise (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

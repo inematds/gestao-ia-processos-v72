@@ -1,0 +1,453 @@
+{
+  "slug": "canvas",
+  "num": 8,
+  "menu": "Proyecto",
+  "titulo": "Proyecto: el proceso rediseñado + Qué cambió",
+  "titulo_curto": "Proyecto: el canvas",
+  "minutos": 20,
+  "lead": "Las piezas están listas: la elección, el mapa, la hoja de rediseño, el cuadro de ejecutores, las fichas de indicador y el registro de cambio. El proyecto del curso junta todo en una página, el canvas actual × futuro, pasa por una rúbrica y va a la firma de quien responde por el proceso. Al final, lo que cambió en el mercado, con fecha y fuente.",
+  "objetivo": "entregar el canvas actual × futuro de tu proceso, con alcance del piloto, y aprobarlo por la rúbrica con la firma de quien responde por él.",
+  "competencias": [
+    "montar-canvas-atual-futuro",
+    "aplicar-rubrica-de-aprovacao",
+    "ler-relatorios-de-mercado-com-criterio"
+  ],
+  "aprende": [
+    {
+      "t": "Los cinco bloques del canvas actual × futuro"
+    },
+    {
+      "t": "Aplicar la rúbrica con los ítems que reprueban solos"
+    },
+    {
+      "t": "Quién firma el rediseño, y por qué"
+    },
+    {
+      "t": "Lo que cambió hasta octubre de 2026, con fecha y fuente"
+    }
+  ],
+  "hero_alt": "La gerente comercial presenta un cartel dividido en dos columnas de bloques de colores al dueño de la empresa, que escucha con atención; al fondo, estantes del depósito.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El canvas actual × futuro",
+      "sub": "Cinco bloques en una página, la rúbrica y una firma. Haz clic en cada bloque.",
+      "volta": "Reprobado en algún ítem: vuelves al bloque que falló, no a cero",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Contrato del proceso",
+          "sub": "clases 2 y 3",
+          "detalhe": "Nombre con inicio y fin, dueño y suplente, disparador, conclusión con criterio de listo, cliente de la entrega y el resultado para la empresa. Es el bloque que dice de qué proceso se trata y quién responde por él."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Cómo es hoy",
+          "sub": "clases 1 y 3",
+          "detalhe": "El mapa v1.0 resumido: las etapas con etiqueta, las decisiones, los desvíos y las medidas de hoy con origen. Sin el \"actual\" escrito, el \"futuro\" es solo un deseo."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Cómo queda",
+          "sub": "clases 4 y 5",
+          "forte": true,
+          "detalhe": "La versión rediseñada: lo que se eliminó, se simplificó, se movió y se juntó, con motivo, y quién ejecuta cada etapa que quedó. Aquí es donde la rúbrica pesa más."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Alcance y medida",
+          "sub": "clases 2 y 6",
+          "detalhe": "El alcance del piloto y lo que queda fuera, los indicadores con denominador, la línea de base marcada como observada o hipótesis, la meta con plazo y la barandilla."
+        },
+        {
+          "icone": "voltar",
+          "titulo": "Versión y riesgo",
+          "sub": "clase 7",
+          "detalhe": "Número de versión, fases de la implantación, disparador y pasos de reversión, los riesgos que crea el rediseño y la condición para interrumpir. Junto con esto, la rúbrica y la firma."
+        }
+      ],
+      "legenda": "Canvas de proceso del método Gestoria (INEMA), en dos columnas: actual y futuro. La aprobación pedagógica no autoriza, por sí sola, el cambio en la empresa: esa decisión sigue siendo de quien responde por ella."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del borrador a la firma",
+      "sub": "Cuatro pasos. El canvas de Horizonte es el entrenamiento; el de tu proceso es el que vale.",
+      "passos": [
+        {
+          "titulo": "Júntalo en una página",
+          "sub": "compresión, no pieza nueva",
+          "texto": [
+            "El canvas no pide nada nuevo: cada bloque resume una o dos piezas que ya hiciste. El trabajo aquí es recortar hasta que quepa en una página, con las piezas completas en anexo.",
+            "Una página es una restricción a propósito. Quien firma la lee entera, y tú, dentro de seis meses, recuerdas en cinco minutos por qué decidiste cada cosa."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Canvas \"Pedido por WhatsApp → nota · v2.0\": cinco bloques en una página, y en anexo la hoja de etiquetas, el mapa, la hoja de rediseño, el cuadro de ejecutores, las fichas de indicador y el registro nº 001."
+          }
+        },
+        {
+          "titulo": "Pasa por la rúbrica",
+          "sub": "100 puntos y cinco obligatorios",
+          "texto": [
+            "La rúbrica suma 100 puntos en siete bloques. Aprueba con 75 o más y los cinco obligatorios marcados. Un obligatorio que falte reprueba, aunque tengas 95 puntos.",
+            "Los obligatorios vienen del criterio de aceptación del método: dueño nombrado, disparador y conclusión sin ambigüedad, indicador con denominador, línea de base observada o marcada como hipótesis y exclusiones del alcance escritas."
+          ],
+          "exemplo": {
+            "rot": "Prueba del tribunal",
+            "texto": "Corre el prompt del tribunal (modelo al lado). Señala lagunas; quien decide la nota eres tú y quien firma."
+          }
+        },
+        {
+          "titulo": "Quién firma",
+          "sub": "quien responde por el proceso",
+          "texto": [
+            "Quien armó el canvas presenta; quien responde por el resultado del proceso firma. Si son la misma persona, la firma es de quien está por encima, como en la promoción de la clase 7.",
+            "Antes de firmar, la persona escucha a quienes ejecutan las etapas eliminadas. Ellos saben qué se pierde, y es más barato saberlo antes."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia arma y presenta. Juliana y finanzas leen la columna \"cómo queda\". Rafael confirma lo que depende de integración. Carlos firma."
+          }
+        },
+        {
+          "titulo": "El puente hacia el resto de la formación",
+          "sub": "el canvas es la base",
+          "texto": [
+            "El canvas aprobado es la entrada de los otros cursos. Las etapas que quedaron con agente van al G3 (cargo, nivel de autorización, supervisión). Las que quedan con personas, al G1. Costo y modelo, al G4.",
+            "En el G5, el proyecto final de la formación reutiliza los dos primeros ítems de la rúbrica: proceso con dueño, entrada, conclusión y línea de base, y etapas recortadas antes de automatizar, con motivo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Las etapas 1 y 2 de la v2.0 son de Hora: se vuelven la ficha de cargo y la matriz de nivel de autorización del G3. La cola de excepciones de Patrícia se vuelve la rutina de supervisión."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El canvas actual × futuro, la rúbrica y un prompt de tribunal para encontrar lagunas antes de la firma.",
+      "blocos": [
+        {
+          "rot": "Canvas actual × futuro (una página)",
+          "icone": "arquivo",
+          "conteudo": "CANVAS DEL PROCESO · <de dónde hasta dónde> · v<actual> → v<futura> · <fecha>\n\n1. CONTRATO DEL PROCESO\n   Dueño: <nombre y cargo> · Suplente: <nombre>\n   Disparador: <qué llega, por dónde, de quién>\n   Conclusión: <qué sale, para quién, criterio de listo>\n   Cliente de la entrega: <...> · Resultado para la empresa: <...>\n\n                          ACTUAL (v<1.0>)                | FUTURO (v<2.0>)\n2/3. ETAPAS               <n> etapas; H = <n>, P = <n>    | <n> etapas; eliminadas <n>, movidas <n>\n     Principales cortes   -                               | <etapa · verbo · motivo> (3 a 6 líneas)\n     Quién hace           <personas>                      | persona <n> · automatización <n> · agente <n> · integración/pantalla <n>\n     Decisiones           <regla / juicio, quién>         | <qué pasó a ser regla fija; qué quedó con personas>\n     Desvíos              <D1, D2 y frecuencia>           | <qué cambia en cada uno>\n\n4. ALCANCE Y MEDIDA\n   Alcance del piloto: entran <casos> · quedan fuera: <casos>\n   | Indicador (numerador ÷ denominador) | Hoy (observado/hipótesis) | Meta y plazo |\n   |---|---|---|\n   | <...> | <...> | <...> |\n   Barandilla: <qué no puede empeorar> · límite <...>\n\n5. VERSIÓN Y RIESGO\n   Fases: <fase 1: alcance, fecha> · <fase 2: todos, fecha>\n   Reversión: disparador <...> · quién decide <nombre> · pasos <...>\n   Riesgos que crea el rediseño: <...> · Interrumpir si: <...>\n\nDATOS: [ ] reales autorizados [ ] anonimizados [ ] ficticios\nARMADO POR: <nombre> · NOTA EN LA RÚBRICA: <...>/100 · obligatorios <.../5>\nFIRMADO POR (responde por el proceso): <nombre> el <fecha>"
+        },
+        {
+          "rot": "Rúbrica del canvas (100 puntos)",
+          "icone": "lista",
+          "conteudo": "RÚBRICA · canvas actual × futuro · aprueba con >= 75 Y los 5 obligatorios\n\nBLOQUE                                    PUNTOS  CRITERIO DE PUNTAJE COMPLETO\n1. Proceso y resultado                      20    nombre con inicio y fin; dueño y suplente;\n                                                  disparador y conclusión; resultado para la empresa\n2. Cómo es hoy                              15    etapas con etiqueta; decisiones regla/juicio;\n                                                  2+ desvíos; medidas con origen\n3. Etapas cortadas antes de automatizar     20    cada etapa eliminada/movida con motivo y nueva\n                                                  fuente; exigencias reales mantenidas\n4. Quién hace cada etapa                    15    ejecutor y motivo por etapa; regla fija no va\n                                                  para agente; integración con pregunta a TI\n5. Línea de base y meta                     20    3 indicadores con denominador; hoy marcado;\n                                                  meta con plazo; barandilla\n6. Versión y reversión                       5    número; fases; disparador con número; pasos de vuelta\n7. Claridad de las evidencias                5    una página; anexos; datos rotulados\n\nOBLIGATORIOS (si falta uno, reprueba)\n[ ] Dueño del proceso con nombre\n[ ] Disparador y conclusión sin ambigüedad\n[ ] Al menos un indicador con denominador\n[ ] Línea de base observada o marcada como hipótesis\n[ ] Exclusiones del alcance escritas\n\nNOTA: <...>/100 · obligatorios: <...>/5 · resultado: [ ] aprobado [ ] vuelve al bloque <...>"
+        },
+        {
+          "rot": "Prompt · comité de revisión antes de la firma",
+          "icone": "chat",
+          "conteudo": "Tú eres el comité que revisa el canvas de un proceso rediseñado, usando la\nrúbrica de abajo. No apruebas ni reprueban: señalas lagunas para quien\nva a firmar.\n\nPara cada bloque de la rúbrica:\n1. Di qué está presente y qué falta para el puntaje completo, citando el\n   fragmento del canvas.\n2. Marca cada obligatorio como presente o ausente, con el fragmento.\n3. Enumera las tres preguntas que quien firma debería hacer antes de firmar.\n\nNo inventes información que no esté en el canvas.\n\nRúbrica:\n\"\"\"<pega la rúbrica>\"\"\"\nCanvas:\n\"\"\"<pega el canvas>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Canvas de Horizonte (ejemplo)",
+            "html": "<p><b>Pedido por WhatsApp → factura · v1.0 → v2.0</b> · Horizonte, empresa ficticia de estudio · datos ficticios</p><ul><li><b>Contrato:</b> dueña Patrícia (suplente: Juliana). Disparador: el cliente manda el pedido por WhatsApp. Conclusión: factura emitida y enviada en la conversación. Resultado: pedido facturado más temprano y con menos retrabajo.</li><li><b>Actual:</b> 13 etapas (H 2, P 4); decisiones por regla tomadas tarde (registro solo en la facturación); D1 registro incompleto (hipótesis: ~15 por semana), D2 falta de producto.</li><li><b>Futuro:</b> 8 etapas; 5 eliminadas (planilla, papel, aviso, correo, redigitación), la revisión de todos pasa a excepciones + 10 sorteados, registro en la entrada. Agente en 2 etapas, automatización simple en 4, integración en 1, persona en 6.</li><li><b>Alcance:</b> clientes registrados; quedan fuera al comienzo cliente nuevo, cambio y devolución, venta por representante. <b>Indicadores:</b> tiempo hasta la factura (30 h, hipótesis → 24 h), devolución (~9%, hipótesis → 3%), minutos de personas por pedido (21, hipótesis → menos de 15), 8 semanas después de la v2.0. Barandilla: cero descuento fuera de la política.</li><li><b>Versión y riesgo:</b> fase 1 registrados hasta R$ 5 mil, fase 2 todos. Vuelve a la v1.0 con devolución por encima de la línea de base durante 2 semanas o 1 descuento fuera de la política. Riesgo: integración con el ERP aún sin respuesta del proveedor.</li></ul><p><b>Rúbrica:</b> 84/100, 5 de 5 obligatorios. Armado por Patrícia, firmado por Carlos.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Futuro sin actual.</b> Si la columna de la izquierda está vacía, no hay cómo probar que cambió.</li><li><b>Hipótesis escondida.</b> Un valor de hoy sin la marca observado/hipótesis reprueba.</li><li><b>Alcance sin exclusiones.</b> \"Todos los pedidos\" en el piloto mezcla casos que se comportan distinto.</li><li><b>Corte sin motivo.</b> El bloque 3 vale 20 puntos: cada corte con motivo y nueva fuente.</li><li><b>Más de una página.</b> Los detalles van en anexo.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Qué cambió · octubre de 2026",
+      "sub": "Panel del trimestre, que se cambia en cada revisión del curso. Cada ítem con fecha, fuente y tipo de afirmación. Los productos son ejemplos: el método de las clases 1 a 7 no depende de ninguno de ellos.",
+      "passos": [
+        {
+          "titulo": "Herramientas para ejecutar procesos",
+          "sub": "ejemplos intercambiables",
+          "texto": [
+            "OpenAI: los Workspace Agents, que reemplazan a los Custom GPTs, pasaron a cobrarse por token (06/07/2026); ChatGPT Work entrega documento, planilla y diapositiva (09/07/2026). El Agent Builder de AgentKit será desactivado el 30/11/2026.",
+            "Anthropic: Managed Agents y, en Claude Code, uso de la computadora en segundo plano (09/2026). Microsoft: Agent 365, anunciado en Build (06/2026). Fuentes: notas de lanzamiento y anuncios de cada proveedor."
+          ],
+          "exemplo": {
+            "rot": "Para el canvas",
+            "texto": "Una herramienta sale de línea y cambia de precio en meses. El cuadro de ejecutores registra qué herramienta hace cada etapa; cambiar de herramienta es un cambio de versión, con prueba y camino de vuelta (clase 7)."
+          }
+        },
+        {
+          "titulo": "Rediseñar es lo que separa",
+          "sub": "investigación de proveedor y opinión",
+          "texto": [
+            "Microsoft, Work Trend Index 2026 (05/2026, 20 mil personas en 10 países, investigación del proveedor): 16% son Frontier Professionals, que usan agentes en flujos de varias etapas y rediseñan el trabajo; 58% hacen un trabajo que no podían hacer hace un año, y entre los Frontier son 80%.",
+            "IT Forum (columna de opinión, 2026): \"el año en que las empresas dejan de construir agentes y pasan a operarlos\"."
+          ],
+          "exemplo": {
+            "rot": "Lectura",
+            "texto": "Los números vienen de quienes venden las herramientas, pero apuntan a lo mismo que este curso: la ganancia está en cambiar el flujo, no en poner la herramienta en el flujo antiguo."
+          }
+        },
+        {
+          "titulo": "Brasil",
+          "sub": "compara la definición antes del número",
+          "texto": [
+            "KPMG Global Tech Report 2026 (04/2026): 45% de los ejecutivos brasileños reportan varios proyectos de IA desconectados. ABES e IDC (15/06/2026, 103 ejecutivos): 40% ya invierte en agentes y 33% planea hacerlo en 12 meses; obstáculos citados: datos, sistemas heredados, gobernanza y falta de profesionales.",
+            "GFT, Tech Trends 2026 LATAM, con datos de BCG: 18% de las empresas brasileñas integran agentes, contra 13% en el mundo. Gartner (2026): solo 17% de las empresas tienen agentes en uso."
+          ],
+          "exemplo": {
+            "rot": "Por qué los números no coinciden",
+            "texto": "\"Invierten\", \"integran\" y \"en uso\" miden cosas distintas, con muestras distintas. Compara la definición antes de comparar el porcentaje."
+          }
+        },
+        {
+          "titulo": "Cómo leer estos informes",
+          "sub": "tres preguntas",
+          "texto": [
+            "¿Quién paga y qué vende? Los proveedores venden la solución del problema que miden; las consultoras venden la transformación que describen. ¿Cómo midió? ¿Encuesta con muestra, experiencia declarada o previsión?",
+            "Un análisis de The Microsoft Cloud Blog (05/2026) recuerda que los números del WTI 2026 no deben sostener por sí solos un business case. Usa el informe como mapa; la prueba de tu caso es tu línea de base."
+          ],
+          "exemplo": {
+            "rot": "Próxima revisión de este panel",
+            "texto": "Enero de 2027, con el panorama del trimestre siguiente. Lo que es método (clases 1 a 7) no cambia; lo que es producto y número, sí."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "El mapa del curso",
+      "sub": "Las cuatro entregas principales y los ejercicios que las producen. Haz clic en un ejercicio para ver el \"listo cuando\".",
+      "degraus": [
+        {
+          "aula": "primeiro-processo",
+          "icone": "alvo",
+          "quando": "Semana 1",
+          "titulo": "Elegir",
+          "sub": "etiquetas y matriz",
+          "saida": "Hoja de etiquetas y matriz de 5 procesos con el elegido justificado.",
+          "passo": "La clase 1 enseña a dudar de las etapas; la clase 2 elige en qué proceso hacerlo primero, con alcance y cola."
+        },
+        {
+          "aula": "mapear",
+          "icone": "lista",
+          "quando": "Semana 2",
+          "titulo": "Mapear",
+          "sub": "lo que pasa de verdad",
+          "saida": "Mapa de una página con 2 desvíos y medidas con origen.",
+          "passo": "Requiere el proceso elegido. Una entrevista y cinco casos acompañados, sin cambiar nada en el proceso."
+        },
+        {
+          "aula": "redesenhar",
+          "icone": "camadas",
+          "quando": "Semana 3",
+          "titulo": "Rediseñar",
+          "sub": "cortar y distribuir",
+          "saida": "Hoja de rediseño y cuadro de ejecutores de la v2.",
+          "passo": "Requiere el mapa. Eliminar, simplificar y mover (clase 4) antes de decidir quién hace cada paso (clase 5)."
+        },
+        {
+          "aula": "versao",
+          "icone": "voltar",
+          "quando": "Semanas 3 a 7",
+          "titulo": "Medir y versionar",
+          "sub": "línea de base y registro",
+          "saida": "Cuatro semanas de línea de base y el registro v1 → v2 con reversión.",
+          "passo": "La línea de base (clase 6) corre cuatro semanas antes del cambio; el registro (clase 7) solo libera la fase 1 después de ella."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "El proceso rediseñado",
+        "texto": "Elegir, mapear, rediseñar, medir y versionar, en este orden. El canvas va a la firma cuando el \"listo cuando\" de cada nivel sea verdad."
+      },
+      "resultado": {
+        "titulo": "Al final del curso",
+        "texto": "Un proceso rediseñado con canvas actual × futuro aprobado: dueño, alcance, línea de base, pasos cortados con motivo y el camino de vuelta.",
+        "total": "18 ejercicios"
+      },
+      "legenda": "Orden recomendado: cada pieza usa la anterior."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Genera tu plan con fechas",
+      "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan respeta los ejercicios que piden una semana o cuatro de observación real.",
+      "curso": "Procesos: el proceso no es sagrado",
+      "horas_padrao": 3,
+      "degraus": [
+        {
+          "titulo": "Clase 1 · No aceleres el proceso antiguo",
+          "aula": "nao-acelere"
+        },
+        {
+          "titulo": "Clase 2 · Elegir el primer proceso",
+          "aula": "primeiro-processo"
+        },
+        {
+          "titulo": "Clase 3 · Mapear lo que pasa de verdad",
+          "aula": "mapear"
+        },
+        {
+          "titulo": "Clase 4 · Eliminar, simplificar, rediseñar",
+          "aula": "redesenhar"
+        },
+        {
+          "titulo": "Clase 5 · Quién hace cada paso",
+          "aula": "quem-faz"
+        },
+        {
+          "titulo": "Clase 6 · Línea de base y meta",
+          "aula": "linha-de-base"
+        },
+        {
+          "titulo": "Clase 7 · Proceso con versión",
+          "aula": "versao"
+        },
+        {
+          "titulo": "Clase 8 · El canvas",
+          "aula": "canvas"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Procesos: el proceso no es sagrado",
+        "inicio": "Inicio",
+        "ritmo": "Ritmo",
+        "termino": "Fin previsto",
+        "ate": "hasta",
+        "pronto": "listo cuando",
+        "semanas": "semanas",
+        "travou": "## Lo que se trabó y la regla que creé",
+        "h": "h por semana",
+        "exs": "ejercicios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El canvas de Horizonte para entrenar la rúbrica; el de tu proceso para valer.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El canvas de Horizonte",
+          "min": "40 min",
+          "texto": "Junta las piezas de Horizonte que hiciste en las clases 1 a 7 y llena el canvas en una página, sin mirar la pestaña. Pásalo por la rúbrica y corre el prompt del jurado. Corrige hasta pasar de 75 con los cinco obligatorios. Escribe quién firmaría y quién necesita leer antes.",
+          "pronto": "el canvas de Horizonte cabe en una página, tiene nota de 75 o más con los 5 obligatorios marcados, las piezas anexas y el nombre de quien firma, distinto de quien lo armó."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · El canvas de tu proceso",
+          "min": "60 min",
+          "texto": "Haz lo mismo con tu proceso, usando las piezas de las prácticas \"de tu proceso\". Entrégalo a quien responde por él, pídele que revise los obligatorios y anota las preguntas.",
+          "pronto": "el canvas de tu proceso tiene nota de 75 o más, los 5 obligatorios, la fecha de la fase 1 y la firma (o la aceptación por escrito) de quien responde por el proceso."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Tu plan con fechas",
+          "min": "5 min",
+          "texto": "Usa el generador de arriba para armar el plan con tus fechas y descarga el .ics para el calendario.",
+          "pronto": "el plan está guardado y las fechas están en tu calendario."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "El canvas obtuvo 90 puntos, pero la línea de base aparece como \"30 h\" sin decir si fue observada o es hipótesis. ¿Resultado?",
+          "opcoes": [
+            "Aprobado: 90 está muy por encima de 75",
+            "Reprobado: una línea de base sin la marca observado/hipótesis es un obligatorio que falta",
+            "Aprobado con reservas"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Los obligatorios existen para que una nota alta no esconda lo que más engaña. El canvas vuelve al bloque de medida, no a cero."
+        },
+        {
+          "p": "¿Quién firma el canvas de Horizonte?",
+          "opcoes": [
+            "Patrícia, que lo armó y lo conoce todo",
+            "Carlos, después de que el equipo que ejecuta las etapas lea la columna \"cómo queda\"",
+            "La agente, que ejecuta dos etapas"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Quien arma presenta; quien responde por el resultado firma, después de escuchar a quienes pierden etapas. Es el mismo principio de la promoción de versión."
+        },
+        {
+          "p": "Un informe dice que el 40% de las empresas invierte en agentes; otro, que solo el 17% tiene agentes en uso. ¿Qué hacer antes de citar?",
+          "opcoes": [
+            "Elegir el número que ayuda a tu argumento",
+            "Comparar la definición (invertir × tener en uso), la muestra y quién lo publicó",
+            "Sacar el promedio de los dos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "\"Invierten\", \"integran\" y \"en uso\" miden cosas distintas. Sin comparar definición y muestra, la comparación de porcentajes no dice nada."
+        },
+        {
+          "p": "La herramienta que ejecuta una etapa de tu proceso va a salir de circulación. ¿Qué cambia en el canvas?",
+          "opcoes": [
+            "Nada: el canvas trata del proceso, no de la herramienta",
+            "Es un cambio de versión: registro, prueba en la herramienta nueva contra la línea de base y camino de vuelta",
+            "Basta con cambiar el nombre de la herramienta en el cuadro"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cambiar de herramienta puede modificar el comportamiento de la etapa. El método sobrevive al cambio, pero la evidencia hay que rehacerla."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Una página",
+          "texto": "Contrato, cómo es hoy, cómo queda, alcance y medida, versión y riesgo."
+        },
+        {
+          "t": "Rúbrica con obligatorios",
+          "texto": "75 puntos y los cinco obligatorios. Si falta uno, reprueba."
+        },
+        {
+          "t": "Quien responde firma",
+          "texto": "Después de escuchar a quienes ejecutan las etapas que cambian."
+        },
+        {
+          "t": "Mercado como mapa",
+          "texto": "Fecha, fuente, definición y quién vende qué, antes de cualquier número."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Certificación",
+      "paragrafos": [
+        "Certificación INEMA de cualificación \"Gestor de IA\", próximamente en cert.inema.pro. No es una certificación profesional regulada.",
+        "Este es el curso G2 de la Formación Gestión de IA 2027. Los otros cursos tratan de la empresa agéntica (G0), de las personas (G1), de los agentes (G3), de los recursos (G4) y de gobernar, medir y evolucionar (G5), donde queda el proyecto final de la formación."
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Área Gestión de IA: la formación y los cursos",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Agentes: contratar, delegar y supervisar (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        },
+        {
+          "t": "Laboratorio Horizonte: todas las piezas (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        }
+      ]
+    }
+  ]
+}

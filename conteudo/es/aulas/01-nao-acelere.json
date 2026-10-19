@@ -1,0 +1,268 @@
+{
+  "slug": "nao-acelere",
+  "num": 1,
+  "menu": "No aceleres",
+  "titulo": "No aceleres el proceso antiguo",
+  "titulo_curto": "No aceleres",
+  "minutos": 15,
+  "lead": "El dueño de Horizonte quiere a la agente de ventas también en la facturación, haciendo lo mismo que hace hoy el equipo. Parece el camino seguro. No lo es: un proceso diseñado para que las personas se pasen el papel de mano en mano, ejecutado por un agente, solo entrega el mismo error más rápido. Esta clase enseña a mirar cada etapa y preguntar por qué existe.",
+  "objetivo": "explicar por qué automatizar un proceso malo entrega el error más rápido y marcar, en un proceso tuyo, las etapas que existen solo por hábito.",
+  "competencias": [
+    "cuestionar-el-proceso-antes-de-automatizar",
+    "clasificar-etapas-por-origen",
+    "distinguir-ia-sobre-rediseño"
+  ],
+  "aprende": [
+    {
+      "t": "Por qué acelerar el proceso antiguo acelera también el error"
+    },
+    {
+      "t": "Los tres orígenes de una etapa: exigencia real, hábito y traspaso de manos"
+    },
+    {
+      "t": "La pregunta que viene antes de cualquier agente"
+    },
+    {
+      "t": "Lo que no se corta, aunque parezca burocracia"
+    }
+  ],
+  "hero_alt": "Una empleada de atención sostiene un celular y una hoja recién impresa junto a una impresora que suelta una pila de pedidos; al lado, un monitor con una hoja de cálculo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Cuatro generaciones de proceso",
+      "sub": "Cada generación cambió lo que se hace con el proceso después de diseñado. Haz clic en cada nivel.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "arquivo",
+          "titulo": "Tradicional",
+          "sub": "diseñar, documentar, capacitar, ejecutar",
+          "detalhe": "El proceso se diseña una vez, se vuelve manual y capacitación, y las personas lo ejecutan. Cambia poco, porque cambiar significa volver a capacitar a todos. Buena parte de lo que existe hoy en tu empresa nació así, con las herramientas y las personas de otra época."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Automatizado",
+          "sub": "diseñar, automatizar, monitorear",
+          "detalhe": "Un sistema pasa a hacer parte de las etapas, y alguien monitorea si está funcionando. El diseño sigue siendo el mismo de antes: la automatización copia el camino que hacían las personas. Aquí nace el riesgo de acelerar el error."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agéntico",
+          "sub": "objetivo, el agente ejecuta, mide, evalúa",
+          "forte": true,
+          "detalhe": "El agente recibe un objetivo, no una lista de clics. Ejecuta varios pasos, la ejecución se mide y una persona (u otro agente) evalúa. Si el objetivo es \"hazlo igual que el equipo\", el agente hereda las etapas inútiles junto con las útiles."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "LOOP-R",
+          "sub": "el proceso que mejora con la ejecución",
+          "detalhe": "Ejecutar, observar, criticar, proponer, experimentar, validar, promover, repetir. El proceso deja de estar congelado: cada ejecución genera evidencia para la próxima versión, y la versión anterior queda guardada para poder volver. Es el tema de la clase 7."
+        }
+      ],
+      "legenda": "Generaciones de proceso del área Gestión de IA (INEMA). Conviven en la misma empresa: un proceso puede estar en el nivel 1 y otro en el 3.",
+      "dica": "Antes de subir un proceso de nivel, pregunta si todavía debería existir de esa manera."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Por qué no acelerar",
+      "sub": "Cuatro ideas. Los ejemplos son de Horizonte, empresa ficticia de estudio.",
+      "passos": [
+        {
+          "titulo": "El error más rápido",
+          "sub": "el agente hereda el diseño",
+          "texto": [
+            "Un proceso diseñado para personas tiene etapas que existen porque las personas no alcanzaban a todo: una copia, otra revisa, una tercera lleva el papel. Poner a un agente a repetir ese camino mantiene todas las etapas, solo que más rápidas.",
+            "Si el diseño tenía un error, el error también se vuelve más rápido. Y más difícil de ver, porque ahora nadie recorre el camino completo con sus propios ojos."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hoy el área financiera vuelve a digitar cada pedido en el ERP y solo entonces descubre que el cliente no tiene CNPJ registrado. Con Hora volviendo a digitar, el pedido sin CNPJ llega antes al área financiera, ya separado en el almacén, y regresa de la misma manera."
+          }
+        },
+        {
+          "titulo": "Tres orígenes de una etapa",
+          "sub": "exigencia, hábito, traspaso de manos",
+          "texto": [
+            "Toda etapa nació por un motivo. <b>Exigencia real</b>: ley, contrato, cliente o un riesgo que alguien ya vivió. <b>Hábito</b>: siempre fue así y nadie sabe decir por qué. <b>Traspaso de manos</b>: solo existe para llevar el trabajo de una persona a otra.",
+            "El traspaso de manos es el hábito más común y el más fácil de encontrar: imprimir, reenviar, avisar que terminó, copiar de un sistema a otro."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Emitir la factura es exigencia real. Copiar el pedido de la app a la hoja de cálculo es hábito: la hoja nació antes que la app. Imprimir el pedido para el almacén es traspaso de manos."
+          }
+        },
+        {
+          "titulo": "La pregunta de antes",
+          "sub": "¿todavía existiría de esta manera?",
+          "texto": [
+            "La pregunta que cambia el trabajo es esta: si hoy tuviera personas, agentes y automatizaciones disponibles, ¿este proceso todavía existiría de esta manera? Vale para el proceso completo y para cada etapa.",
+            "En la etapa, la versión práctica es: ¿esta etapa necesita existir si las tres anteriores se hacen de una vez, por la misma persona o por el mismo agente? Muchos traspasos de manos desaparecen solos."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Si el pedido nace completo en la app, el almacén lo ve en la pantalla y el área financiera lo recibe en el ERP, cuatro etapas dejan de tener motivo: la hoja de cálculo, el papel, el aviso por WhatsApp y el correo al área financiera."
+          }
+        },
+        {
+          "titulo": "Lo que no se corta",
+          "sub": "pregunta antes de cortar",
+          "texto": [
+            "El hábito a veces esconde un motivo que nadie escribió. Antes de marcar una etapa como hábito, pregunta a quien la hace: ¿por qué existe esto? ¿qué ya salió mal cuando no se hizo? Si la respuesta es un riesgo real, la etapa es exigencia.",
+            "También quedan las etapas de juicio, excepción, supervisión y estrategia. Cambian de lugar y de tamaño, pero siguen en manos de una persona."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia aprueba los pedidos de más de R$ 5 mil antes de la separación: exigencia real (política ficticia de la empresa). En cambio, revisar el precio de todos los pedidos, incluso los de lista de precios, es un hábito nacido de un susto. El riesgo es real; la forma, no."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: hoja de etiquetas",
+      "sub": "Una línea por etapa, en el orden en que ocurre hoy. Pégala en una hoja de cálculo o en un documento. La pestaña de al lado muestra la hoja de Horizonte.",
+      "blocos": [
+        {
+          "rot": "Hoja de etiquetas del proceso",
+          "icone": "lista",
+          "conteudo": "HOJA DE ETIQUETAS · proceso: <de dónde a dónde> · responsable: <nombre> · fecha: <dd/mm/aaaa>\n\nEtiquetas\n  X = exigencia real (ley, contrato, cliente, riesgo que alguien ya vivió)\n  H = hábito (siempre fue así; nadie sabe decir por qué)\n  P = traspaso de manos (solo existe para llevar el trabajo de una persona a otra)\n\n| # | Etapa (verbo + objeto) | Quién la hace | Etiqueta | Por qué existe (respuesta de quien la hace) | Si desaparece, ¿qué se rompe? |\n|---|---|---|---|---|---|\n| 1 | <recibir el pedido> | <nombre o función> | <X, H o P> | <...> | <...> |\n| 2 | <...> | <...> | <...> | <...> | <...> |\n\nCONTEO: X = <n> · H = <n> · P = <n>\nPREGUNTAS QUE LES HICE A QUIENES LA HACEN: <nombres y fecha>\nPREGUNTA DE CIERRE: si hoy tuviera personas, agentes y automatizaciones,\n¿este proceso existiría de esta manera? <sí o no, en dos frases>"
+        },
+        {
+          "rot": "Prompt · buscar traspaso de manos",
+          "icone": "chat",
+          "conteudo": "Eres analista de procesos. Abajo está la lista de etapas de un proceso\nde mi empresa, en el orden en que ocurren, con quién hace cada una.\nNo reescribas el proceso y no decidas nada. Solo señala:\n\n1. Etapas que parecen existir solo para pasar el trabajo de una persona a\n   otra (imprimir, reenviar, avisar, copiar de un sistema a otro).\n2. Etapas que repiten una revisión ya hecha antes.\n3. Para cada etapa señalada, la pregunta que yo debería hacerle a quien la\n   ejecuta para descubrir si existe un motivo real.\n\nEtapas:\n\"\"\"<pega la lista>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Hoja de Horizonte (ejemplo)",
+            "html": "<p><b>Pedido por WhatsApp → factura · v1.0</b> · Horizonte Distribuidora, empresa ficticia de estudio</p><table><tr><th>#</th><th>Etapa</th><th>Quién</th><th>Etiqueta</th></tr><tr><td>1</td><td>Responder al cliente en WhatsApp</td><td>Hora o Juliana</td><td>X</td></tr><tr><td>2</td><td>Armar el pedido en la app</td><td>Hora</td><td>X</td></tr><tr><td>3</td><td>Copiar el pedido a la hoja de cálculo del área comercial</td><td>Juliana</td><td>H</td></tr><tr><td>4</td><td>Revisar precio y descuento de todos los pedidos</td><td>Patrícia</td><td>H</td></tr><tr><td>5</td><td>Aprobar pedido de más de R$ 5 mil</td><td>Patrícia</td><td>X</td></tr><tr><td>6</td><td>Imprimir y llevar el pedido al almacén</td><td>Juliana</td><td>P</td></tr><tr><td>7</td><td>Revisar la disponibilidad en el ERP</td><td>almacén</td><td>X</td></tr><tr><td>8</td><td>Separar</td><td>almacén</td><td>X</td></tr><tr><td>9</td><td>Avisarle a Juliana que se separó</td><td>almacén</td><td>P</td></tr><tr><td>10</td><td>Enviar un correo a finanzas</td><td>Juliana</td><td>P</td></tr><tr><td>11</td><td>Volver a digitar el pedido en el ERP</td><td>finanzas</td><td>P</td></tr><tr><td>12</td><td>Revisar el registro y emitir la factura</td><td>finanzas</td><td>X</td></tr><tr><td>13</td><td>Enviar la factura al cliente</td><td>Juliana</td><td>X</td></tr></table><p>Conteo: X = 7 · H = 2 · P = 4. La etapa 4 nació el 14/10, después de los descuentos indebidos de la semana: el riesgo es real, pero la forma (revisar todos) es hábito.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Etapa escrita como área</b> (\"finanzas\") en vez de verbo + objeto (\"volver a digitar el pedido en el ERP\"). Sin verbo, no se puede preguntar por qué existe.</li><li><b>Etiqueta puesta sin preguntar</b> a quien la hace. La columna \"por qué existe\" debe tener la respuesta de la persona, no tu suposición.</li><li><b>Todo se vuelve hábito.</b> Si marcaste más H y P que X, revisa: factura, aprobación de montos y revisión de inventario suelen ser exigencia real.</li><li><b>Proceso sin extremos.</b> La primera línea es el disparador (lo que llega); la última, la conclusión (lo que sale y para quién).</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "La hoja de Horizonte para entrenar el ojo; la de tu proceso para que valga de verdad.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">agente de WhatsApp</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/app-pedidos/\">app de pedidos</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Las etiquetas de Horizonte",
+          "min": "15 min",
+          "texto": "Copia las 13 etapas de la pestaña de ejemplo sin la columna \"Etiqueta\" y ponle a cada una X, H o P, con una línea de motivo. Solo después compara con la pestaña y anota dónde discrepaste y por qué.",
+          "pronto": "las 13 etapas tienen etiqueta y motivo, encontraste al menos 4 etapas H o P, y escribiste en dos frases la respuesta a la pregunta de cierre."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Las etiquetas de tu proceso",
+          "min": "30 min",
+          "texto": "Elige un proceso tuyo que se repita cada semana y que involucre a más de una persona. Lista las etapas en el orden de hoy, con quién las hace. Pregunta al menos a dos personas que ejecutan el proceso por qué existen las etapas sospechosas, y llena la hoja.",
+          "pronto": "la hoja tiene de 6 a 15 etapas con verbo y quién las hace, al menos 3 marcadas como hábito (H o P) con el motivo dicho por quien las hace, el nombre de las personas que consultaste y la pregunta de cierre respondida."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Una empresa puso un agente a hacer exactamente las etapas que hacía el equipo, en el mismo orden. El tiempo se redujo a la mitad. ¿Qué pasó con el proceso?",
+          "opcoes": [
+            "Fue rediseñado, porque el tiempo bajó",
+            "Quedó igual, solo que más rápido: los aciertos y los errores del diseño antiguo siguen ahí",
+            "Empeoró, porque un agente no debe ejecutar etapas"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Ganar tiempo no es rediseñar. Es IA sobre el proceso antiguo: una ganancia real, pero las etapas inútiles y los errores de diseño siguen ahí, ahora más rápidos y menos visibles."
+        },
+        {
+          "p": "En Horizonte, Juliana envía un correo a finanzas con cada pedido separado. ¿Cuál es la etiqueta más probable de esa etapa?",
+          "opcoes": [
+            "X, exigencia real: finanzas necesita saberlo",
+            "P, traspaso de manos: solo existe porque el pedido no llega solo a finanzas",
+            "Ninguna: el correo no es una etapa"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Finanzas necesita el pedido; no necesita el correo. Si el pedido llegara al ERP directo desde la app, esta etapa perdería su motivo. El traspaso de manos es el hábito más común y el más fácil de encontrar."
+        },
+        {
+          "p": "Sospechas que una revisión es solo hábito. ¿Qué haces antes de marcarla como H?",
+          "opcoes": [
+            "Marcarla y eliminarla de inmediato, para ganar tiempo",
+            "Preguntarle a quien la hace por qué existe y qué ha salido mal cuando no se hizo",
+            "Pedirle a un agente que decida"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A veces el hábito esconde un riesgo que nadie escribió. La respuesta de quien la hace decide si la etapa es una exigencia real. Y, aun cuando el riesgo es real, la forma de la revisión puede ser hábito, como la revisión de todos los pedidos que hace Patrícia."
+        },
+        {
+          "p": "¿Cuál de estas etapas sigue en manos de una persona después del rediseño?",
+          "opcoes": [
+            "Copiar el pedido de un sistema a otro",
+            "Decidir si un cliente antiguo merece una condición fuera de la política",
+            "Avisarle a un colega que la separación terminó"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Decidir fuera de la regla es juicio y excepción: queda en manos de una persona. Copiar y avisar son traspasos de manos, candidatas a desaparecer cuando el trabajo pasa a correr en un solo sistema."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Acelerar no es rediseñar",
+          "texto": "El agente hereda el diseño, con sus errores, solo que más rápido."
+        },
+        {
+          "t": "Tres orígenes",
+          "texto": "La exigencia real se queda. El hábito y el traspaso de manos son candidatos a salir."
+        },
+        {
+          "t": "La pregunta de antes",
+          "texto": "Con personas, agentes y automatizaciones hoy, ¿esto existiría de esta manera?"
+        },
+        {
+          "t": "Pregunta antes de cortar",
+          "texto": "Quien lo hace conoce el riesgo que esconde el paso. La respuesta va en la hoja."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Área Gestión de IA: el proceso no es sagrado",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Arquitecto de Trabajo con IA: rediseñar quién hace qué",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Laboratorio Horizonte: las piezas de la empresa (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        }
+      ]
+    }
+  ]
+}

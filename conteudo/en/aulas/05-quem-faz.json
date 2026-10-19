@@ -1,0 +1,290 @@
+{
+  "slug": "quem-faz",
+  "num": 5,
+  "menu": "Who does it",
+  "titulo": "Who does each step",
+  "titulo_curto": "Who does it",
+  "minutos": 20,
+  "lead": "After the redesign, eight steps are left at Horizonte. The question now is not \"where do I put the agent?\" but: who does each one? A person, a simple rule in the system, an agent, an integration, or someone (or something) operating the screen. Each answer has a different cost, risk, and upkeep. In this lesson you decide step by step, with the reason written down.",
+  "objetivo": "decide, step by step, whether it stays with a person, simple automation, an agent, an API integration, or Computer Use, with the reason for each choice.",
+  "competencias": [
+    "escolher-executor-por-etapa",
+    "separar-regra-de-julgamento",
+    "pedir-integracao-a-ti"
+  ],
+  "aprende": [
+    {
+      "t": "What stays with people, and why"
+    },
+    {
+      "t": "When a simple rule is enough and an agent would be overkill"
+    },
+    {
+      "t": "Where an agent is worth what it costs"
+    },
+    {
+      "t": "How automation enters a system, in the right order"
+    }
+  ],
+  "hero_alt": "An IT professional with glasses and the sales manager talk in front of two monitors showing flow blocks in four colors; in the background, a stockroom worker reads the code on a box.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Five possible executors",
+      "sub": "Go down the ladder only when the step above does not solve it. Click each step.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Person",
+          "sub": "judgment, exception, requirement",
+          "detalhe": "One person keeps the decision where two competent people could disagree, the exception that calls for knowing the history, the oversight, and whatever the law or policy requires of someone with a name. The person receives the information ready to use; they retype nothing."
+        },
+        {
+          "icone": "check",
+          "titulo": "Simple automation",
+          "sub": "fixed rule, always the same",
+          "forte": true,
+          "detalhe": "If the rule is always the same and the data is in a system, a configured rule or a flow does the job: cheap, predictable, easy to check. Applying the discount policy, drawing the sample, sending a notice when an order has been picked."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agent",
+          "sub": "read, interpret, multiple steps",
+          "detalhe": "When the input comes in free-form language, varies from case to case, and takes several steps to reach a result: understanding the customer's message, building the order from a list, answering a question. Always with a written authority limit (course G3) and a responsible person."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "API integration",
+          "sub": "the system's service door",
+          "detalhe": "To move data from one system to another, the first choice is the service door (API) or a ready-made connector: robust, and it doesn't break when the screen changes. This is how the order from the app should reach the ERP."
+        },
+        {
+          "icone": "foco",
+          "titulo": "Through the screen",
+          "sub": "screen automation or Computer Use",
+          "detalhe": "A system with no service door: screen automation, which repeats a recorded sequence, works if the screen doesn't change. Computer Use, where the agent looks at the screen and decides where to click, comes last: more flexible, less predictable, more expensive per run, and with a person confirming before anything is saved."
+        }
+      ],
+      "legenda": "Order of choices for getting into a system: service door or connector, flow with a connector, screen automation, Computer Use (Copilot + Agents for Business, INEMA). Each step down is more fragile and more expensive to maintain.",
+      "dica": "The manager decides the executor and the reason. Building the integration is up to IT or the vendor."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Decide step by step",
+      "sub": "Four questions, in order. The examples use Horizonte's version 2.0 (fictional study company).",
+      "passos": [
+        {
+          "titulo": "Is it judgment?",
+          "sub": "then it stays with a person",
+          "texto": [
+            "Apply the test from lesson 3: would two well-trained people, with the same information, always give the same answer? If not, the decision stays with one person, with a name. The system or the agent prepares the information; the person decides.",
+            "Requirements stay too: the invoice, the value approval that the policy gives to someone, the registration of a new customer."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Discount between 5% and 10%: Patrícia decides. New customer: Juliana checks the CNPJ and registers them. Product shortage: Juliana works out with the customer whether to deliver partially or wait."
+          }
+        },
+        {
+          "titulo": "Is it a fixed rule?",
+          "sub": "then simple automation",
+          "texto": [
+            "If the answer is always the same and the data is already in a system, you don't need an agent. A rule in the system does the same thing every time, costs little, and anyone can check it.",
+            "An agent where a rule would do brings a cost per run and a chance of variation where nobody wanted any."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "\"Discount up to 5% and order up to R$ 5 thousand go through; the rest goes to Patrícia\" is a fixed rule in the app. So is the draw of the 10 Monday orders and the picking notice."
+          }
+        },
+        {
+          "titulo": "Does it need to read and converse?",
+          "sub": "then an agent, with an authority limit",
+          "texto": [
+            "An agent is worth it when the input is free text, each case is a little different, and the work takes several steps to reach the result. It receives the redesigned process and an authority limit, never \"do it like the team does.\"",
+            "Microsoft (Work Trend Index 2026, a vendor survey of 20 thousand people in 10 countries, 05/2026) calls the 16% who use agents in multi-step flows and redesign their work Frontier Professionals."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Understanding \"I want the usual, but with more disinfectant,\" checking the customer's history, and building the order: that's Hora. Writing out her authority limit action by action is course G3."
+          }
+        },
+        {
+          "titulo": "How does it get into the system?",
+          "sub": "door, connector, screen",
+          "texto": [
+            "When data needs to go from one system to another, ask in this order: does the system have a service door (API) or a ready-made connector? If not, is the screen stable enough for screen automation? Computer Use comes last.",
+            "You don't build any of this. You ask IT or the vendor the right questions and decide with the answers: cost, who maintains it, what happens if it fails, what record is kept."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Taking the order from the app to the ERP: Rafael asks the GestorPlus vendor whether there is a service door. With no door, screen automation with a record of each entry. Computer Use only if the screen changes, with finance confirming before saving."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy: executor chart and request to IT",
+      "sub": "The chart says who does each step and why. The request to IT carries the right questions for the integration steps. The tabs show Horizonte.",
+      "blocos": [
+        {
+          "rot": "Step × executor × reason chart",
+          "icone": "lista",
+          "conteudo": "EXECUTOR CHART · process: <...> · version <2.0> · owner: <name> · date: <...>\n\nExecutors: PERSON · SIMPLE AUTOMATION · AGENT · INTEGRATION (API/connector) · SCREEN (screen automation / Computer Use)\n\n| # | Step | Executor | Reason (judgment? fixed rule? free text? system with no service door?) | Responsible person | If it fails, who notices and how |\n|---|---|---|---|---|---|\n| 1 | <...> | <...> | <...> | <name> | <...> |\n\nCOUNT: person <n> · simple automation <n> · agent <n> · integration <n> · screen <n>\nSTEPS THAT DEPEND ON AN ANSWER FROM IT OR THE VENDOR: <# and question>\nWHAT DOES NOT GO TO AN AGENT, EVEN IF IT COULD: <step · reason>"
+        },
+        {
+          "rot": "Request to IT: how to get into a system",
+          "icone": "enviar",
+          "conteudo": "REQUEST TO IT / VENDOR · step: <...> · from <system A> to <system B>\nRequested by: <name> · Date: <...> · Answer by: <date>\n\n1. Does <system B> have a service door (API) or a ready-made connector for this operation?\n2. If not: does the screen used in this operation change often? When did it last change?\n3. Who maintains the integration when it breaks? Within how long?\n4. How much does it cost per month and per run (including attempts that fail)?\n5. What happens to the case if the integration fails midway? Who is notified?\n6. What record is kept of each operation (who, when, what, value)?\n7. Does the integration use its own access, with only the permissions for this operation?\n\nDECISION (manager fills in): <API · connector · screen automation · Computer Use · stays with a person> · reason: <...>"
+        },
+        {
+          "rot": "Prompt · check the chart",
+          "icone": "chat",
+          "conteudo": "You are an operations consultant. Below is the chart where I decided who\nexecutes each step of a redesigned process. Don't change anything; point out:\n\n1. Steps handed to an agent that look like a fixed rule (a simple automation\n   would be enough).\n2. Steps that require judgment or are a legal requirement, handed to a system or agent.\n3. \"Through the screen\" steps that might have a service door (a question to ask).\n4. Steps with no responsible person or without saying who notices the failure.\n\nChart:\n\"\"\"<paste the chart>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte executor chart (example)",
+            "html": "<p><b>Order via WhatsApp → invoice · v2.0</b> · Horizonte, fictional study company</p><table><tr><th>#</th><th>Step</th><th>Executor</th><th>Reason</th></tr><tr><td>1</td><td>Reply to the customer</td><td>agent (Hora); Juliana takes over what it doesn't know</td><td>free text, every conversation is different</td></tr><tr><td>2</td><td>Build the order only with a complete customer record</td><td>agent builds it; app rule checks the record; new customer: person (Juliana)</td><td>building is reading the list; a complete record is a rule; a new customer is a requirement</td></tr><tr><td>3</td><td>Policy and exceptions queue</td><td>simple automation + person (Patrícia; above 10%, Carlos)</td><td>the range is a fixed rule; granting the discount or not is judgment</td></tr><tr><td>4</td><td>Check availability</td><td>person, with the order on screen</td><td>physical stock rules</td></tr><tr><td>5</td><td>Pick and update stock</td><td>person; the stock update notifies on its own</td><td>physical work; the notice is a rule</td></tr><tr><td>6</td><td>Take the order to the ERP</td><td>API integration, if there is one; otherwise screen automation with a log</td><td>system to system; depends on the vendor's answer</td></tr><tr><td>7</td><td>Check and issue the invoice</td><td>person (finance)</td><td>tax requirement</td></tr><tr><td>8</td><td>Send the invoice to the customer</td><td>simple automation, in the conversation</td><td>fixed rule, always the same</td></tr></table><p>Count: agent in 2 steps, simple automation in 4, integration or screen in 1, person deciding or executing in 6. No step is \"the agent does everything.\"</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>Agent on everything.</b> If the count shows an agent on almost every step, check which ones are a fixed rule: a rule in the system is cheaper and more predictable.</li><li><b>Computer Use first.</b> Before the screen, ask about the service door. Computer Use is the last step, with confirmation before saving.</li><li><b>Step with no owner.</b> Every automatic step has a person who answers for it and notices when it fails.</li><li><b>Deciding on an integration without an answer.</b> If the step depends on IT, write the question and the answer date; don't guess.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte chart for version 2.0; then the one for your process.",
+      "fonte": "Lab piece: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT inventory</a>, with Horizonte's systems (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte chart",
+          "min": "20 min",
+          "texto": "Take the version 2.0 you made in lesson 4 and fill in the executor chart without looking at the tab. For the step that takes the order to the ERP, also fill in the request to IT. Run the check prompt.",
+          "pronto": "every step in v2 has an executor and a one-sentence reason, at least 3 steps stay with a person with the why (judgment or requirement), no fixed-rule step was given to an agent without a reason, and the request to IT has the 7 questions."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The chart for your process",
+          "min": "40 min",
+          "texto": "Make the chart for the redesigned version of your process. For each integration or screen step, send the request to IT or the vendor, with a date for the answer.",
+          "pronto": "the chart covers every step of your v2, each with an executor, reason, responsible person, and who notices the failure, and the requests to IT were sent with an answer date."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "\"Orders above R$ 5 mil go to the manager\" is always the same and the amount is in the app. Who applies this rule?",
+          "opcoes": [
+            "An agent, who understands the context",
+            "A simple automation, set up in the system",
+            "The manager, looking at every order"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A fixed rule with data in the system is a simple automation: it does the same thing every time and is easy to check. The manager decides on the order the rule sent over; there's no need to go looking for orders."
+        },
+        {
+          "p": "The customer writes \"I want the usual, but with more disinfectant and without the multipurpose cleaner.\" Who turns that into an order?",
+          "opcoes": [
+            "A screen automation",
+            "An agent, with a written authority limit and a responsible person",
+            "No one: the customer has to use a form"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Free text, different in every conversation, with a history lookup: this is where the agent is worth what it costs. With written limits, which is the subject of G3."
+        },
+        {
+          "p": "The ERP has no known integration with the app. What is the first question to IT?",
+          "opcoes": [
+            "Can we use Computer Use?",
+            "Does the ERP have a service door (API) or a connector for this operation?",
+            "How much does an agent cost?"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The order is service door or connector, then screen automation, and Computer Use last. Each step down is more fragile and more expensive to maintain."
+        },
+        {
+          "p": "When Computer Use is the right choice, what comes with the decision?",
+          "opcoes": [
+            "Nothing: it understands the screen on its own",
+            "A person confirms what was filled in before saving, and each operation is logged",
+            "It saves directly to save time"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Computer Use looks at the screen and decides where to click: it is flexible and less predictable. That's why it sits on the last step, with human confirmation before the effect."
+        },
+        {
+          "p": "What does Microsoft call Frontier Professionals in the Work Trend Index 2026?",
+          "opcoes": [
+            "Programmers who build agents",
+            "The 16% who use agents in multi-step workflows and redesign the work",
+            "Managers who ban AI on the team"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It's a vendor survey (05/2026, 20 thousand people in 10 countries), and the vendor sells the tools. The useful point: the group that gets the most out of it redesigns the workflow, not just uses the tool."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Judgment and requirement",
+          "texto": "Stay with a person, who receives the information ready."
+        },
+        {
+          "t": "Fixed rule",
+          "texto": "Simple automation: cheap, predictable, easy to check."
+        },
+        {
+          "t": "Free text and several steps",
+          "texto": "Agent, with a written authority limit and a responsible person."
+        },
+        {
+          "t": "Getting into the system",
+          "texto": "Service door, connector, screen. Computer Use last, with confirmation."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "Copilot + Agents for Businesses: when the system has no door",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "camadas"
+        },
+        {
+          "t": "AI Work Architect: rule or judgment",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "portao"
+        },
+        {
+          "t": "Agents: hire, delegate, and supervise (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

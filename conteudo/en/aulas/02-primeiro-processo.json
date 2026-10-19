@@ -1,0 +1,272 @@
+{
+  "slug": "primeiro-processo",
+  "num": 2,
+  "menu": "Choose",
+  "titulo": "Choosing the first process",
+  "titulo_curto": "First process",
+  "minutos": 15,
+  "lead": "Carlos wants the agent in billing; a salesperson already pastes the customer spreadsheet into a personal chatbot; the support summary runs on its own at 6 p.m. Each one started from a different side, and nobody chose. In this lesson you compare the candidates by value, feasibility, and risk, pick one, write down why not the others, and define the scope.",
+  "objetivo": "prioritize processes by value, feasibility, and risk in a matrix and justify in writing the one you chose and what stays out.",
+  "competencias": [
+    "priorizar-processos",
+    "justificar-escolha-por-escrito",
+    "definir-recorte-do-piloto"
+  ],
+  "aprende": [
+    {
+      "t": "Three questions that take off the list what isn't worth the effort"
+    },
+    {
+      "t": "Score value, feasibility, and risk without guesswork"
+    },
+    {
+      "t": "Why one process at a time"
+    },
+    {
+      "t": "Write down the choice, the scope, and what is left for later"
+    }
+  ],
+  "hero_alt": "Three managers around a table arrange white colored cards on a two-by-two grid; one person points to a card.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From a pile of ideas to the first process",
+      "sub": "Five steps, from the list to the written choice. Click each one.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "List",
+          "sub": "everything that repeats",
+          "detalhe": "Write down the processes your area repeats, with a start and an end in the name: \"order via WhatsApp through to the invoice,\" not \"sales.\" Include the ones someone has already automated on their own: they are candidates too, and sometimes they are the problem."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Three questions",
+          "sub": "the filter",
+          "detalhe": "Does it repeat at least every week? Does it involve more than two people or more than ten steps? When it runs late or goes wrong, does it cost money or a customer? Three yeses, it goes into the matrix. One no, it stays on a separate list."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Matrix",
+          "sub": "value, feasibility, risk",
+          "forte": true,
+          "detalhe": "Each process gets three scores from 1 to 5, each with a one-sentence reason. Value: how much the company gains if it improves. Feasibility: can you start with what exists today? Risk: how big the damage is if it goes wrong. In the total, risk counts inverted."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Chosen",
+          "sub": "with scope",
+          "detalhe": "The first one in the matrix, if your own reading confirms the numbers. Along with it comes the pilot scope: which cases go in and which stay out at the start (new customer, return, sale outside the channel)."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Queue",
+          "sub": "what is left for later",
+          "detalhe": "The others don't disappear: they sit in a queue, with the reason they aren't now and what would need to change for them to move up. This is what stops each area from starting an AI project on its own."
+        }
+      ],
+      "legenda": "Criteria from module 1 of the Gestoria method (INEMA) and from the AI Work Architect."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to choose",
+      "sub": "Four steps. Horizonte's scores (fictional study company) are in the model alongside.",
+      "passos": [
+        {
+          "titulo": "List and filter",
+          "sub": "what repeats and hurts",
+          "texto": [
+            "Start with the list and run the three questions. A process that happens once a month, with just one person, rarely pays off the work of mapping, measuring, and redesigning.",
+            "Put on the list what has already been automated without anyone deciding. An AI tool that someone turned on by their own initiative is a process redesigned on the sly, with a risk nobody has measured."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Five candidates: order by WhatsApp through to the invoice; collection of overdue payment slips (what Carlos wants); daily service summary; proposal for a large client (the salesperson uses a personal chatbot); replenishment purchasing from suppliers."
+          }
+        },
+        {
+          "titulo": "Three scores with a reason",
+          "sub": "value, feasibility, risk",
+          "texto": [
+            "Value: volume per week, people's time, rework, customers waiting. Feasibility: the process has an owner, the rules are written down, the data is in a system you can read. Risk: money, personal data, customers, things that can't be undone.",
+            "Every score gets a one-sentence reason. Without that sentence, the score is just the preference of whoever filled it in, and the matrix only dresses guesswork in new clothes."
+          ],
+          "exemplo": {
+            "rot": "Collections, at Horizonte",
+            "texto": "Value 4 (money sitting idle). Feasibility 2: there is no baseline, and the negotiation rules are in Carlos's head. Risk 5: it involves money and the customer. Total 7: it waits, with a reason."
+          }
+        },
+        {
+          "titulo": "One at a time",
+          "sub": "projects that don't talk to each other",
+          "texto": [
+            "The KPMG Global Tech Report 2026 (survey, 04/2026) reports that 45% of Brazilian executives have several AI projects disconnected from one another. Each area starts on its own, and nobody can say what worked.",
+            "One process at a time, start to finish, with measurement. The second one starts when the first has a baseline, a version, and an owner, not when the excitement kicks in."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The sales agent, the service summary, the email assistant, and the team's personal chatbots are already four initiatives that nobody has brought together. IT's inventory doesn't know about half of them."
+          }
+        },
+        {
+          "titulo": "Choose and scope",
+          "sub": "in writing",
+          "texto": [
+            "Write three sentences: why this process, why not the runner-up in the matrix, and why not the one the boss asked for (if it's a different one). Then the pilot scope: which cases go into the pilot and which stay out at the start.",
+            "Scoping is not an excuse to pick the easy one. It's what lets you measure the before and after without mixing cases that behave in different ways."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Chosen: order by WhatsApp through to the invoice (total 12). Orders from registered customers are in. Out at the start: new customers, exchanges and returns, sales made by a representative."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: prioritization matrix",
+      "sub": "Five rows, three scores, one reason per score. The adjacent tab shows the Horizonte matrix.",
+      "blocos": [
+        {
+          "rot": "Value × feasibility × risk matrix",
+          "icone": "grafico",
+          "conteudo": "PRIORITIZATION MATRIX · area: <...> · filled in by: <name> · date: <dd/mm/yyyy>\n\nFILTER (all three must be \"yes\")\n  repeats at least every week? · more than 2 people or more than 10 steps?\n  when it runs late or goes wrong, does it cost money or a customer?\n\nSCORES from 1 to 5, each with a one-sentence reason\n  Value (V): volume, people's time, rework, customers waiting\n  Feasibility (B): owner, written rules, data in a system you can read\n  Risk (R): money, personal data, customer, irreversible (5 = big damage)\n  TOTAL = V + B + (6 - R)\n\n| Process (from where to where) | V | reason | B | reason | R | reason | Total |\n|---|---|---|---|---|---|---|---|\n| <...> | <1-5> | <...> | <1-5> | <...> | <1-5> | <...> | <...> |\n\nCHOSEN: <process>\n  Why this one: <sentence>\n  Why not the runner-up: <sentence>\n  Why not the one the boss asked for (if it's a different one): <sentence>\nPILOT SCOPE: in <cases> · out at the start <cases>\nQUEUE: <process> · reason it's not now · what needs to change for it to move up"
+        },
+        {
+          "rot": "Prompt · devil's advocate for the choice",
+          "icone": "chat",
+          "conteudo": "You are an experienced, skeptical manager. Below is the matrix I used to\nchoose the first process to redesign with AI in my area.\nDon't choose for me. Play the role of someone who disagrees:\n\n1. Point out scores whose reason doesn't support the number given.\n2. Tell me which risk I may have underestimated in each process.\n3. Give the best argument in favor of the runner-up.\n4. Tell me whether the scope leaves out something that should be in.\n\nMatrix:\n\"\"\"<paste the matrix>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte matrix (example)",
+            "html": "<p><b>Sales and operations · Patrícia</b> · Horizonte, fictional study company · fictional scores</p><table><tr><th>Process</th><th>V</th><th>B</th><th>R</th><th>Total</th></tr><tr><td>Order by WhatsApp through to the invoice</td><td>5</td><td>4</td><td>3</td><td><b>12</b></td></tr><tr><td>Replenishment purchasing from suppliers</td><td>3</td><td>3</td><td>2</td><td>10</td></tr><tr><td>Daily service summary</td><td>2</td><td>4</td><td>4</td><td>8</td></tr><tr><td>Proposal for a large client</td><td>3</td><td>3</td><td>4</td><td>8</td></tr><tr><td>Collection of overdue payment slips</td><td>4</td><td>2</td><td>5</td><td>7</td></tr></table><ul><li><b>Order → invoice</b>: about 170 orders per week, rework in invoicing (V 5); the app and ERP exist and the discount policy is written down (B 4); it touches pricing, but the invoice still goes through people (R 3).</li><li><b>Daily summary</b>: sends conversations with personal data to a service outside the country with no contract (R 4). Before improving it, it needs fixing.</li><li><b>Proposal</b>: today it uses the customer spreadsheet in a personal chatbot, outside the inventory (R 4).</li></ul><p><b>Chosen:</b> order → invoice. Not replenishment: less volume and fewer customers waiting. Not collections: no baseline and the highest risk; it moves up when invoicing is measured.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>Score without a reason.</b> Reread each number and check whether the sentence justifies it. If you would change the 4 to a 3 without changing the sentence, the score is a guess.</li><li><b>Risk added as an advantage.</b> High risk has to lower the total (6 − R).</li><li><b>Process with no ends.</b> \"Sales\" is not a process; \"order by WhatsApp through to the invoice\" is.</li><li><b>Picking the showiest one.</b> The first process is the one you can measure and finish, not the one that impresses in the meeting.</li><li><b>Empty queue.</b> If the other four have no reason or condition to move up, someone will start them on their own.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte matrix to calibrate your scores; yours for real.",
+      "fonte": "Lab pieces: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT inventory</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">service summary</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte matrix",
+          "min": "20 min",
+          "texto": "Open the IT inventory and the service summary piece in the lab. Redo the matrix for the five processes with your own scores, without copying the ones on the tab. Where your score differs by 2 points or more, write down your argument. Run the devil's advocate prompt.",
+          "pronto": "all 5 processes have the three scores, each score with a one-sentence reason, the total calculated, the chosen one with the three sentences of justification (including why not collections), and the scope with at least 2 exclusions."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The matrix for your area",
+          "min": "40 min",
+          "texto": "List the processes in your area that pass the filter, including the ones someone has already automated without agreeing on it. Pick 5 and fill in the matrix. Show it to someone who works on them and adjust the scores they challenge with a good reason.",
+          "pronto": "the matrix has 5 processes with a start and an end in the name, 15 scores with reasons, the chosen one justified in 3 sentences, the pilot scope, and the queue with the reason each one is not now."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner wants to start with collections, which has the highest value. The matrix gave it a total of 7 and gave 12 to the order process. What do you do?",
+          "opcoes": [
+            "Start with collections: it's what the owner wants",
+            "Write down why not collections now (no baseline, highest risk) and what needs to change for it to move up the queue",
+            "Do both at the same time to please everyone"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The written choice is what lets you disagree with the boss with an argument. And collections doesn't disappear: it goes to the queue with a condition to move up. Doing both at the same time is the start of disconnected projects."
+        },
+        {
+          "p": "Why does risk go into the total inverted (6 − R)?",
+          "opcoes": [
+            "Because risky processes should be picked first",
+            "Because the bigger the possible damage, the less suited it is as a first process, while the team is still learning",
+            "Because risk doesn't matter in the choice"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The first process is where the team learns to map, measure, and version. Mistakes there need to be cheap. High-risk processes come later, once the method has been tested."
+        },
+        {
+          "p": "What does the KPMG Global Tech Report 2026 report about Brazil?",
+          "opcoes": [
+            "That 45% of Brazilian executives have several AI projects disconnected from one another",
+            "That 45% of companies have already redesigned all their processes",
+            "That AI projects don't deliver results in Brazil"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "It is a survey of executives (04/2026). It does not say AI doesn't work; it says many start from several directions without connecting one thing to another. One process at a time, with measurement, is the management answer."
+        },
+        {
+          "p": "Which of these names works as a process in the matrix?",
+          "opcoes": [
+            "Finance",
+            "Customer service",
+            "WhatsApp order through to the issued invoice"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "A process has a beginning and an end. \"Finance\" is an area; \"customer service\" is a function. Without the endpoints, you can't map it, measure it, or say when it's done."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Filter before the matrix",
+          "texto": "Repeats every week, involves several people, costs money when it goes wrong."
+        },
+        {
+          "t": "Score with a reason",
+          "texto": "Value, feasibility, and inverted risk. Without a sentence, it's a guess."
+        },
+        {
+          "t": "One at a time",
+          "texto": "The second one starts when the first has a baseline, a version, and an owner."
+        },
+        {
+          "t": "Written choice",
+          "texto": "Why this one, why not the others, the pilot scope, and the queue."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "AI Work Architect: ten critical processes, not dozens of chatbots",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Horizonte Lab: IT and shadow AI inventory (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        },
+        {
+          "t": "AI Management Area: the 8 competencies",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

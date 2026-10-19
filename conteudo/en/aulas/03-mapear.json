@@ -1,0 +1,352 @@
+{
+  "slug": "mapear",
+  "num": 3,
+  "menu": "Map",
+  "titulo": "Map what really happens",
+  "titulo_curto": "Map",
+  "minutos": 20,
+  "lead": "Ask three people how an order becomes an invoice and you hear three different processes, all prettier than the real one. The map that works for redesign comes from following real cases: the normal path, the detours, who decides what, and how long each thing takes. In this lesson you build that map on one page.",
+  "objetivo": "map the normal path, the detours, the decisions, and today's measurements of a process, from an interview and from cases you followed.",
+  "competencias": [
+    "mapear-processo-real",
+    "separar-regra-de-julgamento",
+    "medir-o-estado-atual"
+  ],
+  "aprende": [
+    {
+      "t": "The six blocks of a map that works for redesign"
+    },
+    {
+      "t": "Interview the owner and follow five cases"
+    },
+    {
+      "t": "Separate rule-based decisions from judgment-based decisions"
+    },
+    {
+      "t": "Measure volume, people-minutes, rework, and waiting"
+    }
+  ],
+  "hero_alt": "In the warehouse aisle, the sales manager holds a tablet and watches a stock clerk pack jugs of detergent into a box.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The map in six blocks",
+      "sub": "Scroll the page: each block lights up its part of the map. It is the same map for Horizonte and for your process.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Trigger",
+          "sub": "what arrives",
+          "itens": [
+            {
+              "icone": "seta",
+              "t": "through which channel, from whom",
+              "sub": "one sentence"
+            }
+          ],
+          "detalhe": "What starts the process, through which channel, and from whom. \"Customer sends the order on WhatsApp\" is a trigger. \"Sales\" is not. If you can't name the trigger, you don't know where to start counting time."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Normal path",
+          "sub": "today's steps",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "who and where",
+              "sub": "person and system"
+            }
+          ],
+          "detalhe": "The steps in the order they happen when nothing goes wrong, each one with who does it and in which system. It's the tagging sheet from lesson 1, now with wait time and people-minutes on each line."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Decisions",
+          "sub": "rule or judgment",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "the same answer?",
+              "sub": "the test"
+            }
+          ],
+          "detalhe": "Where the path splits. For each decision, the test: would two well-trained people, with the same information, always give the same answer? If yes, it's a rule and can become a system. If not, it's judgment and stays with a person."
+        },
+        {
+          "icone": "voltar",
+          "titulo": "Detours",
+          "sub": "at least two",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "x",
+              "t": "where it goes back",
+              "sub": "and how often"
+            }
+          ],
+          "detalhe": "The paths a case takes when something is missing or goes wrong: where it leaves the normal path, where it returns, and how often this happens. Rework lives in the detours, and it's where an agent that only copies the normal path gets lost the most."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Measures",
+          "sub": "today, with source",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "observed or hypothesis",
+              "sub": "always marked"
+            }
+          ],
+          "detalhe": "Volume per week, people-minutes per case, time from trigger to completion, rework and the longest wait. Each number says where it came from: counted in a system, observed in the cases or stated by someone (hypothesis)."
+        },
+        {
+          "icone": "check",
+          "titulo": "Completion",
+          "sub": "when it's done",
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "what comes out",
+              "sub": "for whom"
+            }
+          ],
+          "detalhe": "What comes out of the process, for whom, and the criterion that says it's finished. \"Invoice issued and sent to the customer\" is a completion. Without it, the process has no end, and cycle time can't be measured."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "The whole map",
+        "texto": "Trigger, normal path, decisions, detours, measures and completion, on one page. It's the raw material for the redesign in lesson 4 and the baseline in lesson 6.",
+        "curto": "Six blocks, one page."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to map",
+      "sub": "Four steps, in one week. The Horizonte data is fictional, for study.",
+      "passos": [
+        {
+          "titulo": "Interview the owner",
+          "sub": "40 minutes, with a script",
+          "texto": [
+            "The process owner is the person who answers for the result, not the one who does the most steps. Ask about the trigger, the completion, the decisions and the detours they know. Use the script alongside.",
+            "The interview gives you the process as the owner thinks it is. Write everything down, but don't draw it yet: following the cases will correct a good part of it."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia answers for the order all the way to the invoice. In the interview, she described 9 steps. The cases we followed showed 13."
+          }
+        },
+        {
+          "titulo": "Follow five cases",
+          "sub": "from trigger to completion",
+          "texto": [
+            "Pick five real cases and follow each one from start to finish: time of each step, people-minutes, where it detoured. Prefer cases that differ from each other: a common one, one with a decision, one that went wrong.",
+            "Five cases are exploration, not a sample. They're for drawing the map and finding where to measure, not for stating an average to Carlos."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "From 10/15 to 10/17, Patrícia followed five orders: a normal one, one with a discount request, one from a customer without a CNPJ, one with a product shortage and one above R$ 5 thousand. The numbers are in the \"The five cases\" tab."
+          }
+        },
+        {
+          "titulo": "Draw decisions and detours",
+          "sub": "rule or judgment",
+          "texto": [
+            "Mark each point where the path splits. Write the decision's question and apply the test: would two trained people answer the same? A rule can become a system; judgment stays with someone, by name.",
+            "For each detour, note where it starts, where the case returns and what gets lost along the way: time, rework, customer waiting."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "\"Does the customer have a complete registration?\" is a rule, but today it's only asked at invoicing, after picking. Case P3 came back from finance and took 75 hours to get to the invoice."
+          }
+        },
+        {
+          "titulo": "Measure today",
+          "sub": "with the source of each number",
+          "texto": [
+            "Four measures: volume per week, people-minutes per case, time from trigger to completion and rework. Add the longest wait: almost always, process time is queue, not work.",
+            "Every number carries its origin: counted in a system, observed in the cases, or declared. A declared number enters as a hypothesis until it is counted (lesson 6)."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "168 orders in the week of 10/13 (dashboard). Median of 21 minutes of people time and 30 hours until the invoice in the five cases. Rework: \"about 15 a week come back,\" says finance (hypothesis)."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy: the map and the script",
+      "sub": "The one-page map is the central template of the course. The script and the case sheet feed the map. The tabs show Horizonte.",
+      "blocos": [
+        {
+          "rot": "Process map (one page)",
+          "icone": "arquivo",
+          "conteudo": "PROCESS MAP · <from where to where> · version 1.0 (as it is today)\nOwner (answers for the result): <name> · Mapped by: <name> · Date: <mm/dd/yyyy>\nSources: interview with <name> on <date> · cases followed: <ids and dates>\n\nTRIGGER: <what arrives, through which channel, from whom>\nCOMPLETION: <what comes out, for whom, done criterion>\n\nNORMAL PATH\n| # | Step (verb + object) | Who | System | Wait before | People minutes |\n|---|---|---|---|---|---|\n| 1 | <...> | <...> | <...> | <h> | <min> |\n\nDECISIONS\n| At step | Question | Rule or judgment | Who decides |\n|---|---|---|---|\n| <#> | <...?> | <R or J> | <name> |\n\nDETOURS (at least 2)\n| Name | When it happens | Where it goes back to | Frequency (origin) | What is lost |\n|---|---|---|---|---|\n| <...> | <...> | <step #> | <n per week · observed/hypothesis> | <...> |\n\nMEASURES TODAY (each with origin: counted / observed / declared = hypothesis)\nVolume: <n per week> (<origin>)\nPeople minutes per case: <median> (<n cases>)\nTime from trigger to completion: <median> (<n cases>)\nRework: <% or n per week> (<origin>)\nLongest wait: <where, how long>\n\nWHAT I DON'T KNOW YET: <...>"
+        },
+        {
+          "rot": "Interview script for the owner",
+          "icone": "usuario",
+          "conteudo": "INTERVIEW · process: <...> · owner: <name> · date: <...> · 40 min\n\n1. What triggers the process? Through which channel does it arrive? From whom?\n2. When is it done? What comes out and for whom?\n3. What are the steps, off the top of your head, in order? Who does each one?\n4. At what points does someone need to decide something? Who decides? By what rule?\n5. When a case goes wrong, where does it go back to? How many times a week?\n6. How many cases per week? Where does that number come from?\n7. Which step would you most like to not have? Why?\n8. Which step would you never remove? What has happened when it wasn't done?\n\nAGREEMENT: I will follow <5> cases between <date> and <date>, without changing anything."
+        },
+        {
+          "rot": "Tracking sheet for one case",
+          "icone": "relogio",
+          "conteudo": "CASE <id> · <customer or description, no personal data> · date: <...>\nEntry (trigger): <mm/dd hh:mm>\n\n| Step | Who | Started | Finished | People minutes | Note |\n|---|---|---|---|---|---|\n| <...> | <...> | <hh:mm> | <hh:mm> | <min> | <waited for what?> |\n\nDetoured? <no / yes: which detour, at which step>\nCompletion: <mm/dd hh:mm> · Total time: <h> · People minutes: <sum>"
+        },
+        {
+          "rot": "Prompt · gaps in the map",
+          "icone": "chat",
+          "conteudo": "You are a process analyst. Below are the map of a process from my\ncompany and the sheets of the cases I followed. Do not redesign anything.\n\n1. Point out steps that appear in the cases and are not on the map (or the other way around).\n2. Point out decisions marked as rule that look like judgment, and vice versa.\n3. Point out numbers with no origin or declared numbers treated as measured.\n4. List the 3 questions I should still ask the process owner.\n\nMap:\n\"\"\"<paste the map>\"\"\"\nCases:\n\"\"\"<paste the sheets>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte map (example)",
+            "html": "<p><b>Order via WhatsApp → invoice · v1.0</b> · owner: Patrícia · Horizonte, fictional study company</p><p><b>Trigger:</b> customer sends the order via WhatsApp. <b>Completion:</b> invoice issued and sent to the customer in the conversation.</p><p><b>Normal path (13 steps):</b> reply → enter in the app → copy to the spreadsheet → check the price of every item → approve above R$ 5 thousand → print and take to the warehouse → check availability in the ERP → pick → notify Juliana → email to finance → retype in the ERP → check the customer record and issue the invoice → send the invoice.</p><p><b>Decisions:</b> discount within policy? (rule) · above R$ 5 thousand? (rule) · discount between 5% and 10%: give it or not? (Patrícia's judgment) · customer with a complete record? (rule, today only at step 12) · product out of stock: deliver partially or wait? (judgment, with the customer).</p><p><b>Detours:</b> D1 incomplete record: finance sends it back to customer service after picking (\"about 15 a week,\" declared = hypothesis). D2 product out of stock: partial order, Juliana calls the customer (1 in 5 cases, observed).</p><p><b>Measures:</b> 168 orders in the week of 10/13 (counted, dashboard) · 21 min of people time per order (median, 5 cases) · 30 h until the invoice (median, 5 cases) · <b>longest wait:</b> finance invoices the next morning, and the warehouse receives the papers in two batches (10 am and 3 pm).</p>"
+          },
+          {
+            "rot": "The five cases",
+            "html": "<p>Followed from 10/15 to 10/17/2026 · fictional · exploration, not a sample</p><table><tr><th>Case</th><th>Path</th><th>People min.</th><th>Until invoice</th><th>Sent back?</th></tr><tr><td>P1 Bakery, R$ 1,240</td><td>normal</td><td>16</td><td>22 h</td><td>no</td></tr><tr><td>P2 Supermarket, R$ 4,320, asks for 8%</td><td>discount decision</td><td>21</td><td>26 h</td><td>no</td></tr><tr><td>P3 New customer without CNPJ, R$ 2,800</td><td>D1</td><td>38</td><td>75 h</td><td>yes</td></tr><tr><td>P4 Restaurant, out of disinfectant</td><td>D2</td><td>27</td><td>49 h</td><td>no</td></tr><tr><td>P5 Clinic, R$ 6,150</td><td>approval above R$ 5 thousand</td><td>19</td><td>30 h</td><td>no</td></tr></table><p>Medians: 21 minutes of people time; 30 hours until the invoice. In every case, less than 40 minutes was work; the rest was waiting.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>A map the way the owner told it.</b> If the map has fewer steps than the cases showed, you drew the interview.</li><li><b>Only the happy path.</b> Without at least two detours, the map hides where the rework is.</li><li><b>An average of five cases sold as truth.</b> Five cases show where to measure; the number for deciding comes from lesson 6.</li><li><b>A number with no origin.</b> \"About 15 a week\" is declared: it enters as a hypothesis.</li><li><b>Personal data on the sheet.</b> Use a code for the case, not the customer's name and phone.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte map with the five cases ready; yours with cases you follow yourself.",
+      "fonte": "Lab pieces: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">WhatsApp agent</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">dashboard</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The order map at Horizonte",
+          "min": "30 min",
+          "texto": "Use the 13 steps from lesson 1 and the \"The five cases\" tab to fill in the one-page map of the \"order via WhatsApp → invoicing\" process. Calculate the medians yourself. Run the gaps prompt and answer what it raises.",
+          "pronto": "the map has a trigger and a completion, the 13 steps with who and system, at least 4 decisions marked as rule or judgment, the 2 detours with where they go back to, today's measures (volume, median minutes, median time, rework) each with its origin, and the longest wait identified."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The map of your process",
+          "min": "1 week",
+          "dias": 5,
+          "texto": "For the process you chose in lesson 2: interview the owner with the script and follow five cases with the sheet, without changing anything in the process. Then build the one-page map.",
+          "pronto": "the interview is noted with a date, the 5 case sheets are filled in, and the map has a trigger, completion, normal path, at least 2 detours, the decisions marked, and the 4 measures with origin."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner described 9 steps; the cases followed showed 13. Which map counts?",
+          "opcoes": [
+            "The owner's, who knows the process",
+            "The cases': the map is of what happens, and the 4 extra steps are usually the handoffs",
+            "An average of the two"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The interview shows the process as the owner thinks it is. The steps nobody remembers to mention (copying, printing, notifying) are exactly the candidates to go in the redesign."
+        },
+        {
+          "p": "\"Does the customer have a complete record?\" Two trained people, with the same record open, would answer the same. What is it?",
+          "opcoes": [
+            "Judgment: it takes an experienced person",
+            "Rule: it can become a system check, preferably right at the entry",
+            "Neither rule nor judgment: it's a detail"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Same information, same answer: it's a rule. Horizonte's problem is not who answers, it's where: the question only shows up at invoicing, after picking."
+        },
+        {
+          "p": "In the five cases, the median was 21 minutes of people time and 30 hours until the invoice. What does that suggest?",
+          "opcoes": [
+            "That people work slowly",
+            "That almost all the time is waiting between steps, not work",
+            "That you need an agent to work faster"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "21 minutes of work in 30 hours: the time is in the queues (warehouse batches, invoicing the next day). Speeding up the work in each step barely changes the total; removing waits and handoffs does."
+        },
+        {
+          "p": "Finance says \"about 15 orders a week come back.\" How does it go on the map?",
+          "opcoes": [
+            "As 15 a week, measured",
+            "As a hypothesis declared by finance, to be counted before deciding",
+            "It doesn't count, because it wasn't measured"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Declared counts as a clue and goes in with its source marked. Throwing it out loses the clue; treating it as measured misleads whoever decides. Counting comes in lesson 6."
+        },
+        {
+          "p": "Why follow only five cases, and not a hundred?",
+          "opcoes": [
+            "Because five are enough to state the process average",
+            "Because the goal here is to draw the map and find where to measure; the measurement for deciding comes later, with more cases",
+            "Because a hundred cases give the same result"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Five cases are exploration. They show hidden steps, detours, and waits. To say how long the process takes, and to compare before and after, you need weeks of counted data (lesson 6)."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Six blocks",
+          "texto": "Trigger, normal path, decisions, detours, measurements, conclusion."
+        },
+        {
+          "t": "Cases, not opinion",
+          "texto": "An interview gives you the hypothesis; five followed cases correct the map."
+        },
+        {
+          "t": "Rule or judgment",
+          "texto": "Same information, same answer: rule. Otherwise, it stays with a person."
+        },
+        {
+          "t": "A number with a source",
+          "texto": "Counted, observed, or declared. The time is almost always in the waiting."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "AI Work Architect: every process has six links",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Copilot + Agents for Business: from prompt to workflow",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "lista"
+        },
+        {
+          "t": "Horizonte Lab: the agent's conversations (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "chat"
+        }
+      ]
+    }
+  ]
+}

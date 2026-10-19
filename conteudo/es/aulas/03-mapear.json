@@ -1,0 +1,352 @@
+{
+  "slug": "mapear",
+  "num": 3,
+  "menu": "Mapear",
+  "titulo": "Mapear lo que pasa de verdad",
+  "titulo_curto": "Mapear",
+  "minutos": 20,
+  "lead": "Pregúntales a tres personas cómo el pedido se convierte en factura y escucharás tres procesos distintos, todos más bonitos que el real. El mapa que sirve para rediseñar sale de acompañar casos de verdad: el camino normal, los desvíos, quién decide qué y cuánto tiempo toma cada cosa. En esta clase armas ese mapa en una página.",
+  "objetivo": "mapear el camino normal, los desvíos, las decisiones y las medidas de hoy de un proceso, a partir de una entrevista y de casos acompañados.",
+  "competencias": [
+    "mapear-processo-real",
+    "separar-regra-de-julgamento",
+    "medir-o-estado-atual"
+  ],
+  "aprende": [
+    {
+      "t": "Los seis bloques de un mapa que sirve para rediseñar"
+    },
+    {
+      "t": "Entrevistar al dueño y acompañar cinco casos"
+    },
+    {
+      "t": "Separar la decisión por regla de la decisión por juicio"
+    },
+    {
+      "t": "Medir volumen, minutos de gente, retrabajo y espera"
+    }
+  ],
+  "hero_alt": "En el pasillo del depósito, la gerente comercial sostiene una tableta y observa a un bodeguero que separa bidones de detergente en una caja.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El mapa en seis bloques",
+      "sub": "Desplaza la página: cada bloque ilumina su parte del mapa. Es el mismo mapa para Horizonte y para tu proceso.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Disparador",
+          "sub": "lo que llega",
+          "itens": [
+            {
+              "icone": "seta",
+              "t": "por dónde, de quién",
+              "sub": "una frase"
+            }
+          ],
+          "detalhe": "Lo que dispara el proceso, por qué canal y de quién. \"El cliente manda el pedido por WhatsApp\" es un disparador. \"Ventas\" no lo es. Si no sabes decir el disparador, no sabes dónde empezar a contar el tiempo."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Camino normal",
+          "sub": "las etapas de hoy",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "quién y dónde",
+              "sub": "persona y sistema"
+            }
+          ],
+          "detalhe": "Las etapas en el orden en que ocurren cuando nada sale mal, cada una con quién la hace y en qué sistema. Es la hoja de etiquetas de la clase 1, ahora con tiempo de espera y minutos de gente en cada línea."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Decisiones",
+          "sub": "regla o juicio",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "¿la misma respuesta?",
+              "sub": "la prueba"
+            }
+          ],
+          "detalhe": "Donde el camino se divide. Para cada decisión, la prueba: ¿dos personas bien entrenadas, con la misma información, darían siempre la misma respuesta? Si es así, es regla y puede convertirse en sistema. Si no, es juicio y se queda con una persona."
+        },
+        {
+          "icone": "voltar",
+          "titulo": "Desvíos",
+          "sub": "al menos dos",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "x",
+              "t": "por dónde vuelve",
+              "sub": "y cuántas veces"
+            }
+          ],
+          "detalhe": "Los caminos que hace el caso cuando algo falta o sale mal: por dónde sale de lo normal, a dónde vuelve y cuántas veces ocurre. Es en los desvíos donde vive el retrabajo, y es donde más se pierde un agente que solo copia el camino normal."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Medidas",
+          "sub": "el hoy, con origen",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "observado o hipótesis",
+              "sub": "siempre marcado"
+            }
+          ],
+          "detalhe": "Volumen por semana, minutos de gente por caso, tiempo desde el disparador hasta la conclusión, retrabajo y la mayor espera. Cada número dice de dónde vino: contado en un sistema, observado en los casos o declarado por alguien (hipótesis)."
+        },
+        {
+          "icone": "check",
+          "titulo": "Conclusión",
+          "sub": "cuándo está listo",
+          "itens": [
+            {
+              "icone": "enviar",
+              "t": "lo que sale",
+              "sub": "para quién"
+            }
+          ],
+          "detalhe": "Lo que sale del proceso, para quién, y el criterio que dice que terminó. \"Factura emitida y enviada al cliente\" es conclusión. Sin ella, el proceso no tiene fin, y el tiempo de ciclo no se puede medir."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "El mapa completo",
+        "texto": "Disparador, camino normal, decisiones, desvíos, medidas y conclusión, en una página. Es la materia prima del rediseño de la clase 4 y de la línea de base de la clase 6.",
+        "curto": "Seis bloques, una página."
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo mapear",
+      "sub": "Cuatro pasos, en una semana. Los datos de Horizonte son ficticios, de estudio.",
+      "passos": [
+        {
+          "titulo": "Entrevista al dueño",
+          "sub": "40 minutos, con guion",
+          "texto": [
+            "El dueño del proceso es la persona que responde por el resultado, no quien hace más etapas. Pregunta por el disparador, por la conclusión, por las decisiones y por los desvíos que conoce. Usa el guion de al lado.",
+            "La entrevista da el proceso como el dueño cree que es. Anota todo, pero no dibujes todavía: el seguimiento de los casos va a corregir buena parte."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia responde por el pedido hasta la factura. En la entrevista, describió 9 etapas. Los casos seguidos mostraron 13."
+          }
+        },
+        {
+          "titulo": "Sigue cinco casos",
+          "sub": "del disparador a la conclusión",
+          "texto": [
+            "Elige cinco casos reales y sigue cada uno de principio a fin: hora de cada etapa, minutos de gente, por dónde se desvió. Prefiere casos diferentes entre sí: uno común, uno con decisión, uno que salió mal.",
+            "Cinco casos son exploración, no muestra. Sirven para dibujar el mapa y encontrar dónde medir, no para afirmarle un promedio a Carlos."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Del 15 al 17/10, Patrícia siguió cinco pedidos: uno normal, uno con pedido de descuento, uno de un cliente sin CNPJ, uno con falta de producto y uno por encima de R$ 5 mil. Los números están en la pestaña \"Los cinco casos\"."
+          }
+        },
+        {
+          "titulo": "Dibuja decisiones y desvíos",
+          "sub": "regla o juicio",
+          "texto": [
+            "Marca cada punto en que el camino se divide. Escribe la pregunta de la decisión y aplica la prueba: ¿dos personas entrenadas responderían igual? La regla puede convertirse en sistema; el juicio se queda con alguien, con nombre.",
+            "Para cada desvío, anota dónde empieza, por dónde vuelve el caso y qué se pierde en el camino: tiempo, trabajo rehecho, cliente esperando."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "\"¿El cliente tiene registro completo?\" es regla, pero hoy solo se pregunta en la facturación, después de la separación. El caso P3 volvió del financiero y tardó 75 horas hasta la factura."
+          }
+        },
+        {
+          "titulo": "Mide el hoy",
+          "sub": "con origen de cada número",
+          "texto": [
+            "Cuatro medidas: volumen por semana, minutos de gente por caso, tiempo desde el disparador hasta la conclusión y retrabajo. Suma la mayor espera: casi siempre el tiempo del proceso es cola, no trabajo.",
+            "Cada número lleva su origen: contado en un sistema, observado en los casos o declarado. Lo declarado entra como hipótesis hasta que se cuente (clase 6)."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "168 pedidos en la semana del 13/10 (panel). Mediana de 21 minutos de gente y 30 horas hasta la factura en los cinco casos. Retrabajo: \"unos 15 por semana vuelven\", dice finanzas (hipótesis)."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar: el mapa y el guion",
+      "sub": "El mapa de una página es el modelo central del curso. El guion y la hoja de caso alimentan el mapa. Las pestañas muestran a Horizonte.",
+      "blocos": [
+        {
+          "rot": "Mapa del proceso (una página)",
+          "icone": "arquivo",
+          "conteudo": "MAPA DEL PROCESO · <desde dónde hasta dónde> · versión 1.0 (como es hoy)\nDueño (responde por el resultado): <nombre> · Mapeado por: <nombre> · Fecha: <dd/mm/aaaa>\nFuentes: entrevista con <nombre> el <fecha> · casos acompañados: <ids y fechas>\n\nDISPARADOR: <qué llega, por qué canal, de quién>\nCONCLUSIÓN: <qué sale, para quién, criterio de listo>\n\nCAMINO NORMAL\n| # | Etapa (verbo + objeto) | Quién | Sistema | Espera antes | Min. de gente |\n|---|---|---|---|---|---|\n| 1 | <...> | <...> | <...> | <h> | <min> |\n\nDECISIONES\n| En la etapa | Pregunta | Regla o juicio | Quién decide |\n|---|---|---|---|\n| <#> | <...?> | <R o J> | <nombre> |\n\nDESVÍOS (al menos 2)\n| Nombre | Cuándo ocurre | Por dónde vuelve | Frecuencia (origen) | Qué se pierde |\n|---|---|---|---|---|\n| <...> | <...> | <etapa #> | <n por semana · observado/hipótesis> | <...> |\n\nMEDIDAS DE HOY (cada una con origen: contado / observado / declarado = hipótesis)\nVolumen: <n por semana> (<origen>)\nMinutos de gente por caso: <mediana> (<n casos>)\nTiempo del disparador a la conclusión: <mediana> (<n casos>)\nRetrabajo: <% o n por semana> (<origen>)\nMayor espera: <dónde, cuánto>\n\nLO QUE AÚN NO SÉ: <...>"
+        },
+        {
+          "rot": "Guion de entrevista con el dueño",
+          "icone": "usuario",
+          "conteudo": "ENTREVISTA · proceso: <...> · dueño: <nombre> · fecha: <...> · 40 min\n\n1. ¿Qué dispara el proceso? ¿Por qué canal llega? ¿De quién?\n2. ¿Cuándo está listo? ¿Qué sale y para quién?\n3. ¿Cuáles son las etapas, de memoria, en orden? ¿Quién hace cada una?\n4. ¿En qué puntos alguien necesita decidir algo? ¿Quién decide? ¿Con qué regla?\n5. Cuando un caso sale mal, ¿por dónde vuelve? ¿Cuántas veces por semana?\n6. ¿Cuántos casos por semana? ¿De dónde sale ese número?\n7. ¿Qué etapa preferirías no tener? ¿Por qué?\n8. ¿Qué etapa nunca quitarías? ¿Qué pasó cuando no se hizo?\n\nACORDADO: voy a acompañar <5> casos entre <fecha> y <fecha>, sin cambiar nada."
+        },
+        {
+          "rot": "Hoja de seguimiento de un caso",
+          "icone": "relogio",
+          "conteudo": "CASO <id> · <cliente o descripción, sin dato personal> · fecha: <...>\nEntrada (disparador): <dd/mm hh:mm>\n\n| Etapa | Quién | Empezó | Terminó | Min. de gente | Observación |\n|---|---|---|---|---|---|\n| <...> | <...> | <hh:mm> | <hh:mm> | <min> | <¿esperó qué?> |\n\n¿Se desvió? <no / sí: qué desvío, en qué etapa>\nConclusión: <dd/mm hh:mm> · Tiempo total: <h> · Minutos de gente: <suma>"
+        },
+        {
+          "rot": "Prompt · lagunas del mapa",
+          "icone": "chat",
+          "conteudo": "Eres analista de procesos. Abajo están el mapa de un proceso de mi\nempresa y las hojas de los casos que acompañé. No rediseñes nada.\n\n1. Señala etapas que aparecen en los casos y no están en el mapa (o al revés).\n2. Señala decisiones marcadas como regla que parecen juicio, y viceversa.\n3. Señala números sin origen o números declarados tratados como medidos.\n4. Enumera las 3 preguntas que yo todavía debería hacer al dueño del proceso.\n\nMapa:\n\"\"\"<pega el mapa>\"\"\"\nCasos:\n\"\"\"<pega las hojas>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Mapa de Horizonte (ejemplo)",
+            "html": "<p><b>Pedido por WhatsApp → factura · v1.0</b> · dueña: Patrícia · Horizonte, empresa ficticia de estudio</p><p><b>Disparador:</b> el cliente manda el pedido por WhatsApp. <b>Conclusión:</b> factura emitida y enviada al cliente en la conversación.</p><p><b>Camino normal (13 etapas):</b> responder → armar en la app → copiar a la planilla → revisar el precio de todos → aprobar por encima de R$ 5 mil → imprimir y llevar al depósito → revisar disponibilidad en el ERP → separar → avisar a Juliana → correo a finanzas → volver a digitar en el ERP → revisar registro y emitir la factura → mandar la factura.</p><p><b>Decisiones:</b> ¿descuento dentro de la política? (regla) · ¿por encima de R$ 5 mil? (regla) · descuento entre 5% y 10%: ¿darlo o no? (juicio de Patrícia) · ¿cliente con registro completo? (regla, hoy solo en la etapa 12) · falta producto: ¿entregar parcial o esperar? (juicio, con el cliente).</p><p><b>Desvíos:</b> D1 registro incompleto: finanzas lo devuelve a atención después de la separación (\"unos 15 por semana\", declarado = hipótesis). D2 falta de producto: pedido parcial, Juliana llama al cliente (1 de cada 5 casos, observado).</p><p><b>Medidas:</b> 168 pedidos en la semana del 13/10 (contado, panel) · 21 min de gente por pedido (mediana, 5 casos) · 30 h hasta la factura (mediana, 5 casos) · <b>mayor espera:</b> finanzas factura a la mañana siguiente, y el depósito recibe los papeles en dos lotes (10 h y 15 h).</p>"
+          },
+          {
+            "rot": "Los cinco casos",
+            "html": "<p>Acompañados del 15 al 17/10/2026 · ficticios · exploración, no muestra</p><table><tr><th>Caso</th><th>Camino</th><th>Min. de gente</th><th>Hasta la factura</th><th>¿Volvió?</th></tr><tr><td>P1 Panadería, R$ 1.240</td><td>normal</td><td>16</td><td>22 h</td><td>no</td></tr><tr><td>P2 Supermercado, R$ 4.320, pide 8%</td><td>decisión de descuento</td><td>21</td><td>26 h</td><td>no</td></tr><tr><td>P3 Cliente nuevo sin CNPJ, R$ 2.800</td><td>D1</td><td>38</td><td>75 h</td><td>sí</td></tr><tr><td>P4 Restaurante, falta desinfectante</td><td>D2</td><td>27</td><td>49 h</td><td>no</td></tr><tr><td>P5 Clínica, R$ 6.150</td><td>aprobación por encima de R$ 5 mil</td><td>19</td><td>30 h</td><td>no</td></tr></table><p>Medianas: 21 minutos de gente; 30 horas hasta la factura. En todos los casos, menos de 40 minutos fueron trabajo; el resto fue espera.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Mapa tal como lo contó el dueño.</b> Si el mapa tiene menos etapas de las que mostraron los casos, dibujaste la entrevista.</li><li><b>Solo el camino feliz.</b> Sin al menos dos desvíos, el mapa esconde dónde está el retrabajo.</li><li><b>Promedio de cinco casos vendido como verdad.</b> Cinco casos muestran dónde medir; el número para decidir viene de la clase 6.</li><li><b>Número sin origen.</b> \"Unos 15 por semana\" es declarado: entra como hipótesis.</li><li><b>Dato personal en la hoja.</b> Usa un código para el caso, no el nombre y el teléfono del cliente.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El mapa de Horizonte con los cinco casos listos; el de tu proceso con casos que tú mismo acompañas.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">agente de WhatsApp</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">panel</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El mapa del pedido en Horizonte",
+          "min": "30 min",
+          "texto": "Usa las 13 etapas de la clase 1 y la pestaña \"Los cinco casos\" para llenar el mapa de una página del proceso \"pedido por WhatsApp → facturación\". Calcula las medianas tú mismo. Ejecuta el prompt de lagunas y responde lo que levante.",
+          "pronto": "el mapa tiene disparador y conclusión, las 13 etapas con quién y sistema, al menos 4 decisiones marcadas como regla o juicio, los 2 desvíos con por dónde vuelven, las medidas de hoy (volumen, mediana de minutos, mediana de tiempo, retrabajo) cada una con su origen, y la mayor espera identificada."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · El mapa de tu proceso",
+          "min": "1 semana",
+          "dias": 5,
+          "texto": "Para el proceso que elegiste en la clase 2: entrevista al dueño con el guion y acompaña cinco casos con la hoja, sin cambiar nada en el proceso. Después arma el mapa de una página.",
+          "pronto": "la entrevista está anotada con fecha, las 5 hojas de caso están llenas, y el mapa tiene disparador, conclusión, camino normal, al menos 2 desvíos, las decisiones marcadas y las 4 medidas con origen."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "El dueño describió 9 etapas; los casos acompañados mostraron 13. ¿Qué mapa vale?",
+          "opcoes": [
+            "El del dueño, que conoce el proceso",
+            "El de los casos: el mapa es de lo que ocurre, y las 4 etapas de más suelen ser los traspasos de manos",
+            "Un promedio de los dos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La entrevista muestra el proceso como el dueño cree que es. Las etapas que nadie recuerda contar (copiar, imprimir, avisar) son justamente las candidatas a salir en el rediseño."
+        },
+        {
+          "p": "\"¿El cliente tiene el registro completo?\" Dos personas entrenadas, con el mismo registro abierto, responderían igual. ¿Qué es?",
+          "opcoes": [
+            "Juicio: necesita una persona con experiencia",
+            "Regla: puede volverse una verificación del sistema, de preferencia desde la entrada",
+            "Ni regla ni juicio: es un detalle"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Misma información, misma respuesta: es regla. El problema de Horizonte no es quién responde, sino dónde: la pregunta solo aparece en la facturación, después de la separación."
+        },
+        {
+          "p": "En los cinco casos, la mediana fue de 21 minutos de gente y 30 horas hasta la factura. ¿Qué sugiere eso?",
+          "opcoes": [
+            "Que las personas trabajan despacio",
+            "Que casi todo el tiempo es espera entre etapas, no trabajo",
+            "Que hace falta un agente para trabajar más rápido"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "21 minutos de trabajo en 30 horas: el tiempo está en las colas (lotes del depósito, facturación al día siguiente). Acelerar el trabajo de cada etapa casi no cambia el total; quitar esperas y traspasos sí lo cambia."
+        },
+        {
+          "p": "Finanzas dice que \"unos 15 pedidos por semana vuelven\". ¿Cómo entra en el mapa?",
+          "opcoes": [
+            "Como 15 por semana, medido",
+            "Como hipótesis declarada por finanzas, que se debe contar antes de decidir",
+            "No entra, porque no fue medido"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Lo declarado vale como pista y entra con el origen marcado. Descartarlo pierde la pista; tratarlo como medido engaña a quien decide. El conteo viene en la clase 6."
+        },
+        {
+          "p": "¿Por qué seguir solo cinco casos y no cien?",
+          "opcoes": [
+            "Porque cinco bastan para afirmar el promedio del proceso",
+            "Porque el objetivo aquí es dibujar el mapa y encontrar dónde medir; la medición para decidir viene después, con más casos",
+            "Porque cien casos dan el mismo resultado"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cinco casos son exploración. Muestran etapas ocultas, desvíos y esperas. Para decir cuánto tarda el proceso, y comparar antes y después, necesitas semanas de datos contados (clase 6)."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Seis bloques",
+          "texto": "Disparador, camino normal, decisiones, desvíos, medidas, conclusión."
+        },
+        {
+          "t": "Casos, no opinión",
+          "texto": "La entrevista da la hipótesis; cinco casos acompañados corrigen el mapa."
+        },
+        {
+          "t": "Regla o juicio",
+          "texto": "Misma información, misma respuesta: regla. Si no, queda con una persona."
+        },
+        {
+          "t": "Número con origen",
+          "texto": "Contado, observado o declarado. El tiempo casi siempre está en la espera."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Arquitecto de Trabajo con IA: todo proceso tiene seis eslabones",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Copilot + Agentes para Empresas: del prompt al workflow",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "lista"
+        },
+        {
+          "t": "Laboratorio Horizonte: las conversaciones de la agente (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/",
+          "icone": "chat"
+        }
+      ]
+    }
+  ]
+}

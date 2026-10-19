@@ -1,0 +1,281 @@
+{
+  "slug": "versao",
+  "num": 7,
+  "menu": "Versión",
+  "titulo": "Proceso con versión",
+  "titulo_curto": "Versión",
+  "minutos": 15,
+  "lead": "En Horizonte, el proceso cambia cuando alguien reclama fuerte: un susto creó la revisión de todos los pedidos, y nadie escribió cuándo ni por qué. El software no cambia así. Tiene número de versión, registro de cada cambio y una forma probada de volver atrás. En esta clase tratas el proceso del mismo modo y registras el paso de la versión 1.0 a la 2.0.",
+  "objetivo": "registrar el cambio v1 → v2 del proceso con motivo, evidencia, aprobador, implantación en fases y la forma de volver, como se hace con el software.",
+  "competencias": [
+    "versionar-processo",
+    "registrar-mudanca-com-evidencia",
+    "planejar-reversao"
+  ],
+  "aprende": [
+    {
+      "t": "Darle número de versión al proceso"
+    },
+    {
+      "t": "Convertir la queja en propuesta, no en cambio"
+    },
+    {
+      "t": "Promover de a poco, con la aprobación de quien responde"
+    },
+    {
+      "t": "Escribir antes el disparador y el camino de vuelta"
+    }
+  ],
+  "hero_alt": "En una sala de reuniones, una pantalla muestra dos diagramas de bloques de colores lado a lado, el de la izquierda más largo; una mujer sostiene una hoja con un cuadrado para marcar y el equipo escucha.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo de una versión",
+      "sub": "De la versión en uso a la siguiente, con el camino de vuelta escrito. Haz clic en cada etapa.",
+      "volta": "Empeoró o llegó al disparador: vuelve a la versión anterior, que quedó guardada",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Versión en uso",
+          "sub": "v1.0, escrita",
+          "detalhe": "El proceso como es hoy, con número, fecha y dueño: el mapa de la clase 3 es la v1.0. Sin la versión en uso escrita, no hay qué comparar ni adónde volver."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Propuesta",
+          "sub": "problema e hipótesis",
+          "detalhe": "Un cambio empieza por un problema observado (con los casos de origen) y una hipótesis: \"si cambiamos X, el indicador Y mejora sin empeorar Z\". Una queja aislada abre una propuesta; no cambia el proceso por sí sola."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Prueba",
+          "sub": "contra la línea de base",
+          "detalhe": "La versión nueva corre primero en el alcance del piloto, por un período acordado, y los indicadores de la clase 6 se comparan con la línea de base, en períodos parecidos."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Decisión",
+          "sub": "quien responde aprueba",
+          "forte": true,
+          "detalhe": "Promover, rechazar o esperar más datos. Quien decide es quien responde por el proceso, y no quien propuso el cambio. La decisión queda registrada con el motivo."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Nueva versión",
+          "sub": "v2.0 en uso, v1.0 guardada",
+          "detalhe": "La versión promovida entra en uso, por fases. La anterior sigue escrita e identificada, con el paso a paso para reactivarla. Ninguna versión peor reemplaza a la actual por decisión de un sistema."
+        }
+      ],
+      "legenda": "Regla 3 del proceso agéntico (área Gestión de IA): promover y revertir son etapas, no accidentes. Ciclo del LOOP-R y contrato de cambio del método Gestoria (INEMA)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Versionar en la práctica",
+      "sub": "Cuatro reglas. Horizonte es una empresa ficticia de estudio; las fechas y decisiones del ejemplo también.",
+      "passos": [
+        {
+          "titulo": "Número e historial",
+          "sub": "qué cambió, cuándo, por qué",
+          "texto": [
+            "Ponle número al proceso. Un cambio que corta, mueve o junta una etapa sube la versión entera (1.0 a 2.0). Un ajuste que no toca las etapas, como cambiar el plazo de una respuesta, sube el decimal (2.0 a 2.1).",
+            "Mantén un historial de una línea por versión: número, fecha, qué cambió, por qué, quién aprobó. Es lo que responde, dentro de seis meses, por qué el proceso es como es."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "La revisión de todos los pedidos entró el 14/10 sin registro. En el historial nuevo, aparece como parte de la v1.0, con el motivo que Patrícia recordó: los descuentos indebidos de la semana."
+          }
+        },
+        {
+          "titulo": "La queja se vuelve propuesta",
+          "sub": "no cambio",
+          "texto": [
+            "Un caso malo es una señal, no evidencia. Abre una propuesta con el problema, los casos de origen y la hipótesis. El cambio solo entra después de probado y aprobado.",
+            "Esto protege al proceso de quien se quejó más fuerte por última vez, incluso cuando quien se queja es el dueño."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Un cliente se quejó de una factura que tardó tres días. En vez de crear una nueva revisión, Patrícia abrió una propuesta: el caso de origen es el P3, la hipótesis es mover la revisión del registro a la entrada."
+          }
+        },
+        {
+          "titulo": "Promover poco a poco",
+          "sub": "fases y aprobación",
+          "texto": [
+            "La versión nueva empieza en el alcance del piloto, por un plazo, con los indicadores comparados con la línea de base. Solo después vale para todos los casos.",
+            "La promoción es decisión de quien responde por el proceso, con los números sobre la mesa. Quien propuso presenta; quien responde decide."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Fase 1, dos semanas: la v2.0 solo para clientes registrados con pedido de hasta R$ 5 mil. Fase 2: todos los pedidos. Patrícia propone; Carlos aprueba cada fase mirando los tres indicadores."
+          }
+        },
+        {
+          "titulo": "Volver está escrito",
+          "sub": "gatillo y paso a paso",
+          "texto": [
+            "Antes de cambiar, escribe cuándo volver (el gatillo, con número) y cómo volver (los pasos, quién lo hace, en cuánto tiempo). Decidir eso después del problema es decidir a la carrera.",
+            "Revertir no es fracaso: es lo que permite probar sin miedo. Lo que no puede pasar es que la versión anterior haya desaparecido."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Vuelve a la v1.0 si la devolución de facturación queda por encima de la línea de base por dos semanas seguidas, o si un pedido sale con descuento fuera de la política. Patrícia decide en un día hábil; la planilla y el papel vuelven al día siguiente."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar: registro de cambio e historial",
+      "sub": "El registro acompaña cada cambio; el historial tiene una línea por versión. Las pestañas muestran a Horizonte.",
+      "blocos": [
+        {
+          "rot": "Registro de cambio (v1 → v2)",
+          "icone": "arquivo",
+          "conteudo": "REGISTRO DE CAMBIO · proceso: <...> · de v<1.0> a v<2.0> · nº <001>\n\nPROBLEMA OBSERVADO: <qué pasa> · casos de origen: <ids>\nHIPÓTESIS: si <cambio>, entonces <indicador> mejora sin empeorar <barandilla>\nQUÉ CAMBIA: <etapas eliminadas, simplificadas, movidas, juntadas> (hoja de rediseño adjunta)\nPROPUESTO POR: <nombre> · APRUEBA: <nombre, distinto de quien propuso>\n\nEVIDENCIA\n  Línea de base (v<1.0>): <indicadores y valores, período>\n  Prueba (v<2.0>): <alcance> del <fecha> al <fecha>\n  Resultado: <valores en el mismo formato> · limitaciones: <...>\n\nIMPLANTACIÓN POR FASES\n  Fase 1: <alcance> a partir del <fecha> · aprobada por <nombre> el <fecha>\n  Fase 2: <todos los casos> a partir del <fecha> · aprobada por <nombre> el <fecha>\n\nREVERSIÓN\n  Gatillo: <indicador> peor que <valor> por <período>, o <evento de la barandilla>\n  Quién decide: <nombre> · en cuánto tiempo: <...>\n  Cómo volver: <pasos, quién hace cada uno>\n  Versión anterior guardada en: <dónde>\n\nDECISIÓN: [ ] promover  [ ] rechazar  [ ] esperar más datos · motivo: <...> · <fecha>"
+        },
+        {
+          "rot": "Historial de versiones del proceso",
+          "icone": "lista",
+          "conteudo": "HISTORIAL · proceso: <...> · dueño: <nombre>\n\n| Versión | Fecha | Qué cambió | Por qué (problema y evidencia) | Aprobado por | Situación |\n|---|---|---|---|---|---|\n| 1.0 | <fecha> | versión mapeada (como era) | <...> | <nombre> | <en uso / guardada> |\n| 2.0 | <fecha> | <...> | <...> | <nombre> | <en prueba / en uso / revertida> |\n\nRegla: corta, mueve o junta una etapa = nueva versión entera; ajuste sin tocar las etapas = decimal."
+        },
+        {
+          "rot": "Prompt · revisar el registro de cambio",
+          "icone": "chat",
+          "conteudo": "Eres auditor de procesos. Abajo está el registro de un cambio de\nproceso en mi empresa. No decidas si el cambio es bueno. Señala:\n\n1. Si el problema tiene casos de origen o es solo una impresión.\n2. Si la hipótesis dice qué indicador mejora y cuál no puede empeorar.\n3. Si quien aprueba es distinto de quien propuso.\n4. Si el gatillo de reversión tiene número y plazo, y si los pasos de vuelta\n   dicen quién hace cada uno.\n5. Qué faltaría para que alguien, dentro de seis meses, entienda este cambio.\n\nRegistro:\n\"\"\"<pega>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Registro de Horizonte (ejemplo)",
+            "html": "<p><b>Cambio nº 001 · pedido por WhatsApp → factura · v1.0 → v2.0</b> · Horizonte, empresa ficticia de estudio</p><ul><li><b>Problema:</b> los pedidos vuelven de facturación por registro incompleto y pasan por 4 traspasos de manos (casos P1 a P5).</li><li><b>Hipótesis:</b> cortando los traspasos de manos, revisando solo las excepciones y moviendo el registro a la entrada, el tiempo hasta la factura y la devolución bajan, sin ningún descuento fuera de la política.</li><li><b>Propuesto por:</b> Patrícia · <b>aprueba:</b> Carlos.</li><li><b>Evidencia:</b> línea de base de cuatro semanas contadas en la app y en el ERP antes del cambio; prueba en la fase 1, por dos semanas.</li><li><b>Fases:</b> 1) clientes registrados con pedido de hasta R$ 5 mil; 2) todos los pedidos.</li><li><b>Reversión:</b> devolución por encima de la línea de base por dos semanas seguidas, o un pedido con descuento fuera de la política. Patrícia decide en un día hábil. Pasos: Juliana vuelve a copiar a la planilla y a imprimir; Rafael desactiva el traspaso automático al ERP; finanzas vuelve a digitar. La v1.0 está guardada en la carpeta del proceso.</li></ul>"
+          },
+          {
+            "rot": "Historial (ejemplo)",
+            "html": "<table><tr><th>Versión</th><th>Qué cambió</th><th>Situación</th></tr><tr><td>1.0</td><td>Mapeada con 13 etapas, incluida la revisión de todos los pedidos, creada el 14/10 después de los descuentos indebidos</td><td>guardada</td></tr><tr><td>2.0</td><td>8 etapas: 5 eliminadas, revisión de excepciones y muestra, registro en la entrada</td><td>en prueba (fase 1)</td></tr><tr><td>2.1</td><td>Muestra semanal de 10 a 15 pedidos durante la fase 2 (ajuste, sin tocar las etapas)</td><td>propuesta</td></tr></table><p>Fechas y decisiones ficticias de estudio.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Cambio sin número.</b> Si no puedes decir en qué versión está el proceso, no puedes volver.</li><li><b>Quien propone aprueba.</b> La aprobación es de quien responde por el proceso.</li><li><b>Gatillo vago.</b> \"Si empeora\" no es gatillo; \"devolución por encima de X por dos semanas\" sí lo es.</li><li><b>Versión anterior borrada.</b> Guarda el mapa, la hoja de etiquetas y el cuadro de ejecutores de la v1.0.</li><li><b>Cambiar todo de una vez.</b> Las fases te dejan ver el efecto antes de que valga para todos.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El registro de Horizonte para practicar; el de tu proceso para valer.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El registro v1.0 → v2.0 de Horizonte",
+          "min": "20 min",
+          "texto": "Usa la hoja de rediseño de la clase 4, el cuadro de la clase 5 y las fichas de indicador de la clase 6. Completa el registro de cambio y el historial sin mirar las pestañas. Corre el prompt de revisión y corrige lo que señale.",
+          "pronto": "el registro tiene problema con casos de origen, hipótesis con indicador y barandilla, aprobador distinto de quien propuso, 2 fases con alcance, 2 gatillos de reversión con número y plazo, y los pasos de vuelta con quién hace cada uno; el historial tiene las líneas 1.0 y 2.0."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · El registro de tu proceso",
+          "min": "30 min",
+          "texto": "Haz el registro del cambio de la versión actual de tu proceso a la rediseñada, y el historial. Acuérdalo con quien aprueba antes de empezar la fase 1.",
+          "pronto": "el registro está completo, con la línea de base de la clase 6 como evidencia de partida, el aprobador acordado por escrito, la fecha de la fase 1 y la versión actual guardada en un lugar que otra persona pueda encontrar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Un cliente importante se quejó de un retraso. El dueño quiere crear una nueva revisión ya. ¿Qué pide el proceso con versión?",
+          "opcoes": [
+            "Crear la revisión hoy, porque el cliente es importante",
+            "Abrir una propuesta con el caso de origen y la hipótesis, y probar antes de cambiar el proceso",
+            "Ignorarlo, porque fue un solo caso"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Una queja es una señal, no evidencia. Abre una propuesta; el cambio entra probado y aprobado. Ignorarla también es un error: el caso puede apuntar a un problema real."
+        },
+        {
+          "p": "Cambiaste el tamaño de la muestra semanal de 10 a 15 pedidos, sin tocar los pasos. ¿Qué versión es?",
+          "opcoes": [
+            "3.0",
+            "2.1: un ajuste sin tocar los pasos sube el decimal",
+            "No necesita versión"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cortar, mover o juntar un paso sube la versión entera; un ajuste sin tocar los pasos sube el decimal. Hasta el ajuste va al historial."
+        },
+        {
+          "p": "¿Cuándo escribir el gatillo de reversión?",
+          "opcoes": [
+            "Antes del cambio, con número y plazo",
+            "Cuando aparezca el problema",
+            "Solo si el dueño lo pide"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "Un gatillo decidido después del problema se decide con el susto, y cada uno tira para su lado. Escrito antes, la vuelta es un paso previsto."
+        },
+        {
+          "p": "¿Quién aprueba la promoción de la versión 2.0 en Horizonte?",
+          "opcoes": [
+            "Patrícia, que propuso y conoce el proceso",
+            "Carlos, con los indicadores comparados con la línea de base: quien propone no aprueba",
+            "La agente, que ve todos los pedidos"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Quien propone presenta la evidencia; quien responde por el resultado decide. Ninguna versión entra por decisión de un sistema."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Número e historial",
+          "texto": "Cambió un paso, versión entera; ajuste, decimal. Una línea por versión."
+        },
+        {
+          "t": "Propuesta antes del cambio",
+          "texto": "Caso de origen, hipótesis, prueba contra la línea de base."
+        },
+        {
+          "t": "Fases y aprobación",
+          "texto": "Primero el alcance; decide quien responde, no quien propuso."
+        },
+        {
+          "t": "La vuelta escrita antes",
+          "texto": "Gatillo con número, pasos con nombre, versión anterior guardada."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "LOOP-R: guía del ciclo de mejora con registro y botón de volver",
+          "href": "https://inematds.github.io/loop-r/guia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "LOOP-R: curso para dueños y gestores",
+          "href": "https://inematds.github.io/loop-r/curso/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Área Gestión de IA: regla 3, promover y revertir son pasos",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "voltar"
+        }
+      ]
+    }
+  ]
+}

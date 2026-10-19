@@ -1,0 +1,293 @@
+{
+  "slug": "linha-de-base",
+  "num": 6,
+  "menu": "Measure",
+  "titulo": "Baseline and target",
+  "titulo_curto": "Baseline",
+  "minutos": 20,
+  "lead": "Every Monday Carlos opens the agent's dashboard and says: \"look how it's climbing!\" It really is climbing. But the dashboard started counting the day the agent came on board, and it only shows volume. Without the before, any rise looks like a win, and any redesign has no proof. In this lesson you pick three indicators with a denominator and record today's value before you change anything.",
+  "objetivo": "define 3 indicators with a numerator, a denominator, and today's value, observed or marked as a hypothesis, before changing the process.",
+  "competencias": [
+    "measure-before-you-change",
+    "define-indicator-with-denominator",
+    "separate-observed-from-hypothesis"
+  ],
+  "aprende": [
+    {
+      "t": "Why volume goes up without proving anything"
+    },
+    {
+      "t": "Write an indicator as a fraction, with a period and a source"
+    },
+    {
+      "t": "Mark what is observed and what is a hypothesis"
+    },
+    {
+      "t": "A target with a deadline and the guardrail for what can't get worse"
+    }
+  ],
+  "hero_alt": "The business owner and the sales manager look at a printed bar chart and a line chart on the laptop; she points to the start of the chart.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "An indicator in five parts",
+      "sub": "From the question to the guardrail. Tap each part.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Question",
+          "sub": "what you want to know",
+          "detalhe": "Start with the business question, not the number you happen to have. \"Does the order become an invoice faster and with less rework?\" leads to different indicators than \"does the agent serve a lot of people?\"."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Fraction",
+          "sub": "numerator ÷ denominator",
+          "forte": true,
+          "detalhe": "What you count divided by the universe you count in. \"Orders returned by billing\" on its own says nothing; divided by \"orders that reached billing this week,\" it does. Without a denominator, the number grows along with the volume."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Period and source",
+          "sub": "when and from where",
+          "detalhe": "Week, month, four weeks. And the source: counted in a system, observed in tracked cases, or stated by someone. Always compare similar periods (the end of the month isn't the start)."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Today",
+          "sub": "observed or hypothesis",
+          "detalhe": "The value before any change. If it hasn't been counted yet, it goes in as a hypothesis, with the date it will become observed. A marked hypothesis is honesty; a stated number treated as measured is a trap."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Target and guardrail",
+          "sub": "where to, and without making what worse",
+          "detalhe": "A target with a value and a deadline. And a guardrail: what can't get worse while you chase the target (invoice errors, discounts outside policy, complaints). Improving one number by wrecking another is not improvement."
+        }
+      ],
+      "legenda": "Indicator rules from the Gestoria method (INEMA): always period, population, denominator, and source; test, pilot, and production kept separate."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From the dashboard that climbs to the baseline",
+      "sub": "The dashboard numbers come from the lab (fictional study company). Open the piece and check.",
+      "passos": [
+        {
+          "titulo": "The dashboard that climbs",
+          "sub": "volume without a denominator",
+          "texto": [
+            "Hora's dashboard shows conversations rising from 702 (week of 09/01) to 901 (week of 10/13), and closed orders from 141 to 168. The collection started the same day the agent came on board. There is no before and no comparison.",
+            "Satisfaction comes from a star-rating button that about 6% of customers answer. An average of those who answered doesn't speak for the other 94%."
+          ],
+          "exemplo": {
+            "rot": "The math the dashboard doesn't do",
+            "texto": "Orders ÷ conversations: 141 ÷ 702 = 20.1% on 09/01; 168 ÷ 901 = 18.6% on 10/13. Volume went up and conversion went down. \"Climbing\" doesn't prove the agent helped."
+          }
+        },
+        {
+          "titulo": "Three process indicators",
+          "sub": "time, rework, people's work",
+          "texto": [
+            "For the order-to-invoice process, three questions are enough: how long it takes, how much comes back, how much people's work it uses. Each one becomes a fraction with a period and a source.",
+            "Time is measured by the median, not the average: one order stuck for three days pulls the average up and hides the normal. Add the typical worst case (the p95) so you don't lose sight of the stuck ones."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Time from confirmed order to invoice (median and p95 of the orders invoiced in the week). Orders returned ÷ orders that reached billing. People's minutes ÷ orders invoiced."
+          }
+        },
+        {
+          "titulo": "Observed or hypothesis",
+          "sub": "four weeks before changing anything",
+          "texto": [
+            "The five cases in lesson 3 give you a clue, not the baseline. The baseline comes from four weeks counted in the systems, before any change. Until then, today's value goes in marked as a hypothesis, with the date it becomes observed.",
+            "Freed-up people time is not saved money either: it only becomes savings if the company cuts an expense or uses that time on something you can verify."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Today: 30 h until the invoice and 21 min of people time (median of the 5 cases, hypothesis); about 9% sent back (\"about 15 a week\" ÷ 168, stated, hypothesis). Count in the app and in the ERP for four weeks before version 2.0."
+          }
+        },
+        {
+          "titulo": "Target and guardrail",
+          "sub": "where, by when, without making what worse",
+          "texto": [
+            "A goal is a value and a deadline, decided by whoever answers for the process, looking at the baseline and not at wishful thinking. Revise the goal when the observed baseline arrives: it may show the hypothesis was far off.",
+            "The guardrail protects what cannot get worse. If the goal is speed, the guardrail is error: a discount outside the policy, a wrong invoice, a complaint."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte (fictional decision)",
+            "texto": "Goals for 8 weeks after version 2.0: median until the invoice of 24 h or less; returns of 3% or less; people minutes per order under 15. Guardrail: zero orders with a discount outside the policy."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy: indicator sheet and baseline chart",
+      "sub": "One sheet per indicator; the chart brings the three together, week by week. The tabs show Horizonte.",
+      "blocos": [
+        {
+          "rot": "Indicator sheet",
+          "icone": "grafico",
+          "conteudo": "INDICATOR · <short name> · process: <...> · indicator owner: <name>\n\nBusiness question: <what we want to know>\nNumerator: <what is counted>\nDenominator: <the universe in which it is counted>\nFormula: <numerator> ÷ <denominator>  (or median / p95, for time)\nPeriod: <week / 4 weeks / month> · compare with: <similar period>\nSource: <system and field> · who extracts it: <name>\n\nTODAY: <value> · [ ] observed (counted from <date> to <date>, n = <...>)\n                [ ] hypothesis (source: <...>) · becomes observed on: <date>\nGOAL: <value> by <date> · decided by: <name>\nGUARDRAIL: <what cannot get worse> · limit: <value>\nDO NOT CONFUSE WITH: <what this number does not show>"
+        },
+        {
+          "rot": "Baseline chart (4 weeks)",
+          "icone": "calendario",
+          "conteudo": "BASELINE · process: <...> · version in use: <1.0> · from <date> to <date>\n\n| Week | Cases (denominator) | Indicator 1 | Indicator 2 | Indicator 3 | Guardrail | Note (holiday, promotion, out of stock) |\n|---|---|---|---|---|---|---|\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n\nDid nothing in the process change during this period? [ ] yes  [ ] no: <what, when>\nSigned by: <process owner> on <date>"
+        },
+        {
+          "rot": "Prompt · what this indicator hides",
+          "icone": "chat",
+          "conteudo": "You are an indicator analyst. Below are the sheets for the indicators\nI chose to measure a process before and after redesigning it.\nDo not pick others. For each sheet:\n\n1. Say whether the denominator is clear and whether it can change on its own\n   and mislead the comparison.\n2. Give a way for the number to improve without the process improving.\n3. Say whether today's value is marked as observed or hypothesis and\n   whether the source supports the mark.\n4. Suggest a guardrail, if the sheet doesn't have one.\n\nSheets:\n\"\"\"<paste>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte's three (example)",
+            "html": "<p><b>WhatsApp order → invoice · baseline</b> · Horizonte, fictional study company</p><table><tr><th>Indicator</th><th>Fraction</th><th>Today</th><th>Goal</th></tr><tr><td>Time until the invoice</td><td>median and p95 of (invoice − confirmed order), orders invoiced in the week</td><td>30 h (hypothesis: 5 cases)</td><td>24 h or less</td></tr><tr><td>Returns from invoicing</td><td>sent back to customer service ÷ reached invoicing, in the week</td><td>~9% (hypothesis: stated)</td><td>3% or less</td></tr><tr><td>People minutes per order</td><td>sum of people minutes ÷ orders invoiced</td><td>21 min (hypothesis: 5 cases)</td><td>under 15</td></tr></table><p><b>Guardrail:</b> orders with a discount outside the policy = 0 per week. <b>Becomes observed:</b> count in the app and in the ERP for four weeks, before version 2.0. <b>Goal for:</b> 8 weeks after version 2.0. Goals and deadlines: fictional study decision.</p>"
+          },
+          {
+            "rot": "The dashboard, recalculated",
+            "html": "<table><tr><th>Week</th><th>Conversations</th><th>Orders</th><th>Orders ÷ conversations</th></tr><tr><td>01/09</td><td>702</td><td>141</td><td>20.1%</td></tr><tr><td>22/09</td><td>810</td><td>158</td><td>19.5%</td></tr><tr><td>13/10</td><td>901</td><td>168</td><td>18.6%</td></tr></table><p>Data from the lab's <code>indicadores.json</code> (fictional). The dashboard has no week before 01/07, when the agent came in: there is nothing to compare with.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>A count without a denominator.</b> \"15 returned\" in a week of 100 orders is very different from in a week of 300.</li><li><b>Average time.</b> One stuck case pulls the average up. Use the median and p95.</li><li><b>A hypothesis without a date.</b> Every hypothesis says when it becomes observed.</li><li><b>Different periods.</b> Comparing four year-end weeks with four weeks in February does not measure the redesign.</li><li><b>Freed-up time sold as savings.</b> It only becomes savings with a reduced expense or a verified use.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Fix Horizonte's dashboard; then measure your own process before changing it.",
+      "fonte": "Lab piece: <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">indicator dashboard</a> (F11, fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Horizonte's dashboard, corrected",
+          "min": "25 min",
+          "texto": "Open the dashboard in the lab. Calculate orders ÷ conversations for the first and the last week. Then write the three indicator sheets for the process from the order to the invoice, plus the guardrail. Finish with a three-sentence message to Carlos explaining why \"goes up\" does not answer whether the agent helped.",
+          "pronto": "both conversions are calculated, the 3 sheets have numerator, denominator, period, source, today's value marked as observed or hypothesis (with a date to become observed), goal and deadline, there is 1 guardrail with a limit, and the message to Carlos has 3 sentences."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your process baseline",
+          "min": "4 weeks",
+          "dias": 28,
+          "texto": "Write the three indicator sheets for your process and start the baseline chart. Don't change anything in the process during the four weeks; if something changes, note it in the note column.",
+          "pronto": "the 3 sheets are written with today's value as observed or hypothesis, and the chart has 4 weeks filled in with each week's denominator and the process owner's signature."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The agent's conversations went from 702 to 901 a week. What does that prove?",
+          "opcoes": [
+            "That the agent improved sales",
+            "Nothing on its own: the before is missing and so is a denominator; orders ÷ conversations even fell",
+            "That customer satisfaction went up"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Volume can rise because of the time of year, a discount, or because the agent talks more per order. Conversion went from 20.1% to 18.6%. Without a baseline, the question \"did it help?\" stays a guess."
+        },
+        {
+          "p": "Which of these is a complete indicator?",
+          "opcoes": [
+            "Orders returned",
+            "Orders returned to customer service ÷ orders that reached invoicing, per week, counted in the ERP",
+            "Many orders come back"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Numerator, denominator, period, and source. Without the denominator, the number goes up and down with volume and doesn't tell you whether the process improved."
+        },
+        {
+          "p": "Finance says that \"about 15 a week come back\". How does this value go on the sheet?",
+          "opcoes": [
+            "As observed: finance knows the process",
+            "As a stated hypothesis, with the date it becomes observed after the count",
+            "It doesn't go in"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "What people say is a valuable clue, but it is not a measurement. Marking it as a hypothesis, with a date, protects the before-and-after comparison."
+        },
+        {
+          "p": "Why use the median, not the average, for time to invoice?",
+          "opcoes": [
+            "Because the median is always lower",
+            "Because a few stuck cases pull the average up and hide the normal time; the p95 shows the stuck ones separately",
+            "Because it is easier to calculate"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "One 75-hour request among four of 22 to 30 hours skews the average. Use the median for the normal case and the p95 for the typical worst case."
+        },
+        {
+          "p": "The redesign freed up 20 hours of people's time per week. What can you tell the owner?",
+          "opcoes": [
+            "That the company saved 20 hours of salary",
+            "That 20 hours of capacity were freed up, as an estimate, and they only become savings if they are used or cut in a way you can verify",
+            "That the project's return is guaranteed"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Freed-up capacity is not money in the bank. Any return is an estimate, with uncertainty, until the company cuts an expense or uses the time on something you can verify."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Volume misleads",
+          "texto": "Without the before and without a denominator, \"goes up\" proves nothing."
+        },
+        {
+          "t": "Full fraction",
+          "texto": "Numerator, denominator, period, and source."
+        },
+        {
+          "t": "Today, marked",
+          "texto": "Observed over four counted weeks, or a dated hypothesis."
+        },
+        {
+          "t": "Target and guardrail",
+          "texto": "Value and deadline, without worsening what cannot get worse."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "Laboratório Horizonte: the dashboard with no baseline (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Copilot + Agents for Business: indicators that turn into action",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "alvo"
+        },
+        {
+          "t": "AI Management Area: what the manager measures",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "slug": "nao-acelere",
+  "num": 1,
+  "menu": "Don't speed it up",
+  "titulo": "Don't speed up the old process",
+  "titulo_curto": "Don't speed it up",
+  "minutos": 15,
+  "lead": "The owner of Horizonte wants the sales agent to handle billing too, doing the same thing the team does today. It looks like the safe path. It isn't: a process designed for people to pass paper from hand to hand, run by an agent, just delivers the same error faster. This lesson teaches you to look at each step and ask why it exists.",
+  "objetivo": "explain why automating a bad process delivers the error faster, and mark, in a process of your own, the steps that exist only out of habit.",
+  "competencias": [
+    "questionar-o-processo-antes-de-automatizar",
+    "classificar-etapas-por-origem",
+    "distinguir-ia-em-cima-de-redesenho"
+  ],
+  "aprende": [
+    {
+      "t": "Why speeding up the old process also speeds up the error"
+    },
+    {
+      "t": "The three origins of a step: real requirement, habit, and handoff"
+    },
+    {
+      "t": "The question that comes before any agent"
+    },
+    {
+      "t": "What you don't cut, even when it looks like bureaucracy"
+    }
+  ],
+  "hero_alt": "A clerk holds a phone and a freshly printed sheet next to a printer spitting out a stack of orders; beside her, a monitor shows a spreadsheet.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Four generations of process",
+      "sub": "Each generation changed what you do with the process after it is designed. Tap each step.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "arquivo",
+          "titulo": "Traditional",
+          "sub": "design, document, train, execute",
+          "detalhe": "The process is designed once, becomes a manual and training, and people carry it out. It rarely changes, because changing it means retraining everyone. A good part of what exists in your company today was born this way, with the tools and people of another era."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Automated",
+          "sub": "design, automate, monitor",
+          "detalhe": "A system becomes part of the steps, and someone monitors whether it is running. The design stays the same as before: the automation copies the path people used to follow. This is where the risk of speeding up the error is born."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agentic",
+          "sub": "goal, agent executes, measures, evaluates",
+          "forte": true,
+          "detalhe": "The agent receives a goal, not a list of clicks. It carries out several steps, the execution is measured, and a person (or another agent) evaluates. If the goal is \"do it like the team does,\" the agent inherits the useless steps along with the useful ones."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "LOOP-R",
+          "sub": "the process that improves with execution",
+          "detalhe": "Execute, observe, critique, propose, experiment, validate, promote, repeat. The process is no longer frozen: each execution generates evidence for the next version, and the previous version is kept so you can go back. This is the subject of lesson 7."
+        }
+      ],
+      "legenda": "Process generations in the AI Management Area (INEMA). They coexist in the same company: one process can be at step 1 and another at step 3.",
+      "dica": "Before moving a process up a step, ask whether it should still exist this way."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Why not speed it up",
+      "sub": "Four ideas. The examples are from Horizonte, a fictional study company.",
+      "passos": [
+        {
+          "titulo": "The faster error",
+          "sub": "the agent inherits the design",
+          "texto": [
+            "A process designed for people has steps that exist because people couldn't reach everything: one copies, another checks, a third carries the paper. Putting an agent to repeat that path keeps every step, just faster.",
+            "If the design had an error, the error gets faster too. And harder to see, because now nobody walks the whole path with their own eyes."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Today finance retypes each order into the ERP and only then finds out the customer has no CNPJ on file. With Hora retyping, the order without a CNPJ reaches finance sooner, already picked in the warehouse, and comes back the same way."
+          }
+        },
+        {
+          "titulo": "Three origins of a step",
+          "sub": "requirement, habit, handoff",
+          "texto": [
+            "Every step was born for a reason. <b>Real requirement</b>: law, contract, customer, or a risk someone has already lived through. <b>Habit</b>: it's always been this way and nobody can say why. <b>Handoff</b>: it exists only to carry the work from one person to another.",
+            "Handoff is the most common habit and the easiest to spot: printing, forwarding, announcing that you're done, copying from one system to another."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Issuing the invoice is a real requirement. Copying the order from the app to the spreadsheet is habit: the spreadsheet existed before the app. Printing the order for the warehouse is a handoff."
+          }
+        },
+        {
+          "titulo": "The question that comes first",
+          "sub": "would it still exist this way?",
+          "texto": [
+            "The question that changes the work is this: if I had people, agents, and automations available today, would this process still exist this way? It applies to the whole process and to each step.",
+            "For a single step, the practical version is: does this step need to exist if the three before it are done all at once, by the same person or the same agent? Many handoffs disappear on their own."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "If the order is born complete in the app, the warehouse sees it on screen, and finance receives it in the ERP, four steps lose their reason to exist: the spreadsheet, the paper, the WhatsApp notice, and the email to finance."
+          }
+        },
+        {
+          "titulo": "What you don't cut",
+          "sub": "ask before cutting",
+          "texto": [
+            "Habit sometimes hides a reason nobody wrote down. Before marking a step as habit, ask the person who does it: why does this exist? What has gone wrong when it wasn't done? If the answer is a real risk, the step is a requirement.",
+            "The steps of judgment, exception, oversight and strategy also stay. They change place and size, but they still belong to a person."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia approves any order above R$ 5 mil before picking: that is a real requirement (a fictional company policy). Checking the price of every order, including the standard-price ones, is a habit born from a scare. The risk is real; the form is not."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: tagging sheet",
+      "sub": "One line per step, in the order it happens today. Paste it into a spreadsheet or a document. The tab next to it shows the Horizonte sheet.",
+      "blocos": [
+        {
+          "rot": "Process tagging sheet",
+          "icone": "lista",
+          "conteudo": "TAGGING SHEET · process: <from where to where> · owner: <name> · date: <mm/dd/yyyy>\n\nTags\n  X = real requirement (law, contract, customer, a risk someone has already lived through)\n  H = habit (it has always been this way; nobody can say why)\n  P = handoff (it only exists to carry the work from one person to another)\n\n| # | Step (verb + object) | Who does it | Tag | Why it exists (answer from the person who does it) | If it disappeared, what would break? |\n|---|---|---|---|---|---|\n| 1 | <receive the order> | <name or role> | <X, H or P> | <...> | <...> |\n| 2 | <...> | <...> | <...> | <...> | <...> |\n\nCOUNT: X = <n> · H = <n> · P = <n>\nQUESTIONS I ASKED THE PEOPLE WHO DO IT: <names and date>\nCLOSING QUESTION: if I had people, agents and automations today,\nwould this process exist this way? <yes or no, in two sentences>"
+        },
+        {
+          "rot": "Prompt · look for handoffs",
+          "icone": "chat",
+          "conteudo": "You are a process analyst. Below is the list of steps of a process\nin my company, in the order they happen, with who does each one.\nDo not rewrite the process and do not decide anything. Just point out:\n\n1. Steps that seem to exist only to pass the work from one person to\n   another (printing, forwarding, notifying, copying from one system to another).\n2. Steps that repeat a check that was already done earlier.\n3. For each step you point out, the question I should ask the person who\n   does it to find out whether there is a real reason.\n\nSteps:\n\"\"\"<paste the list>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte sheet (example)",
+            "html": "<p><b>WhatsApp order → invoice · v1.0</b> · Horizonte Distribuidora, fictional study company</p><table><tr><th>#</th><th>Step</th><th>Who</th><th>Tag</th></tr><tr><td>1</td><td>Reply to the customer on WhatsApp</td><td>Hora or Juliana</td><td>X</td></tr><tr><td>2</td><td>Build the order in the app</td><td>Hora</td><td>X</td></tr><tr><td>3</td><td>Copy the order into the sales spreadsheet</td><td>Juliana</td><td>H</td></tr><tr><td>4</td><td>Check the price and discount of every order</td><td>Patrícia</td><td>H</td></tr><tr><td>5</td><td>Approve any order above R$ 5 mil</td><td>Patrícia</td><td>X</td></tr><tr><td>6</td><td>Print the order and take it to the warehouse</td><td>Juliana</td><td>P</td></tr><tr><td>7</td><td>Check availability in the ERP</td><td>warehouse</td><td>X</td></tr><tr><td>8</td><td>Pick the items</td><td>warehouse</td><td>X</td></tr><tr><td>9</td><td>Tell Juliana the items were picked</td><td>warehouse</td><td>P</td></tr><tr><td>10</td><td>Send an email to finance</td><td>Juliana</td><td>P</td></tr><tr><td>11</td><td>Retype the order in the ERP</td><td>finance</td><td>P</td></tr><tr><td>12</td><td>Check the customer record and issue the invoice</td><td>finance</td><td>X</td></tr><tr><td>13</td><td>Send the invoice to the customer</td><td>Juliana</td><td>X</td></tr></table><p>Count: X = 7 · H = 2 · P = 4. Step 4 was born on 10/14, after the improper discounts that week: the risk is real, but the form (checking every order) is habit.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>Step written as a department</b> (\"finance\") instead of verb + object (\"retype the order in the ERP\"). Without a verb, you can't ask why it exists.</li><li><b>Tag given without asking</b> the person who does it. The \"why it exists\" column must hold the person's answer, not your guess.</li><li><b>Everything becomes habit.</b> If you marked more H and P than X, double-check: invoices, value approvals and stock checks are usually real requirements.</li><li><b>Process with no ends.</b> The first line is the trigger (what comes in); the last is the conclusion (what goes out and to whom).</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte sheet to train your eye; the one for your own process for real.",
+      "fonte": "Lab pieces: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">WhatsApp agent</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/app-pedidos/\">orders app</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte tags",
+          "min": "15 min",
+          "texto": "Copy the 13 steps from the example tab without the \"Tag\" column and give each one an X, H or P, with one line of reasoning. Only then compare with the tab and note where you disagreed and why.",
+          "pronto": "all 13 steps have a tag and a reason, you found at least 4 H or P steps, and you wrote the answer to the closing question in two sentences."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The tags for your process",
+          "min": "30 min",
+          "texto": "Pick one of your processes that repeats every week and involves more than one person. List the steps in today's order, with who does each one. Ask at least two people who run the process why the suspect steps exist, and fill in the sheet.",
+          "pronto": "the sheet has 6 to 15 steps with a verb and who does them, at least 3 marked as habit (H or P) with the reason given by the person who does them, the names of the people you consulted, and the closing question answered."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "A company put an agent in charge of doing exactly the steps the team used to do, in the same order. The time dropped by half. What happened to the process?",
+          "opcoes": [
+            "It was redesigned, because the time dropped",
+            "It stayed the same, only faster: the hits and the misses of the old design are still there",
+            "It got worse, because an agent should not execute steps"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Saving time is not redesigning. It is AI on top of the old process: a real gain, but the useless steps and the design errors are still there, now faster and less visible."
+        },
+        {
+          "p": "At Horizonte, Juliana sends an email to finance with each picked order. What is the most likely tag for this step?",
+          "opcoes": [
+            "X, real requirement: finance needs to know",
+            "P, handoff: it only exists because the order doesn't reach finance on its own",
+            "None: an email is not a step"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Finance needs the order; it doesn't need the email. If the order reached the ERP straight from the app, this step would lose its reason. Handoff is the most common habit and the easiest to find."
+        },
+        {
+          "p": "You suspect a check is only habit. What should you do before tagging it H?",
+          "opcoes": [
+            "Tag it and cut it right away, to save time",
+            "Ask the person who does it why it exists and what has already gone wrong when it wasn't done",
+            "Ask an agent to decide"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Habit sometimes hides a risk nobody wrote down. The answer from the person who does it decides whether the step is a real requirement. And even when the risk is real, the form of the check can be habit, like Patrícia's check of every order."
+        },
+        {
+          "p": "Which of these steps still belongs to a person after the redesign?",
+          "opcoes": [
+            "Copying the order from one system to another",
+            "Deciding whether an old customer deserves a term outside the policy",
+            "Telling a coworker that the picking is finished"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Deciding outside the rule is judgment and exception: it stays with a person. Copying and notifying are handoffs, candidates to disappear when the work runs in a single system."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Speeding up is not redesigning",
+          "texto": "The agent inherits the design, mistakes included, just faster."
+        },
+        {
+          "t": "Three origins",
+          "texto": "A real requirement stays. Habit and handoff are candidates to go."
+        },
+        {
+          "t": "The question that comes first",
+          "texto": "With people, agents, and automations today, would this exist in this form?"
+        },
+        {
+          "t": "Ask before you cut",
+          "texto": "The person who does it knows the risk the step hides. The answer goes on the sheet."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "AI Management Area: process is not sacred",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "AI Work Architect: redesigning who does what",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Horizonte Lab: the company's pieces (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        }
+      ]
+    }
+  ]
+}

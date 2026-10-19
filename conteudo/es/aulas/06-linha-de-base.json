@@ -1,0 +1,293 @@
+{
+  "slug": "linha-de-base",
+  "num": 6,
+  "menu": "Medir",
+  "titulo": "Línea de base y meta",
+  "titulo_curto": "Línea de base",
+  "minutos": 20,
+  "lead": "Cada lunes Carlos abre el panel de la agente y dice: \"¡mira cómo sube!\". Sí sube. Pero el panel empezó a contar el día en que la agente entró y solo muestra volumen. Sin el antes, cualquier subida parece mérito, y cualquier rediseño se queda sin prueba. En esta clase eliges tres indicadores con denominador y registras el valor de hoy antes de tocar nada.",
+  "objetivo": "definir 3 indicadores con numerador, denominador y valor de hoy, observado o marcado como hipótesis, antes de cambiar el proceso.",
+  "competencias": [
+    "medir-antes-de-mexer",
+    "definir-indicador-com-denominador",
+    "separar-observado-de-hipotese"
+  ],
+  "aprende": [
+    {
+      "t": "Por qué el volumen sube sin probar nada"
+    },
+    {
+      "t": "Escribir un indicador como fracción, con período y origen"
+    },
+    {
+      "t": "Marcar qué es observado y qué es hipótesis"
+    },
+    {
+      "t": "Meta con plazo y la barandilla de lo que no puede empeorar"
+    }
+  ],
+  "hero_alt": "El dueño de la empresa y la gerente comercial analizan un gráfico de barras impreso y un gráfico de líneas en la laptop; ella señala la parte inicial del gráfico.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Un indicador en cinco partes",
+      "sub": "De la pregunta a la barandilla. Haz clic en cada parte.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Pregunta",
+          "sub": "lo que quieres saber",
+          "detalhe": "Empieza por la pregunta de negocio, no por el número disponible. \"¿El pedido se convierte en factura más rápido y con menos retrabajo?\" lleva a indicadores distintos de \"¿la agente atiende a mucha gente?\"."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Fracción",
+          "sub": "numerador ÷ denominador",
+          "forte": true,
+          "detalhe": "Lo que cuentas dividido por el universo en que cuentas. \"Pedidos devueltos por facturación\" solo no dice nada; dividido por \"pedidos que llegaron a facturación en la semana\", sí dice. Sin denominador, el número crece junto con el volumen."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Período y origen",
+          "sub": "cuándo y de dónde",
+          "detalhe": "Semana, mes, cuatro semanas. Y el origen: contado en un sistema, observado en casos acompañados o declarado por alguien. Compara siempre períodos parecidos (el fin de mes no es el comienzo)."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Hoy",
+          "sub": "observado o hipótesis",
+          "detalhe": "El valor antes de cualquier cambio. Si aún no se ha contado, entra como hipótesis, con la fecha en que pasará a ser observado. Hipótesis marcada es honestidad; número declarado tratado como medido es una trampa."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Meta y barandilla",
+          "sub": "adónde y sin empeorar qué",
+          "detalhe": "Meta con valor y plazo. Y una barandilla: lo que no puede empeorar mientras persigues la meta (error en la factura, descuento fuera de la política, reclamo). Mejorar un número estropeando otro no es mejora."
+        }
+      ],
+      "legenda": "Reglas de indicador del método Gestoria (INEMA): siempre período, población, denominador y origen; prueba, piloto y producción por separado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del panel que sube a la línea de base",
+      "sub": "Los números del panel son del laboratorio (empresa ficticia de estudio). Abre la pieza y compruébalo.",
+      "passos": [
+        {
+          "titulo": "El panel que sube",
+          "sub": "volumen sin denominador",
+          "texto": [
+            "El panel de Hora muestra atenciones subiendo de 702 (semana del 01/09) a 901 (semana del 13/10), y pedidos cerrados de 141 a 168. La recolección empezó el mismo día en que la agente entró. No hay un antes ni comparación.",
+            "La satisfacción viene de un botón de estrellas que responde cerca del 6% de los clientes. Un promedio de quienes respondieron no habla por el otro 94%."
+          ],
+          "exemplo": {
+            "rot": "La cuenta que el panel no hace",
+            "texto": "Pedidos ÷ atenciones: 141 ÷ 702 = 20,1% el 01/09; 168 ÷ 901 = 18,6% el 13/10. El volumen subió y la conversión bajó. \"Sube\" no prueba que la agente ayudó."
+          }
+        },
+        {
+          "titulo": "Tres indicadores del proceso",
+          "sub": "tiempo, retrabajo, trabajo de personas",
+          "texto": [
+            "Para el pedido hasta la factura, bastan tres preguntas: cuánto tiempo tarda, cuánto vuelve, cuánto trabajo de personas consume. Cada una se vuelve una fracción con período y origen.",
+            "El tiempo se mide con la mediana, no con el promedio: un pedido trabado tres días sube el promedio y esconde lo normal. Suma el peor caso típico (el p95) para no perder de vista los trabados."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Tiempo del pedido confirmado hasta la factura (mediana y p95 de los pedidos facturados en la semana). Pedidos devueltos ÷ pedidos que llegaron a facturación. Minutos de personas ÷ pedidos facturados."
+          }
+        },
+        {
+          "titulo": "Observado o hipótesis",
+          "sub": "cuatro semanas antes de tocar nada",
+          "texto": [
+            "Los cinco casos de la clase 3 dan una pista, no la línea de base. La línea de base sale de cuatro semanas contadas en los sistemas, antes de cualquier cambio. Hasta entonces, el valor de hoy entra marcado como hipótesis, con la fecha en que pasa a ser observado.",
+            "El tiempo de personas liberado tampoco es dinero ahorrado: solo se vuelve ahorro si la empresa reduce un gasto o usa ese tiempo en algo que se pueda verificar."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hoy: 30 h hasta la factura y 21 min de personas (mediana de los 5 casos, hipótesis); devolución de cerca de 9% (\"unos 15 por semana\" ÷ 168, declarado, hipótesis). Conteo en la app y en el ERP por cuatro semanas antes de la versión 2.0."
+          }
+        },
+        {
+          "titulo": "Meta y barandilla",
+          "sub": "hasta dónde, para cuándo, sin empeorar qué",
+          "texto": [
+            "La meta es un valor y un plazo, decididos por quien responde por el proceso, mirando la línea de base y no el deseo. Revisa la meta cuando llegue la línea de base observada: puede mostrar que la hipótesis estaba lejos.",
+            "La barandilla protege lo que no puede empeorar. Si la meta es velocidad, la barandilla es el error: descuento fuera de la política, factura equivocada, reclamo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte (decisión ficticia)",
+            "texto": "Metas para 8 semanas después de la versión 2.0: mediana hasta la factura de 24 h o menos; devolución de 3% o menos; minutos de personas por pedido por debajo de 15. Barandilla: cero pedidos con descuento fuera de la política."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar: ficha de indicador y cuadro de línea de base",
+      "sub": "Una ficha por indicador; el cuadro junta los tres, semana a semana. Las pestañas muestran Horizonte.",
+      "blocos": [
+        {
+          "rot": "Ficha de indicador",
+          "icone": "grafico",
+          "conteudo": "INDICADOR · <nombre corto> · proceso: <...> · dueño del indicador: <nombre>\n\nPregunta de negocio: <qué queremos saber>\nNumerador: <qué se cuenta>\nDenominador: <el universo en que se cuenta>\nFórmula: <numerador> ÷ <denominador>  (o mediana / p95, para tiempo)\nPeríodo: <semana / 4 semanas / mes> · comparar con: <período parecido>\nOrigen: <sistema y campo> · quién extrae: <nombre>\n\nHOY: <valor> · [ ] observado (contado del <fecha> al <fecha>, n = <...>)\n                [ ] hipótesis (fuente: <...>) · pasa a observado el: <fecha>\nMETA: <valor> hasta <fecha> · decidida por: <nombre>\nBARANDILLA: <qué no puede empeorar> · límite: <valor>\nNO CONFUNDIR CON: <qué no muestra este número>"
+        },
+        {
+          "rot": "Cuadro de línea de base (4 semanas)",
+          "icone": "calendario",
+          "conteudo": "LÍNEA DE BASE · proceso: <...> · versión en uso: <1.0> · del <fecha> al <fecha>\n\n| Semana | Casos (denominador) | Indicador 1 | Indicador 2 | Indicador 3 | Barandilla | Observación (feriado, promoción, falta de producto) |\n|---|---|---|---|---|---|---|\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n| <dd/mm> | <n> | <...> | <...> | <...> | <...> | <...> |\n\n¿Nada en el proceso cambió en este período? [ ] sí  [ ] no: <qué, cuándo>\nFirmado por: <dueño del proceso> el <fecha>"
+        },
+        {
+          "rot": "Prompt · qué esconde este indicador",
+          "icone": "chat",
+          "conteudo": "Eres analista de indicadores. Abajo están las fichas de los indicadores\nque elegí para medir un proceso antes y después de rediseñarlo.\nNo elijas otros. Para cada ficha:\n\n1. Di si el denominador está claro y si puede cambiar solo y\n   engañar la comparación.\n2. Da una forma en que el número mejore sin que el proceso mejore.\n3. Di si el valor de hoy está marcado como observado o hipótesis y\n   si el origen respalda la marca.\n4. Sugiere una barandilla, si la ficha no la tiene.\n\nFichas:\n\"\"\"<pega>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Los tres de Horizonte (ejemplo)",
+            "html": "<p><b>Pedido por WhatsApp → factura · línea de base</b> · Horizonte, empresa ficticia de estudio</p><table><tr><th>Indicador</th><th>Fracción</th><th>Hoy</th><th>Meta</th></tr><tr><td>Tiempo hasta la factura</td><td>mediana y p95 de (factura − pedido confirmado), pedidos facturados en la semana</td><td>30 h (hipótesis: 5 casos)</td><td>24 h o menos</td></tr><tr><td>Devolución de facturación</td><td>devueltos a atención ÷ llegaron a facturación, en la semana</td><td>~9% (hipótesis: declarado)</td><td>3% o menos</td></tr><tr><td>Minutos de personas por pedido</td><td>suma de los minutos de personas ÷ pedidos facturados</td><td>21 min (hipótesis: 5 casos)</td><td>menos de 15</td></tr></table><p><b>Barandilla:</b> pedidos con descuento fuera de la política = 0 por semana. <b>Pasa a observado:</b> conteo en la app y en el ERP por cuatro semanas, antes de la versión 2.0. <b>Meta para:</b> 8 semanas después de la versión 2.0. Metas y plazos: decisión ficticia de estudio.</p>"
+          },
+          {
+            "rot": "El panel, recalculado",
+            "html": "<table><tr><th>Semana</th><th>Atenciones</th><th>Pedidos</th><th>Pedidos ÷ atenciones</th></tr><tr><td>01/09</td><td>702</td><td>141</td><td>20,1%</td></tr><tr><td>22/09</td><td>810</td><td>158</td><td>19,5%</td></tr><tr><td>13/10</td><td>901</td><td>168</td><td>18,6%</td></tr></table><p>Datos del <code>indicadores.json</code> del laboratorio (ficticios). El panel no tiene ninguna semana anterior al 01/07, cuando entró la agente: no hay con qué comparar.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Conteo sin denominador.</b> \"15 devueltos\" en una semana de 100 pedidos es muy distinto que en una de 300.</li><li><b>Promedio de tiempo.</b> Un caso trabado arrastra el promedio. Usa mediana y p95.</li><li><b>Hipótesis sin fecha.</b> Toda hipótesis dice cuándo pasa a ser observada.</li><li><b>Períodos distintos.</b> Comparar cuatro semanas de fin de año con cuatro de febrero no mide el rediseño.</li><li><b>Tiempo liberado vendido como ahorro.</b> Solo se vuelve ahorro con gasto reducido o uso verificado.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Corrige el panel de Horizonte; después mide tu proceso antes de tocarlo.",
+      "fonte": "Pieza del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">panel de indicadores</a> (F11, empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El panel de Horizonte, corregido",
+          "min": "25 min",
+          "texto": "Abre el panel en el laboratorio. Calcula pedidos ÷ atenciones en la primera y en la última semana. Después escribe las tres fichas de indicador del proceso del pedido hasta la factura y la barandilla. Termina con un mensaje de tres frases a Carlos explicando por qué \"sube\" no responde si la agente ayudó.",
+          "pronto": "las 2 conversiones están calculadas, las 3 fichas tienen numerador, denominador, período, origen, valor de hoy marcado como observado o hipótesis (con fecha para pasar a observado), meta y plazo, hay 1 barandilla con límite, y el mensaje a Carlos tiene 3 frases."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La línea de base de tu proceso",
+          "min": "4 semanas",
+          "dias": 28,
+          "texto": "Escribe las tres fichas de indicador de tu proceso y empieza el cuadro de línea de base. No cambies nada en el proceso durante las cuatro semanas; si algo cambia, anótalo en la columna de observación.",
+          "pronto": "las 3 fichas están escritas con valor de hoy observado o hipótesis, y el cuadro tiene 4 semanas llenas con el denominador de cada semana y la firma del dueño del proceso."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Las atenciones de la agente subieron de 702 a 901 por semana. ¿Qué prueba eso?",
+          "opcoes": [
+            "Que la agente mejoró las ventas",
+            "Nada por sí solo: falta el antes y falta un denominador; pedidos ÷ atenciones incluso bajó",
+            "Que la satisfacción de los clientes subió"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El volumen puede subir por la época del año, por un descuento o porque la agente conversa más por pedido. La conversión pasó de 20,1% a 18,6%. Sin línea de base, la pregunta \"¿ayudó?\" queda en el terreno de la corazonada."
+        },
+        {
+          "p": "¿Cuál de estas es un indicador completo?",
+          "opcoes": [
+            "Pedidos devueltos",
+            "Pedidos devueltos a atención ÷ pedidos que llegaron a facturación, por semana, contados en el ERP",
+            "Muchos pedidos vuelven"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Numerador, denominador, período y origen. Sin el denominador, el número sube y baja junto con el volumen y no dice si el proceso mejoró."
+        },
+        {
+          "p": "Finanzas dice que \"unos 15 por semana vuelven\". ¿Cómo entra ese valor en la ficha?",
+          "opcoes": [
+            "Como observado: finanzas conoce el proceso",
+            "Como hipótesis declarada, con la fecha en que pasa a observado después del conteo",
+            "No entra"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Lo declarado es una pista valiosa, pero no es una medida. Marcarlo como hipótesis, con fecha, protege la comparación de antes y después."
+        },
+        {
+          "p": "¿Por qué usar la mediana y no el promedio para el tiempo hasta la nota?",
+          "opcoes": [
+            "Porque la mediana siempre es menor",
+            "Porque unos pocos casos trabados suben el promedio y esconden el tiempo normal; el p95 muestra aparte los casos trabados",
+            "Porque es más fácil de calcular"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Un pedido de 75 horas entre cuatro de 22 a 30 horas distorsiona el promedio. Mediana para lo normal, p95 para el peor caso típico."
+        },
+        {
+          "p": "El rediseño liberó 20 horas de personas por semana. ¿Qué puedes decirle al dueño?",
+          "opcoes": [
+            "Que la empresa ahorró 20 horas de salario",
+            "Que hay 20 horas de capacidad liberada, estimadas, que solo se vuelven ahorro si se usan o se recortan de forma verificable",
+            "Que el retorno del proyecto está garantizado"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Capacidad liberada no es dinero en la caja. Cualquier retorno es estimado, con incertidumbres, hasta que la empresa reduzca un gasto o use el tiempo en algo que se pueda verificar."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "El volumen engaña",
+          "texto": "Sin el antes y sin denominador, \"sube\" no prueba nada."
+        },
+        {
+          "t": "Fracción completa",
+          "texto": "Numerador, denominador, período y origen."
+        },
+        {
+          "t": "Hoy, marcado",
+          "texto": "Observado en cuatro semanas contadas, o hipótesis con fecha."
+        },
+        {
+          "t": "Meta y barandilla",
+          "texto": "Valor y plazo, sin empeorar lo que no puede empeorar."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Laboratório Horizonte: el panel sin línea de base (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Copilot + Agentes para Empresas: indicadores que se vuelven acción",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Área Gestión de IA: lo que mide el gestor",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

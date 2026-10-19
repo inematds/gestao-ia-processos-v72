@@ -1,0 +1,453 @@
+{
+  "slug": "canvas",
+  "num": 8,
+  "menu": "Project",
+  "titulo": "Project: the redesigned process + What changed",
+  "titulo_curto": "Project: the canvas",
+  "minutos": 20,
+  "lead": "The pieces are ready: the choice, the map, the redesign sheet, the executor chart, the indicator sheets, and the change record. The course project pulls it all together on one page, the current × future canvas, runs it through a rubric, and sends it for the signature of whoever answers for the process. At the end, what changed in the market, with date and source.",
+  "objetivo": "deliver the current × future canvas of your process, with the pilot scope, and get it approved by the rubric with the signature of whoever answers for it.",
+  "competencias": [
+    "montar-canvas-atual-futuro",
+    "aplicar-rubrica-de-aprovacao",
+    "ler-relatorios-de-mercado-com-criterio"
+  ],
+  "aprende": [
+    {
+      "t": "The five blocks of the current × future canvas"
+    },
+    {
+      "t": "Apply the rubric with the items that fail on their own"
+    },
+    {
+      "t": "Who signs off on the redesign, and why"
+    },
+    {
+      "t": "What changed through October 2026, with date and source"
+    }
+  ],
+  "hero_alt": "The sales manager shows the company owner a poster split into two columns of colored blocks. The owner listens closely; in the background, warehouse shelves.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The current × future canvas",
+      "sub": "Five blocks on one page, the rubric, and a signature. Click each block.",
+      "volta": "Failed on any item: go back to the block that failed, not to zero",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Process contract",
+          "sub": "lessons 2 and 3",
+          "detalhe": "A name with a start and an end, an owner and a backup, a trigger, a completion with a done-when criterion, the customer of the delivery, and the result for the company. This is the block that says which process this is and who answers for it."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "How it is today",
+          "sub": "lessons 1 and 3",
+          "detalhe": "The v1.0 map, summarized: the tagged steps, the decisions, the detours, and today's measures with their source. Without the \"current\" written down, the \"future\" is just a wish."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "How it will be",
+          "sub": "lessons 4 and 5",
+          "forte": true,
+          "detalhe": "The redesigned version: what was eliminated, simplified, moved, and combined, with the reason, and who carries out each step that remained. This is where the rubric weighs the most."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Scope and measure",
+          "sub": "lessons 2 and 6",
+          "detalhe": "The pilot scope and what stays out, the indicators with a denominator, the baseline marked as observed or hypothesis, the target with a deadline, and the guardrail."
+        },
+        {
+          "icone": "voltar",
+          "titulo": "Version and risk",
+          "sub": "lesson 7",
+          "detalhe": "Version number, rollout phases, trigger and rollback steps, the risks the redesign creates, and the condition to stop. Along with it, the rubric and the signature."
+        }
+      ],
+      "legenda": "Process canvas from the Gestoria method (INEMA), in two columns: current and future. Educational approval does not, by itself, authorize the change in the company: that decision remains with whoever answers for it."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From draft to signature",
+      "sub": "Four steps. The Horizonte canvas is the practice run; the one for your process is the one that counts.",
+      "passos": [
+        {
+          "titulo": "Put it on one page",
+          "sub": "compression, not a new piece",
+          "texto": [
+            "The canvas asks for nothing new: each block summarizes one or two pieces you have already made. The work here is to cut it down until it fits on one page, with the full pieces attached.",
+            "One page is a restriction on purpose. Whoever signs reads all of it, and six months from now you can remember in five minutes why you decided each thing."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Canvas \"WhatsApp order → invoice · v2.0\": five blocks on one page, and attached are the tagging sheet, the map, the redesign sheet, the executor chart, the indicator sheets, and change record no. 001."
+          }
+        },
+        {
+          "titulo": "Run it through the rubric",
+          "sub": "100 points and five mandatory items",
+          "texto": [
+            "The rubric adds up to 100 points across seven blocks. You pass with 75 or more and the five mandatory items checked. One missing mandatory item fails you, even with 95 points.",
+            "The mandatory items come from the method's acceptance criterion: a named owner, an unambiguous trigger and completion, an indicator with a denominator, a baseline that is observed or marked as a hypothesis, and written scope exclusions."
+          ],
+          "exemplo": {
+            "rot": "Panel test",
+            "texto": "Run the panel prompt (template alongside). It points out gaps; the score is decided by you and by whoever signs."
+          }
+        },
+        {
+          "titulo": "Who signs",
+          "sub": "whoever answers for the process",
+          "texto": [
+            "Whoever built the canvas presents it; whoever answers for the process result signs. If they are the same person, the signature comes from whoever is above them, as in the promotion in lesson 7.",
+            "Before signing, the person listens to those who carry out the eliminated steps. They know what gets lost, and it is cheaper to find out beforehand."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia builds and presents. Juliana and finance read the \"how it will be\" column. Rafael confirms what depends on integration. Carlos signs."
+          }
+        },
+        {
+          "titulo": "The bridge to the rest of the program",
+          "sub": "the canvas is the foundation",
+          "texto": [
+            "The approved canvas is the input for the other courses. The steps that stayed with an agent go to G3 (role, authority limit, supervision). The ones that stay with people go to G1. Cost and model go to G4.",
+            "In G5, the program's final project reuses the first two rubric items: a process with an owner, input, completion, and baseline, and steps cut before automating, with the reason."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Steps 1 and 2 of v2.0 belong to Hora: they become the role sheet and the authority limit matrix of G3. Patrícia's exception queue becomes the supervision routine."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The current × future canvas, the rubric, and a panel prompt to find gaps before the signature.",
+      "blocos": [
+        {
+          "rot": "Current × future canvas (one page)",
+          "icone": "arquivo",
+          "conteudo": "PROCESS CANVAS · <from where to where> · v<current> → v<future> · <date>\n\n1. PROCESS CONTRACT\n   Owner: <name and role> · Backup: <name>\n   Trigger: <what arrives, through where, from whom>\n   Completion: <what comes out, for whom, done-when criterion>\n   Recipient of the output: <...> · Result for the company: <...>\n\n                          CURRENT (v<1.0>)               | FUTURE (v<2.0>)\n2/3. STEPS                <n> steps; H = <n>, P = <n>     | <n> steps; eliminated <n>, moved <n>\n     Main cuts            -                               | <step · verb · reason> (3 to 6 lines)\n     Who does it          <people>                        | person <n> · automation <n> · agent <n> · integration/screen <n>\n     Decisions            <rule / judgment, who>          | <what became a fixed rule; what stayed with people>\n     Deviations           <D1, D2 and frequency>          | <what changes in each one>\n\n4. SCOPE AND MEASURE\n   Pilot scope: included <cases> · left out: <cases>\n   | Indicator (numerator ÷ denominator) | Today (observed/hypothesis) | Target and deadline |\n   |---|---|---|\n   | <...> | <...> | <...> |\n   Guardrail: <what cannot get worse> · limit <...>\n\n5. VERSION AND RISK\n   Phases: <phase 1: scope, date> · <phase 2: everyone, date>\n   Rollback: trigger <...> · who decides <name> · steps <...>\n   Risks the redesign creates: <...> · Stop if: <...>\n\nDATA: [ ] real, authorized [ ] anonymized [ ] fictional\nBUILT BY: <name> · RUBRIC SCORE: <...>/100 · required <.../5>\nSIGNED BY (answers for the process): <name> on <date>"
+        },
+        {
+          "rot": "Canvas rubric (100 points)",
+          "icone": "lista",
+          "conteudo": "RUBRIC · current × future canvas · pass with >= 75 AND the 5 required items\n\nBLOCK                                     POINTS  FULL-POINTS CRITERION\n1. Process and result                       20    name with a start and an end; owner and backup;\n                                                  trigger and completion; result for the company\n2. How it is today                          15    steps with tags; rule/judgment decisions;\n                                                  2+ deviations; measures with a source\n3. Steps cut before automating              20    each eliminated/moved step with a reason and new\n                                                  source; real requirements kept\n4. Who does each step                       15    executor and reason per step; fixed rule does not go\n                                                  to an agent; integration with a question to IT\n5. Baseline and target                      20    3 indicators with a denominator; today marked;\n                                                  target with a deadline; guardrail\n6. Version and rollback                      5    number; phases; trigger with a number; steps back\n7. Clarity of the evidence                   5    one page; attachments; data labeled\n\nREQUIRED (one missing fails)\n[ ] Process owner with a name\n[ ] Trigger and completion without ambiguity\n[ ] At least one indicator with a denominator\n[ ] Baseline observed or marked as a hypothesis\n[ ] Scope exclusions written down\n\nSCORE: <...>/100 · required: <...>/5 · result: [ ] approved [ ] goes back to block <...>"
+        },
+        {
+          "rot": "Prompt · review panel before signing",
+          "icone": "chat",
+          "conteudo": "You are the review panel for the canvas of a redesigned process, using the\nrubric below. You do not approve or reject: you point out gaps for the person\nwho is going to sign.\n\nFor each block of the rubric:\n1. Say what is present and what is missing for full points, quoting the\n   passage from the canvas.\n2. Mark each required item as present or absent, with the passage.\n3. List the three questions the person signing should ask before signing.\n\nDo not invent information that is not in the canvas.\n\nRubric:\n\"\"\"<paste the rubric>\"\"\"\nCanvas:\n\"\"\"<paste the canvas>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte canvas (example)",
+            "html": "<p><b>Order via WhatsApp → invoice · v1.0 → v2.0</b> · Horizonte, fictional study company · fictional data</p><ul><li><b>Contract:</b> owner Patrícia (backup: Juliana). Trigger: customer sends the order via WhatsApp. Completion: invoice issued and sent in the conversation. Result: order invoiced earlier and with less rework.</li><li><b>Current:</b> 13 steps (H 2, P 4); rule decisions made late (registration only at invoicing); D1 incomplete registration (hypothesis: ~15 per week), D2 product out of stock.</li><li><b>Future:</b> 8 steps; 5 eliminated (spreadsheet, paper, notice, email, retyping), checking everything becomes exceptions + 10 drawn at random, registration at intake. Agent in 2 steps, simple automation in 4, integration in 1, person in 6.</li><li><b>Scope:</b> registered customers; left out at the start are new customer, exchange and return, sale by sales rep. <b>Indicators:</b> time to invoice (30 h, hypothesis → 24 h), returns (~9%, hypothesis → 3%), people-minutes per order (21, hypothesis → under 15), 8 weeks after v2.0. Guardrail: zero discounts outside the policy.</li><li><b>Version and risk:</b> phase 1 registered customers up to R$ 5 thousand, phase 2 everyone. Goes back to v1.0 with returns above the baseline for 2 weeks or 1 discount outside the policy. Risk: ERP integration still without an answer from the vendor.</li></ul><p><b>Rubric:</b> 84/100, 5 of 5 required. Built by Patrícia, signed by Carlos.</p>"
+          },
+          {
+            "rot": "How to check / common mistakes",
+            "html": "<ul><li><b>Future without current.</b> If the left column is empty, there is no way to prove that anything changed.</li><li><b>Hidden hypothesis.</b> A value for today without the observed/hypothesis mark fails.</li><li><b>Scope without exclusions.</b> \"All orders\" in the pilot mixes cases that behave differently.</li><li><b>Cut without a reason.</b> Block 3 is worth 20 points: each cut with a reason and a new source.</li><li><b>More than one page.</b> Details go in an attachment.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What changed · October 2026",
+      "sub": "Quarterly panel, replaced at each course review. Each item with a date, a source, and the type of claim. The products are examples: the method in lessons 1 to 7 does not depend on any of them.",
+      "passos": [
+        {
+          "titulo": "Tools for running processes",
+          "sub": "swappable examples",
+          "texto": [
+            "OpenAI: Workspace Agents, which replace Custom GPTs, are now billed per token (07/06/2026); ChatGPT Work delivers documents, spreadsheets, and slides (07/09/2026). AgentKit's Agent Builder will be shut down on 11/30/2026.",
+            "Anthropic: Managed Agents and, in Claude Code, background computer use (09/2026). Microsoft: Agent 365, announced at Build (06/2026). Sources: release notes and announcements from each vendor."
+          ],
+          "exemplo": {
+            "rot": "For the canvas",
+            "texto": "Tools get discontinued and change price within months. The executor chart records which tool does each step; changing tools is a version change, with a test and a way back (lesson 7)."
+          }
+        },
+        {
+          "titulo": "Redesigning is what separates",
+          "sub": "vendor research from opinion",
+          "texto": [
+            "Microsoft, Work Trend Index 2026 (05/2026, 20 thousand people in 10 countries, vendor research): 16% are Frontier Professionals, who use agents in multi-step workflows and redesign work; 58% do work they could not do a year ago, and among Frontier Professionals it is 80%.",
+            "IT Forum (opinion column, 2026): \"the year companies stop building agents and start operating them\"."
+          ],
+          "exemplo": {
+            "rot": "Reading",
+            "texto": "The numbers come from the people who sell the tools, but they point to the same thing as this course: the gain comes from changing the workflow, not from dropping the tool into the old workflow."
+          }
+        },
+        {
+          "titulo": "Brazil",
+          "sub": "compare the definition before the number",
+          "texto": [
+            "KPMG Global Tech Report 2026 (04/2026): 45% of Brazilian executives report several disconnected AI projects. ABES and IDC (06/15/2026, 103 executives): 40% already invest in agents and 33% plan to within 12 months; obstacles cited: data, legacy systems, governance, and a shortage of professionals.",
+            "GFT, Tech Trends 2026 LATAM, with data from BCG: 18% of Brazilian companies integrate agents, versus 13% worldwide. Gartner (2026): only 17% of companies have agents in use."
+          ],
+          "exemplo": {
+            "rot": "Why the numbers don't match",
+            "texto": "\"Invest,\" \"integrate,\" and \"in use\" measure different things, with different samples. Compare the definition before comparing the percentage."
+          }
+        },
+        {
+          "titulo": "How to read these reports",
+          "sub": "three questions",
+          "texto": [
+            "Who pays, and what do they sell? Vendors sell the solution to the problem they measure; consultancies sell the transformation they describe. How did they measure it: a survey with a sample, self-reported experience, or a forecast?",
+            "An analysis from The Microsoft Cloud Blog (05/2026) points out that the WTI 2026 numbers should not carry a business case on their own. Use a report as a map; the proof for your case is your own baseline."
+          ],
+          "exemplo": {
+            "rot": "Next review of this panel",
+            "texto": "January 2027, with the next quarter's overview. What is method (lessons 1 to 7) does not change; what is product and number does."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "The four main deliverables and the exercises that produce them. Click an exercise to see its \"done when\".",
+      "degraus": [
+        {
+          "aula": "primeiro-processo",
+          "icone": "alvo",
+          "quando": "Week 1",
+          "titulo": "Choose",
+          "sub": "tags and matrix",
+          "saida": "Tagging sheet and a matrix of 5 processes with the chosen one justified.",
+          "passo": "Lesson 1 teaches you to doubt the steps; lesson 2 picks which process to do this on first, with scope and queue."
+        },
+        {
+          "aula": "mapear",
+          "icone": "lista",
+          "quando": "Week 2",
+          "titulo": "Map",
+          "sub": "what really happens",
+          "saida": "One-page map with 2 deviations and measures with a source.",
+          "passo": "Requires the chosen process. One interview and five cases followed, without changing anything in the process."
+        },
+        {
+          "aula": "redesenhar",
+          "icone": "camadas",
+          "quando": "Week 3",
+          "titulo": "Redesign",
+          "sub": "cut and distribute",
+          "saida": "Redesign sheet and executor chart for v2.",
+          "passo": "Requires the map. Eliminate, simplify and move (lesson 4) before deciding who does each step (lesson 5)."
+        },
+        {
+          "aula": "versao",
+          "icone": "voltar",
+          "quando": "Weeks 3 to 7",
+          "titulo": "Measure and version",
+          "sub": "baseline and record",
+          "saida": "Four weeks of baseline and the v1 → v2 record with rollback.",
+          "passo": "The baseline (lesson 6) runs four weeks before the change; the record (lesson 7) only releases phase 1 after it."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "The redesigned process",
+        "texto": "Choose, map, redesign, measure and version, in this order. The canvas goes to signature when the \"done when\" of each step is true."
+      },
+      "resultado": {
+        "titulo": "At the end of the course",
+        "texto": "A redesigned process with an approved current × future canvas: owner, pilot scope, baseline, steps cut with the reason, and the way back.",
+        "total": "18 exercises"
+      },
+      "legenda": "Recommended order: each piece uses the one before."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Pick the start date and how much time you have per week. The plan respects the exercises that call for one week or four of real observation.",
+      "curso": "Processes: process is not sacred",
+      "horas_padrao": 3,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · Don't speed up the old process",
+          "aula": "nao-acelere"
+        },
+        {
+          "titulo": "Lesson 2 · Choosing the first process",
+          "aula": "primeiro-processo"
+        },
+        {
+          "titulo": "Lesson 3 · Map what really happens",
+          "aula": "mapear"
+        },
+        {
+          "titulo": "Lesson 4 · Eliminate, simplify, redesign",
+          "aula": "redesenhar"
+        },
+        {
+          "titulo": "Lesson 5 · Who does each step",
+          "aula": "quem-faz"
+        },
+        {
+          "titulo": "Lesson 6 · Baseline and target",
+          "aula": "linha-de-base"
+        },
+        {
+          "titulo": "Lesson 7 · A process with a version",
+          "aula": "versao"
+        },
+        {
+          "titulo": "Lesson 8 · The canvas",
+          "aula": "canvas"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Processes: process is not sacred",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "until",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte canvas to practice the rubric; the one for your process for real.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte canvas",
+          "min": "40 min",
+          "texto": "Gather the Horizonte pieces you made in lessons 1 to 7 and fill in the canvas on one page, without looking at the tab. Run it through the rubric and run the panel prompt. Fix it until it scores above 75 with all five required items. Write down who would sign and who needs to read it first.",
+          "pronto": "the Horizonte canvas fits on one page, scores 75 or more with the 5 required items checked, has the pieces attached and the name of whoever signs, different from whoever built it."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The canvas for your process",
+          "min": "60 min",
+          "texto": "Do the same with your process, using the pieces from the \"your process\" practices. Hand it to whoever answers for it, ask them to check the required items and note their questions.",
+          "pronto": "the canvas for your process scores 75 or more, has the 5 required items, the phase 1 date and the signature (or written acceptance) of whoever answers for the process."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Your dated plan",
+          "min": "5 min",
+          "texto": "Use the generator above to build the plan with your dates and download the .ics for your calendar.",
+          "pronto": "the plan is saved and the dates are on your calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick test",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The canvas scored 90 points, but the baseline shows up as \"30 h\" without saying whether it was observed or is a hypothesis. Result?",
+          "opcoes": [
+            "Approved: 90 is well above 75",
+            "Failed: a baseline without the observed/hypothesis mark is a required item that is missing",
+            "Approved with a caveat"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The required items exist so that a high score does not hide what misleads the most. The canvas goes back to the measurement block, not to zero."
+        },
+        {
+          "p": "Who signs the Horizonte canvas?",
+          "opcoes": [
+            "Patrícia, who built it and knows everything",
+            "Carlos, after the team that carries out the steps reads the \"how it looks\" column",
+            "The agent, who carries out two steps"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Whoever builds it presents it; whoever answers for the result signs, after hearing from those who lose steps. It is the same principle as promoting a version."
+        },
+        {
+          "p": "One report says 40% of companies invest in agents; another says only 17% have agents in use. What should you do before citing either?",
+          "opcoes": [
+            "Pick the number that helps your argument",
+            "Compare the definition (investing × having in use), the sample, and who published it",
+            "Average the two"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "\"Invest,\" \"integrate,\" and \"in use\" measure different things. Without comparing definition and sample, comparing percentages tells you nothing."
+        },
+        {
+          "p": "The tool that carries out a step of your process is being discontinued. What changes in the canvas?",
+          "opcoes": [
+            "Nothing: the canvas is about the process, not the tool",
+            "It is a version change: record it, test the new tool against the baseline, and have a way back",
+            "Just swap the tool name on the board"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Swapping a tool can change how the step behaves. The method survives the swap, but the evidence has to be redone."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "One page",
+          "texto": "Contract, how it is today, how it looks, scope and measure, version and risk."
+        },
+        {
+          "t": "Rubric with required items",
+          "texto": "75 points and the five required items. One missing means a fail."
+        },
+        {
+          "t": "Whoever answers for it signs",
+          "texto": "After hearing from those who carry out the steps that change."
+        },
+        {
+          "t": "Market as a map",
+          "texto": "Date, source, definition, and who sells what, before any number."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Certificate",
+      "paragrafos": [
+        "INEMA qualification certificate \"AI Manager\", coming soon at cert.inema.pro. It is not a regulated professional certification.",
+        "This is course G2 of the AI Management Program 2027. The other courses cover the agentic company (G0), people (G1), agents (G3), resources (G4), and governing, measuring, and evolving (G5), where the program's final project lives."
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "To go further",
+      "links": [
+        {
+          "t": "AI Management Area: the program and the courses",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Agents: hire, delegate, and supervise (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        },
+        {
+          "t": "Horizonte Lab: all the pieces (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "pasta"
+        }
+      ]
+    }
+  ]
+}

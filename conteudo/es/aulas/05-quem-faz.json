@@ -1,0 +1,290 @@
+{
+  "slug": "quem-faz",
+  "num": 5,
+  "menu": "Quién lo hace",
+  "titulo": "Quién hace cada etapa",
+  "titulo_curto": "Quién lo hace",
+  "minutos": 20,
+  "lead": "Después del rediseño, quedan ocho etapas en Horizonte. La pregunta ahora no es \"¿dónde pongo el agente?\", sino: ¿quién hace cada una? Una persona, una regla simple en el sistema, un agente, una integración o alguien (o algo) operando la pantalla. Cada respuesta tiene un costo, un riesgo y un mantenimiento diferentes. En esta clase decides etapa por etapa, con el motivo escrito.",
+  "objetivo": "decidir, etapa por etapa, si queda con una persona, automatización simple, agente, integración por API o Computer Use, con el motivo de cada elección.",
+  "competencias": [
+    "escolher-executor-por-etapa",
+    "separar-regra-de-julgamento",
+    "pedir-integracao-a-ti"
+  ],
+  "aprende": [
+    {
+      "t": "Lo que queda con personas, y por qué"
+    },
+    {
+      "t": "Cuándo basta una regla simple y un agente sería exagerado"
+    },
+    {
+      "t": "Dónde un agente vale lo que cuesta"
+    },
+    {
+      "t": "Cómo entra la automatización en un sistema, en el orden correcto"
+    }
+  ],
+  "hero_alt": "Un profesional de TI con lentes y la gerente comercial discuten frente a dos monitores con bloques de flujo en cuatro colores; al fondo, un almacenista lee el código de una caja.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Cinco ejecutores posibles",
+      "sub": "Baja la escalera solo cuando el nivel de arriba no resuelva. Haz clic en cada nivel.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Persona",
+          "sub": "juicio, excepción, exigencia",
+          "detalhe": "Queda con una persona la decisión en la que dos personas competentes podrían discrepar, la excepción que exige conocer la historia, la supervisión y lo que la ley o la política exigen de alguien con nombre. La persona recibe la información lista; no vuelve a digitar nada."
+        },
+        {
+          "icone": "check",
+          "titulo": "Automatización simple",
+          "sub": "regla fija, siempre igual",
+          "forte": true,
+          "detalhe": "Si la regla es siempre la misma y los datos están en un sistema, una regla configurada o un flujo lo resuelve: barato, predecible, fácil de revisar. Aplicar la política de descuento, sortear la muestra, avisar cuando el pedido fue separado."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agente",
+          "sub": "leer, interpretar, varios pasos",
+          "detalhe": "Cuando la entrada llega en lenguaje libre, varía caso a caso y requiere varios pasos para llegar a un resultado: entender el mensaje del cliente, armar el pedido a partir de una lista, responder una duda. Siempre con nivel de autorización escrito (curso G3) y una persona responsable."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Integración por API",
+          "sub": "la puerta de servicio del sistema",
+          "detalhe": "Para llevar datos de un sistema a otro, la primera opción es la puerta de servicio (API) o un conector listo: robusta, no se rompe cuando cambia la pantalla. Así es como el pedido de la app debería llegar al ERP."
+        },
+        {
+          "icone": "foco",
+          "titulo": "Por la pantalla",
+          "sub": "automatización de pantalla o Computer Use",
+          "detalhe": "Sistema sin puerta: la automatización de pantalla, que repite una secuencia grabada, sirve si la pantalla no cambia. Computer Use, en el que el agente mira la pantalla y decide dónde hacer clic, queda al final: más flexible, menos predecible, más caro por ejecución, y con una persona que confirma antes de guardar."
+        }
+      ],
+      "legenda": "Orden de las opciones para entrar en un sistema: puerta de servicio o conector, flujo con conector, automatización de pantalla, Computer Use (Copilot + Agentes para Empresas, INEMA). Cada nivel hacia abajo es más frágil y más caro de mantener.",
+      "dica": "El gestor decide el ejecutor y el motivo. Construir la integración es tarea de TI o del proveedor."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Decidir etapa por etapa",
+      "sub": "Cuatro preguntas, en orden. Los ejemplos usan la versión 2.0 de Horizonte (empresa ficticia de estudio).",
+      "passos": [
+        {
+          "titulo": "¿Es juicio?",
+          "sub": "entonces queda con una persona",
+          "texto": [
+            "Aplica la prueba de la clase 3: dos personas bien entrenadas, con la misma información, ¿darían siempre la misma respuesta? Si no, la decisión queda con una persona, con nombre. El sistema o el agente prepara la información; la persona decide.",
+            "La exigencia también se queda: la factura, la aprobación de monto que la política le da a alguien, el alta de un cliente nuevo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Descuento entre 5% y 10%: decide Patrícia. Cliente nuevo: Juliana verifica el CNPJ y lo da de alta. Falta de producto: Juliana acuerda con el cliente si se entrega parcial o espera."
+          }
+        },
+        {
+          "titulo": "¿Es regla fija?",
+          "sub": "entonces automatización simple",
+          "texto": [
+            "Si la respuesta es siempre la misma y los datos ya están en un sistema, no hace falta un agente. Una regla en el sistema hace lo mismo cada vez, cuesta poco y cualquier persona la revisa.",
+            "Un agente donde bastaría una regla trae costo por ejecución y una posibilidad de variar donde nadie quería variación."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "\"Descuento hasta 5% y pedido hasta R$ 5 mil siguen; el resto va a Patrícia\" es una regla fija de la app. El sorteo de los 10 pedidos del lunes y el aviso de separación también."
+          }
+        },
+        {
+          "titulo": "¿Necesita leer y conversar?",
+          "sub": "entonces agente, con nivel de autorización",
+          "texto": [
+            "El agente vale cuando la entrada es texto libre, cada caso es un poco distinto y el trabajo tiene varios pasos hasta el resultado. Recibe el proceso rediseñado y un nivel de autorización, nunca \"haz igual que el equipo\".",
+            "Microsoft (Work Trend Index 2026, encuesta del proveedor con 20 mil personas en 10 países, 05/2026) llama Frontier Professionals al 16% que usa agentes en flujos de varias etapas y rediseña el trabajo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Entender \"quiero lo de siempre, pero con más desinfectante\", consultar el historial del cliente y armar el pedido: Hora. Escribir su nivel de autorización acción por acción es el curso G3."
+          }
+        },
+        {
+          "titulo": "¿Cómo entra en el sistema?",
+          "sub": "puerta, conector, pantalla",
+          "texto": [
+            "Cuando un dato debe pasar de un sistema a otro, pregunta en este orden: ¿el sistema tiene puerta de servicio (API) o conector listo? Si no, ¿la pantalla es lo bastante estable para una automatización de pantalla? Computer Use queda al final.",
+            "Tú no construyes nada de esto. Haces las preguntas correctas a TI o al proveedor y decides con las respuestas: costo, quién mantiene, qué pasa si falla, qué registro queda."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Llevar el pedido de la app al ERP: Rafael le pregunta al proveedor de GestorPlus si hay puerta de servicio. Sin puerta, automatización de pantalla con registro de cada carga. Computer Use solo si la pantalla cambia, con finanzas confirmando antes de guardar."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar: cuadro de ejecutores y pedido a TI",
+      "sub": "El cuadro dice quién hace cada etapa y por qué. El pedido a TI lleva las preguntas correctas para las etapas de integración. Las pestañas muestran a Horizonte.",
+      "blocos": [
+        {
+          "rot": "Cuadro etapa × ejecutor × motivo",
+          "icone": "lista",
+          "conteudo": "CUADRO DE EJECUTORES · proceso: <...> · versión <2.0> · dueño: <nombre> · fecha: <...>\n\nEjecutores: PERSONA · AUTOMATIZACIÓN SIMPLE · AGENTE · INTEGRACIÓN (API/conector) · PANTALLA (automatización de pantalla / Computer Use)\n\n| # | Etapa | Ejecutor | Motivo (¿juicio? ¿regla fija? ¿texto libre? ¿sistema sin puerta?) | Persona responsable | Si falla, quién lo percibe y cómo |\n|---|---|---|---|---|---|\n| 1 | <...> | <...> | <...> | <nombre> | <...> |\n\nCONTEO: persona <n> · automatización simple <n> · agente <n> · integración <n> · pantalla <n>\nETAPAS QUE DEPENDEN DE RESPUESTA DE TI O DEL PROVEEDOR: <# y pregunta>\nLO QUE NO VA A AGENTE, AUNQUE PUDIERA: <etapa · motivo>"
+        },
+        {
+          "rot": "Pedido a TI: cómo entrar en un sistema",
+          "icone": "enviar",
+          "conteudo": "PEDIDO A TI / PROVEEDOR · etapa: <...> · de <sistema A> a <sistema B>\nQuién pide: <nombre> · Fecha: <...> · Respuesta hasta: <fecha>\n\n1. ¿El <sistema B> tiene puerta de servicio (API) o conector listo para esta operación?\n2. Si no: ¿la pantalla usada en esta operación cambia con frecuencia? ¿Cuándo cambió por última vez?\n3. ¿Quién mantiene la integración cuando se rompa? ¿En cuánto tiempo?\n4. ¿Cuánto cuesta por mes y por ejecución (incluidos los intentos que fallan)?\n5. ¿Qué pasa con el caso si la integración falla a la mitad? ¿A quién se avisa?\n6. ¿Qué registro queda de cada operación (quién, cuándo, qué, valor)?\n7. ¿La integración usa un acceso propio, con solo los permisos de esta operación?\n\nDECISIÓN (la completa el gestor): <API · conector · automatización de pantalla · Computer Use · sigue con persona> · motivo: <...>"
+        },
+        {
+          "rot": "Prompt · revisar el cuadro",
+          "icone": "chat",
+          "conteudo": "Eres consultor de operaciones. Abajo está el cuadro en el que decidí quién\nejecuta cada etapa de un proceso rediseñado. No cambies nada; señala:\n\n1. Etapas entregadas a un agente que parecen regla fija (bastaría una\n   automatización simple).\n2. Etapas de juicio o de exigencia legal entregadas a sistema o agente.\n3. Etapas \"por pantalla\" que quizá tengan puerta de servicio (pregunta por hacer).\n4. Etapas sin persona responsable o sin decir quién percibe la falla.\n\nCuadro:\n\"\"\"<pega el cuadro>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Cuadro de Horizonte (ejemplo)",
+            "html": "<p><b>Pedido por WhatsApp → factura · v2.0</b> · Horizonte, empresa ficticia de estudio</p><table><tr><th>#</th><th>Etapa</th><th>Ejecutor</th><th>Motivo</th></tr><tr><td>1</td><td>Responder al cliente</td><td>agente (Hora); Juliana asume lo que ella no sabe</td><td>texto libre, cada conversación es diferente</td></tr><tr><td>2</td><td>Armar el pedido solo con registro completo</td><td>el agente arma; regla de la app revisa el registro; cliente nuevo: persona (Juliana)</td><td>armar es leer la lista; registro completo es regla; cliente nuevo es exigencia</td></tr><tr><td>3</td><td>Política y cola de excepciones</td><td>automatización simple + persona (Patrícia; sobre 10%, Carlos)</td><td>el rango es regla fija; dar o no el descuento es juicio</td></tr><tr><td>4</td><td>Revisar disponibilidad</td><td>persona, con el pedido en pantalla</td><td>manda el stock físico</td></tr><tr><td>5</td><td>Separar y dar de baja</td><td>persona; la baja avisa sola</td><td>trabajo físico; el aviso es regla</td></tr><tr><td>6</td><td>Llevar el pedido al ERP</td><td>integración por API, si existe; si no, automatización de pantalla con registro</td><td>de sistema a sistema; depende de la respuesta del proveedor</td></tr><tr><td>7</td><td>Revisar y emitir la factura</td><td>persona (finanzas)</td><td>exigencia fiscal</td></tr><tr><td>8</td><td>Enviar la factura al cliente</td><td>automatización simple, en la conversación</td><td>regla fija, siempre igual</td></tr></table><p>Conteo: agente en 2 etapas, automatización simple en 4, integración o pantalla en 1, persona decidiendo o ejecutando en 6. Ninguna etapa es \"el agente lo hace todo\".</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Agente en todo.</b> Si el conteo da agente en casi todas las etapas, revisa cuáles son regla fija: una regla en el sistema es más barata y más predecible.</li><li><b>Computer Use primero.</b> Antes de la pantalla, pregunta por la puerta de servicio. Computer Use es el último nivel, con confirmación antes de guardar.</li><li><b>Etapa sin responsable.</b> Toda etapa automática tiene una persona que responde por ella y se da cuenta cuando falla.</li><li><b>Decidir integración sin respuesta.</b> Si la etapa depende de TI, escribe la pregunta y la fecha de la respuesta; no adivines.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El cuadro de la versión 2.0 de Horizonte; después el de tu proceso.",
+      "fonte": "Pieza del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventario de TI</a>, con los sistemas de Horizonte (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El cuadro de Horizonte",
+          "min": "20 min",
+          "texto": "Toma la versión 2.0 que hiciste en la clase 4 y completa el cuadro de ejecutores sin mirar la pestaña. Para la etapa que lleva el pedido al ERP, completa también el pedido a TI. Ejecuta el prompt de revisión.",
+          "pronto": "todas las etapas de la v2 tienen ejecutor y motivo en una frase, al menos 3 etapas quedan con persona con el porqué (juicio o exigencia), ninguna etapa de regla fija fue dada a un agente sin motivo, y el pedido a TI tiene las 7 preguntas."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · El cuadro de tu proceso",
+          "min": "40 min",
+          "texto": "Haz el cuadro de la versión rediseñada de tu proceso. Para cada etapa de integración o de pantalla, envía el pedido a TI o al proveedor, con fecha para la respuesta.",
+          "pronto": "el cuadro cubre todas las etapas de tu v2, cada una con ejecutor, motivo, persona responsable y quién percibe la falla, y los pedidos a TI fueron enviados con fecha de respuesta."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "\"Pedido sobre R$ 5 mil va a la gerente\" es siempre igual y el valor está en la app. ¿Quién aplica esta regla?",
+          "opcoes": [
+            "Un agente, que entiende el contexto",
+            "Una automatización simple, configurada en el sistema",
+            "La gerente, mirando todos los pedidos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Regla fija con dato en el sistema es automatización simple: hace lo mismo cada vez y se revisa fácil. La gerente decide el pedido que la regla le envió; no necesita buscar los pedidos."
+        },
+        {
+          "p": "El cliente escribe \"quiero el de siempre, pero con más desinfectante y sin el multiuso\". ¿Quién convierte eso en pedido?",
+          "opcoes": [
+            "Una automatización de pantalla",
+            "Un agente, con nivel de autorización escrito y una persona responsable",
+            "Nadie: el cliente tiene que usar un formulario"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Texto libre, distinto en cada conversación, con consulta al historial: es donde el agente vale lo que cuesta. Con límites escritos, que es el tema de G3."
+        },
+        {
+          "p": "El ERP no tiene integración conocida con la app. ¿Cuál es la primera pregunta a TI?",
+          "opcoes": [
+            "¿Se puede usar Computer Use?",
+            "¿El ERP tiene puerta de servicio (API) o conector para esta operación?",
+            "¿Cuánto cuesta un agente?"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El orden es puerta de servicio o conector, después automatización de pantalla, y Computer Use al final. Cada nivel de abajo es más frágil y más caro de mantener."
+        },
+        {
+          "p": "Cuando Computer Use es la elección correcta, ¿qué acompaña la decisión?",
+          "opcoes": [
+            "Nada: entiende la pantalla solo",
+            "Una persona confirma lo que se completó antes de guardar, y cada operación queda registrada",
+            "Guarda directo para ganar tiempo"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Computer Use mira la pantalla y decide dónde hacer clic: es flexible y menos predecible. Por eso queda en el último nivel y con confirmación humana antes del efecto."
+        },
+        {
+          "p": "¿Qué llama Microsoft Frontier Professionals en el Work Trend Index 2026?",
+          "opcoes": [
+            "Programadores que construyen agentes",
+            "El 16% que usa agentes en flujos de varios pasos y rediseña el trabajo",
+            "Gestores que prohíben la IA en el equipo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Es una encuesta del proveedor (05/2026, 20 mil personas en 10 países), que vende las herramientas. El punto útil: el grupo que más provecho saca rediseña el flujo, no solo usa la herramienta."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Juicio y exigencia",
+          "texto": "Se quedan con una persona, que recibe la información lista."
+        },
+        {
+          "t": "Regla fija",
+          "texto": "Automatización simple: barata, predecible, fácil de revisar."
+        },
+        {
+          "t": "Texto libre y varios pasos",
+          "texto": "Agente, con nivel de autorización escrito y responsable."
+        },
+        {
+          "t": "Entrar al sistema",
+          "texto": "Puerta de servicio, conector, pantalla. Computer Use al final, con confirmación."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Copilot + Agentes para Empresas: cuando el sistema no tiene puerta",
+          "href": "https://inematds.github.io/copilot-agentic/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Arquitecto de Trabajo con IA: regla o juicio",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "portao"
+        },
+        {
+          "t": "Agentes: contratar, delegar y supervisar (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}

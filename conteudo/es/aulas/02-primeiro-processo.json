@@ -1,0 +1,272 @@
+{
+  "slug": "primeiro-processo",
+  "num": 2,
+  "menu": "Elegir",
+  "titulo": "Elegir el primer proceso",
+  "titulo_curto": "Primer proceso",
+  "minutos": 15,
+  "lead": "Carlos quiere el agente en facturación; un vendedor ya pega la hoja de clientes en un chatbot personal; el resumen de atención corre solo a las 18 h. Cada uno empezó por su lado, y nadie eligió. En esta clase comparas los candidatos por valor, viabilidad y riesgo, eliges uno, escribes por qué no los otros y defines el alcance.",
+  "objetivo": "priorizar procesos por valor, viabilidad y riesgo en una matriz y justificar por escrito el elegido y lo que queda fuera.",
+  "competencias": [
+    "priorizar-processos",
+    "justificar-escolha-por-escrito",
+    "definir-recorte-do-piloto"
+  ],
+  "aprende": [
+    {
+      "t": "Tres preguntas que sacan de la lista lo que no vale el esfuerzo"
+    },
+    {
+      "t": "Dar nota de valor, viabilidad y riesgo sin corazonadas"
+    },
+    {
+      "t": "Por qué un proceso a la vez"
+    },
+    {
+      "t": "Escribir la elección, el alcance y lo que queda para después"
+    }
+  ],
+  "hero_alt": "Tres gestores alrededor de una mesa organizan tarjetas de colores en blanco en una cuadrícula de dos por dos; una persona señala una tarjeta.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del montón de ideas al primer proceso",
+      "sub": "Cinco pasos, de la lista a la elección escrita. Haz clic en cada uno.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Lista",
+          "sub": "todo lo que se repite",
+          "detalhe": "Escribe los procesos que el área repite, con nombre de inicio y fin: \"pedido por WhatsApp hasta la factura\", no \"ventas\". Incluye los que alguien ya automatizó por su cuenta: ellos también son candidatos, y a veces son el problema."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Tres preguntas",
+          "sub": "el filtro",
+          "detalhe": "¿Se repite al menos cada semana? ¿Involucra a más de dos personas o más de diez pasos? Cuando se atrasa o falla, ¿cuesta dinero o clientes? Tres respuestas sí, entra en la matriz. Una no, queda en una lista aparte."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Matriz",
+          "sub": "valor, viabilidad, riesgo",
+          "forte": true,
+          "detalhe": "Cada proceso recibe tres notas de 1 a 5, cada una con una frase de motivo. Valor: cuánto gana la empresa si mejora. Viabilidad: ¿se puede empezar con lo que existe hoy? Riesgo: el tamaño del daño si sale mal. En la suma, el riesgo entra invertido."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Elegido",
+          "sub": "con alcance",
+          "detalhe": "El primero de la matriz, si tu lectura confirma los números. Junto viene el alcance del piloto: qué casos entran y cuáles quedan fuera al comienzo (cliente nuevo, devolución, venta fuera del canal)."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Cola",
+          "sub": "lo que queda para después",
+          "detalhe": "Los demás no desaparecen: quedan en una cola, con el motivo de por qué no son ahora y qué tendría que cambiar para subir. Es lo que evita que cada área empiece un proyecto de IA por su lado."
+        }
+      ],
+      "legenda": "Criterios del módulo 1 del método Gestoria (INEMA) y del Arquitecto de Trabajo con IA."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo elegir",
+      "sub": "Cuatro pasos. Las notas de Horizonte (empresa ficticia de estudio) están en el modelo al lado.",
+      "passos": [
+        {
+          "titulo": "Lista y filtro",
+          "sub": "lo que se repite y duele",
+          "texto": [
+            "Empieza por la lista y pasa las tres preguntas. Un proceso que ocurre una vez al mes, con una sola persona, rara vez compensa el trabajo de mapear, medir y rediseñar.",
+            "Pon en la lista también lo que ya fue automatizado sin que nadie lo decidiera. Una herramienta de IA que alguien activó por su cuenta es un proceso rediseñado a escondidas, con un riesgo que nadie midió."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Cinco candidatos: pedido por WhatsApp hasta la factura; cobro de boletos vencidos (lo que quiere Carlos); resumen diario de atención; propuesta para cliente grande (el vendedor usa un chatbot personal); compra de reposición con proveedores."
+          }
+        },
+        {
+          "titulo": "Tres notas con motivo",
+          "sub": "valor, viabilidad, riesgo",
+          "texto": [
+            "Valor: volumen por semana, tiempo de personas, retrabajo, cliente esperando. Viabilidad: el proceso tiene dueño, las reglas están escritas, los datos están en un sistema que se puede leer. Riesgo: dinero, datos personales, cliente, cosas que no se deshacen.",
+            "Toda nota lleva una frase de motivo. Sin frase, la nota es la preferencia de quien la llenó, y la matriz solo le da ropa nueva a la corazonada."
+          ],
+          "exemplo": {
+            "rot": "Cobro, en Horizonte",
+            "texto": "Valor 4 (dinero parado). Viabilidad 2: no hay línea de base, y las reglas de negociación están en la cabeza de Carlos. Riesgo 5: toca dinero y al cliente. Suma 7: queda para después, con motivo."
+          }
+        },
+        {
+          "titulo": "Uno a la vez",
+          "sub": "proyectos que no conversan",
+          "texto": [
+            "El KPMG Global Tech Report 2026 (encuesta, 04/2026) informa que el 45% de los ejecutivos brasileños tiene varios proyectos de IA desconectados entre sí. Cada área empieza por su lado, y nadie puede decir qué funcionó.",
+            "Un proceso a la vez, de principio a fin, con medición. El segundo empieza cuando el primero tiene línea de base, versión y dueño, no cuando aparece el entusiasmo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "La agente de ventas, el resumen de atención, el asistente de correo y los chatbots personales del equipo ya son cuatro iniciativas que nadie juntó. El inventario de TI no conoce la mitad de ellas."
+          }
+        },
+        {
+          "titulo": "Elección y alcance",
+          "sub": "por escrito",
+          "texto": [
+            "Escribe tres frases: por qué este proceso, por qué no el segundo de la matriz y por qué no el que pidió el jefe (si es otro). Después, el alcance: qué casos entran en el piloto y cuáles quedan fuera al comienzo.",
+            "El alcance no es excusa para elegir lo fácil. Es lo que permite medir el antes y el después sin mezclar casos que se comportan de maneras distintas."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Elegido: pedido por WhatsApp hasta la factura (suma 12). Entran pedidos de clientes registrados. Quedan fuera al comienzo: cliente nuevo, cambio y devolución, venta hecha por representante."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: matriz de priorización",
+      "sub": "Cinco filas, tres notas, un motivo por nota. La pestaña de al lado muestra la matriz de Horizonte.",
+      "blocos": [
+        {
+          "rot": "Matriz valor × viabilidad × riesgo",
+          "icone": "grafico",
+          "conteudo": "MATRIZ DE PRIORIZACIÓN · área: <...> · quién la llenó: <nombre> · fecha: <dd/mm/aaaa>\n\nFILTRO (los tres deben ser \"sí\")\n  ¿se repite por lo menos cada semana? · ¿más de 2 personas o más de 10 etapas?\n  ¿cuando se atrasa o se equivoca, cuesta dinero o clientes?\n\nNOTAS de 1 a 5, cada una con una frase de motivo\n  Valor (V): volumen, tiempo de personas, retrabajo, cliente esperando\n  Viabilidad (B): dueño, reglas escritas, datos en un sistema que se puede leer\n  Riesgo (R): dinero, datos personales, cliente, irreversible (5 = daño grande)\n  SUMA = V + B + (6 - R)\n\n| Proceso (de dónde hasta dónde) | V | motivo | B | motivo | R | motivo | Suma |\n|---|---|---|---|---|---|---|---|\n| <...> | <1-5> | <...> | <1-5> | <...> | <1-5> | <...> | <...> |\n\nELEGIDO: <proceso>\n  Por qué este: <frase>\n  Por qué no el segundo: <frase>\n  Por qué no el que pidió el jefe (si es otro): <frase>\nALCANCE DEL PILOTO: entran <casos> · quedan fuera al comienzo <casos>\nCOLA: <proceso> · motivo de no ser ahora · qué debe cambiar para subir"
+        },
+        {
+          "rot": "Prompt · abogado del diablo de la elección",
+          "icone": "chat",
+          "conteudo": "Eres un gestor experimentado y escéptico. Abajo está la matriz que usé para\nelegir el primer proceso que voy a rediseñar con IA en mi área.\nNo elijas por mí. Haz el papel de quien discrepa:\n\n1. Señala notas cuyo motivo no sostiene el número dado.\n2. Di qué riesgo puedo haber subestimado en cada proceso.\n3. Da el mejor argumento a favor del segundo lugar.\n4. Di si el alcance deja fuera algo que debería estar dentro.\n\nMatriz:\n\"\"\"<pega la matriz>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Matriz de Horizonte (ejemplo)",
+            "html": "<p><b>Comercial y operación · Patrícia</b> · Horizonte, empresa ficticia de estudio · notas ficticias</p><table><tr><th>Proceso</th><th>V</th><th>B</th><th>R</th><th>Suma</th></tr><tr><td>Pedido por WhatsApp hasta la factura</td><td>5</td><td>4</td><td>3</td><td><b>12</b></td></tr><tr><td>Compra de reposición con proveedores</td><td>3</td><td>3</td><td>2</td><td>10</td></tr><tr><td>Resumen diario de atención</td><td>2</td><td>4</td><td>4</td><td>8</td></tr><tr><td>Propuesta para cliente grande</td><td>3</td><td>3</td><td>4</td><td>8</td></tr><tr><td>Cobro de boletos vencidos</td><td>4</td><td>2</td><td>5</td><td>7</td></tr></table><ul><li><b>Pedido → factura</b>: cerca de 170 pedidos por semana, retrabajo en la facturación (V 5); app y ERP existen y la política de descuento está escrita (B 4); toca precio, pero la factura todavía pasa por personas (R 3).</li><li><b>Resumen diario</b>: envía conversaciones con datos personales a un servicio fuera del país sin contrato (R 4). Antes de mejorarlo, necesita corrección.</li><li><b>Propuesta</b>: hoy usa la planilla de clientes en un chatbot personal, fuera del inventario (R 4).</li></ul><p><b>Elegido:</b> pedido → factura. No la reposición: menos volumen y menos clientes esperando. No el cobro: sin línea de base y con el mayor riesgo; sube cuando la facturación esté medida.</p>"
+          },
+          {
+            "rot": "Cómo revisar / errores comunes",
+            "html": "<ul><li><b>Nota sin motivo.</b> Relee cada número y mira si la frase lo justifica. Si cambiarías el 4 por 3 sin cambiar la frase, la nota es un tiro al aire.</li><li><b>Riesgo sumado como ventaja.</b> Un riesgo alto debe bajar la suma (6 − R).</li><li><b>Proceso sin extremos.</b> \"Ventas\" no es un proceso; \"pedido por WhatsApp hasta la factura\" sí lo es.</li><li><b>Elegir el más vistoso.</b> El primer proceso es el que se puede medir y terminar, no el que impresiona en la reunión.</li><li><b>Cola vacía.</b> Si los otros cuatro no tienen motivo ni condición para subir, alguien va a empezarlos por su cuenta.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "La matriz de Horizonte para calibrar las notas; la tuya para valer.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventario de TI</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">resumen de atención</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · La matriz de Horizonte",
+          "min": "20 min",
+          "texto": "Abre el inventario de TI y la pieza del resumen de atención en el laboratorio. Rehaz la matriz de los cinco procesos con tus notas, sin copiar las de la pestaña. Donde tu nota difiera en 2 puntos o más, escribe el argumento. Ejecuta el prompt del abogado del diablo.",
+          "pronto": "los 5 procesos tienen las tres notas, cada nota con una frase de motivo, la suma calculada, el elegido con las tres frases de justificación (incluyendo por qué no el cobro) y el alcance con al menos 2 exclusiones."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La matriz de tu área",
+          "min": "40 min",
+          "texto": "Haz la lista de los procesos de tu área que pasan el filtro, incluyendo los que alguien ya automatizó sin ponerse de acuerdo. Elige 5 y llena la matriz. Muéstrala a una persona que trabaje en ellos y ajusta las notas que cuestione con buen motivo.",
+          "pronto": "la matriz tiene 5 procesos con principio y fin en el nombre, 15 notas con motivo, el elegido justificado en 3 frases, el alcance del piloto y la cola con el motivo de cada uno para no ser ahora."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "El dueño quiere empezar por el cobro, que tiene el mayor valor. La matriz dio suma 7 para él y 12 para el pedido. ¿Qué haces?",
+          "opcoes": [
+            "Empiezas por el cobro: es lo que quiere el dueño",
+            "Escribes por qué no el cobro ahora (sin línea de base, mayor riesgo) y qué debe cambiar para que suba en la cola",
+            "Haces los dos al mismo tiempo para agradar a todos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La elección escrita es lo que permite discrepar del jefe con argumentos. Y el cobro no desaparece: va a la cola con la condición para subir. Hacer los dos al mismo tiempo es el comienzo de los proyectos desconectados."
+        },
+        {
+          "p": "¿Por qué el riesgo entra invertido en la suma (6 − R)?",
+          "opcoes": [
+            "Porque un proceso riesgoso debe elegirse primero",
+            "Porque cuanto mayor es el daño posible, menos sirve como primer proceso, cuando el equipo todavía está aprendiendo",
+            "Porque el riesgo no importa en la elección"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "El primer proceso es donde el equipo aprende a mapear, medir y versionar. Equivocarse ahí tiene que salir barato. Los procesos de riesgo alto vienen después, con el método ya probado."
+        },
+        {
+          "p": "¿Qué relata el KPMG Global Tech Report 2026 sobre Brasil?",
+          "opcoes": [
+            "Que el 45% de los ejecutivos brasileños tiene varios proyectos de IA desconectados entre sí",
+            "Que el 45% de las empresas ya rediseñó todos los procesos",
+            "Que los proyectos de IA no dan resultado en Brasil"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "Es una encuesta a ejecutivos (04/2026). No dice que la IA no funciona; dice que muchos empiezan por varios lados sin conectar una cosa con la otra. Un proceso a la vez, con medición, es la respuesta de gestión."
+        },
+        {
+          "p": "¿Cuál de estos nombres sirve como proceso en la matriz?",
+          "opcoes": [
+            "Finanzas",
+            "Atención al cliente",
+            "Pedido por WhatsApp hasta la factura emitida"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Un proceso tiene principio y fin. \"Finanzas\" es un área; \"atención\" es una función. Sin los extremos, no se puede mapear, medir ni decir cuándo quedó listo."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Filtro antes de la matriz",
+          "texto": "Se repite cada semana, involucra a varias personas, cuesta cuando se equivoca."
+        },
+        {
+          "t": "Nota con motivo",
+          "texto": "Valor, viabilidad y riesgo invertido. Sin una frase, es adivinar."
+        },
+        {
+          "t": "Uno a la vez",
+          "texto": "El segundo empieza cuando el primero tiene línea de base, versión y dueño."
+        },
+        {
+          "t": "Elección escrita",
+          "texto": "Por qué este, por qué no los otros, el alcance y la cola."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Arquitecto de Trabajo con IA: diez procesos críticos, no decenas de chatbots",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Laboratorio Horizonte: inventario de TI e IA en la sombra (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        },
+        {
+          "t": "Área Gestión de IA: las 8 competencias",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "camadas"
+        }
+      ]
+    }
+  ]
+}

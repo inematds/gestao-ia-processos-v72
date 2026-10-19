@@ -1,0 +1,182 @@
+{
+  "id": "gestao-ia-processos-v72",
+  "lang": "pt-BR",
+  "url": "https://inematds.github.io/gestao-ia-processos-v72/",
+  "nome": "Processos: processo não é sagrado",
+  "sub": "Formação Gestão de IA 2027 · G2",
+  "volta": {
+    "t": "Área Gestão de IA",
+    "href": "https://eventos.inema.pro/gestao-ia/"
+  },
+  "lado_card": {
+    "rot": "Formação Gestão de IA 2027 · G2",
+    "t": "Comece pela porta de entrada",
+    "texto": "O G0 mostra a empresa agêntica e o papel do gestor de 2027. Os outros cursos da formação partem dele.",
+    "link": "Ir para o G0",
+    "href": "https://inematds.github.io/gestao-ia-base-v72/"
+  },
+  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/gestao-ia/\">eventos.inema.pro/gestao-ia</a> · <a href=\"https://inematds.github.io/prof2030-lab/\">laboratório Horizonte (empresa fictícia de estudo)</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {},
+  "inicio": {
+    "kicker": "Formação Gestão de IA 2027 · G2 · 8 aulas",
+    "titulo": "Processos: processo não é sagrado",
+    "lead": "Colocar um agente num processo desenhado para pessoas em outra época só entrega o erro mais rápido. Em oito aulas você escolhe o primeiro processo, mapeia o que acontece de verdade, corta o que existe por hábito, decide quem faz cada etapa, mede antes de mexer e versiona a mudança. Fecha com o canvas atual × futuro aprovado por rubrica.",
+    "cta": "Começar pela aula 1",
+    "cta2": {
+      "t": "Ver a área Gestão de IA",
+      "href": "https://eventos.inema.pro/gestao-ia/"
+    },
+    "capa_alt": "Mesa de escritório ao entardecer com um notebook mostrando um fluxograma de blocos coloridos; ao fundo, desfocadas, as prateleiras de um depósito.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "aulas de 15 a 20 minutos"
+      },
+      {
+        "v": "18",
+        "t": "exercícios com \"pronto quando\""
+      },
+      {
+        "v": "22",
+        "t": "modelos para copiar"
+      },
+      {
+        "v": "1",
+        "t": "conversa simulada com o dono"
+      }
+    ],
+    "aulas_titulo": "As aulas",
+    "aulas_sub": "Na ordem em que um gestor redesenha um processo: duvidar dele, escolher qual, mapear, cortar, distribuir as etapas, medir e versionar. A aula 8 junta tudo no canvas.",
+    "blocos": [
+      {
+        "t": "Para quem é",
+        "itens": [
+          "Gestor de área, dono de pequena ou média empresa, líder de operações que vai colocar agentes de IA num processo, ou já colocou e não sabe dizer se melhorou.",
+          "Quem não programa e não quer programar: aqui você decide o que o processo deve ser. Construir o agente ou a integração é outro curso.",
+          "Quem ouviu \"põe a IA para fazer igual a gente faz\" e desconfia que esse não é o caminho."
+        ]
+      },
+      {
+        "t": "O que você sai fazendo",
+        "itens": [
+          "Escolher o primeiro processo por valor, viabilidade e risco, e dizer por escrito por que não outro.",
+          "Mapear o caminho normal, os desvios, as decisões e as medidas de hoje a partir de casos acompanhados.",
+          "Cortar, simplificar e mover etapas antes de automatizar, e decidir quem faz cada uma que sobrou.",
+          "Medir antes de mexer, com denominador, e registrar cada mudança com o jeito de voltar."
+        ]
+      },
+      {
+        "t": "O caso que atravessa o curso",
+        "itens": [
+          "A <b>Horizonte Distribuidora</b>, <a href=\"https://inematds.github.io/prof2030-lab/\">empresa fictícia de estudo</a> de 40 pessoas que distribui produtos de limpeza no interior de São Paulo.",
+          "Você faz o papel da <b>Patrícia Lima, gerente comercial</b>. O processo é o pedido que chega pelo WhatsApp e vai até a nota fiscal. O dono, Carlos, quer colocar a agente de vendas também no faturamento, do jeito que o processo está.",
+          "Toda aula tem uma prática na Horizonte e outra no seu próprio processo. O mapa da aula 3 e o canvas da aula 8 servem para o seu trabalho de verdade."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Pular para o conteúdo",
+    "aulas": "Aulas",
+    "concluido": "concluído",
+    "aula": "Aula",
+    "nesta_aula": "Nesta aula, você vai aprender:",
+    "objetivo": "Objetivo:",
+    "proxima_aula": "Próxima aula",
+    "aula_anterior": "Aula anterior",
+    "voltar_inicio": "Voltar ao início do curso",
+    "marcar_concluida": "Marcar aula como concluída",
+    "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_real": "Exemplo do repositório",
+    "pronto_quando": "Pronto quando:",
+    "fiz": "Fiz este exercício",
+    "video_pagina": "Página do vídeo com roteiro",
+    "pergunta": "Pergunta",
+    "de": "de",
+    "cert_tag": "competência",
+    "correto": "Correto",
+    "errado": "Não é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "proxima_pergunta": "Próxima pergunta",
+    "quiz_ver": "Ver resultado",
+    "quiz_fim": "Teste concluído",
+    "quiz_total": "Você acertou {a} de {n}. Acertando todas, a aula é marcada como concluída.",
+    "aparencia": "Aparência",
+    "tamanho_texto": "Tamanho do texto",
+    "tema": "Tema",
+    "tema_escuro": "Escuro",
+    "tema_papel": "Papel claro",
+    "role_dica": "Role a página: cada etapa abaixo acende a sua parte do diagrama.",
+    "pre_requisito": "requer",
+    "ver_aula": "Ver a aula",
+    "mapa_dica": "Clique num exercício para ver o que fazer e o \"pronto quando\".",
+    "etapas": "Etapas",
+    "exercicios": "exercícios",
+    "rever": "Rever:",
+    "revisar_erradas": "Revisar as erradas",
+    "refazer": "Refazer o teste",
+    "h_semana": "h por semana",
+    "data_inicio": "Data de início",
+    "ritmo": "Tempo disponível",
+    "gerar_plano": "Gerar meu plano",
+    "baixar_md": "Baixar plano.md",
+    "baixar_ics": "Baixar para o calendário (.ics)",
+    "ind_estudo": "Estudo (aulas)",
+    "ind_pratica": "Prática declarada",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "estudo": {
+      "titulo": "Seu estudo",
+      "continuar": "Continuar de onde parei",
+      "comecar": "Começar pela aula 1",
+      "cta_continuar": "Continuar a aula {n}",
+      "hoje": "hoje",
+      "ontem": "ontem",
+      "ha_dias": "há {n} dias",
+      "desempenho": "Desempenho nos testes",
+      "notas": "Minhas anotações",
+      "dados": "Copiar meus dados",
+      "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
+      "nao_fez": "teste ainda não feito",
+      "ultimo": "Último",
+      "melhor": "Melhor",
+      "tentativas": "tentativas",
+      "tentativa": "tentativa",
+      "tudo_certo": "Acertou tudo no último teste.",
+      "rever": "Para rever",
+      "resposta": "Resposta certa:",
+      "ir_teste": "Refazer o teste",
+      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "so_marcado": "(só marcado)",
+      "marcar": "Marcar",
+      "anotar": "Anotar",
+      "salvar": "Salvar",
+      "apagar": "Apagar marca",
+      "fechar": "Fechar",
+      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "um_bloco": "Marque dentro de um parágrafo só.",
+      "nao_marca": "Este trecho não pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "exportar": "Baixar cópia",
+      "importar": "Carregar cópia",
+      "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
+      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
+      "export_ok": "Cópia baixada."
+    },
+    "conv_dica": "Escolha a sua resposta. O comentário aparece logo depois e a conversa segue conforme a escolha.",
+    "conv_voce": "Você",
+    "conv_escolha": "Sua resposta",
+    "conv_boa": "Boa escolha",
+    "conv_meio": "Dá para melhorar",
+    "conv_ruim": "Escolha fraca",
+    "conv_fim": "Fim da conversa",
+    "conv_placar": "Você fez {p} de {m} pontos possíveis.",
+    "conv_licao": "Lição:",
+    "conv_recomecar": "Recomeçar a conversa",
+    "conv_feita": "Seu melhor placar: {p} de {m} pontos."
+  },
+  "icone": "camadas"
+}

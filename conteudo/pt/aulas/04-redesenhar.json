@@ -1,0 +1,436 @@
+{
+  "slug": "redesenhar",
+  "num": 4,
+  "menu": "Redesenhar",
+  "titulo": "Eliminar, simplificar, redesenhar",
+  "titulo_curto": "Redesenhar",
+  "minutos": 20,
+  "lead": "Com o mapa na mão, a tentação é escolher a etapa mais demorada e colocar um agente nela. Antes disso vêm três verbos, nesta ordem: eliminar o que não precisa existir, simplificar o que precisa mas está grande demais e redesenhar o que está no lugar errado. Nesta aula você desmonta o processo da Horizonte e conversa com o Carlos, que queria pular tudo isso.",
+  "objetivo": "desmontar o processo antes de automatizar: cortar, simplificar e mover etapas, com o motivo de cada mudança escrito.",
+  "competencias": [
+    "eliminar-etapas-sem-motivo",
+    "simplificar-conferencias",
+    "redesenhar-antes-de-automatizar"
+  ],
+  "aprende": [
+    {
+      "t": "Os três verbos do redesenho, na ordem certa"
+    },
+    {
+      "t": "Achar quem dependia da etapa cortada"
+    },
+    {
+      "t": "Trocar \"conferir tudo\" por exceção e amostra"
+    },
+    {
+      "t": "Mover a verificação para onde o erro nasce"
+    }
+  ],
+  "hero_alt": "Duas pessoas diante de uma parede de vidro com notas adesivas coloridas em fila; algumas notas foram retiradas e empilhadas sobre a mesa, e uma linha de caneta liga as que ficaram.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Três verbos antes de automatizar",
+      "sub": "Cada degrau usa o mapa da aula 3. Automatizar vem por último. Clique em cada degrau.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "x",
+          "titulo": "Eliminar",
+          "sub": "não precisa existir",
+          "detalhe": "Etapas marcadas como hábito ou passagem de mão, sem motivo real confirmado por quem faz. Cortar exige achar quem usava o resultado da etapa e dar a essa pessoa outra fonte. Na Horizonte: a planilha, o papel, o aviso por WhatsApp e o e-mail ao financeiro."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Simplificar",
+          "sub": "precisa, mas menor",
+          "detalhe": "A necessidade é real, a forma é grande demais. A conferência de todos os pedidos vira conferência das exceções que a política já define e uma amostra semanal dos pedidos comuns. Aprovação em tudo vira aprovação sem ler."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Redesenhar",
+          "sub": "mover e juntar",
+          "forte": true,
+          "detalhe": "A etapa certa no lugar errado muda de lugar: a conferência de cadastro sai do faturamento e vai para a entrada do pedido. Etapas que eram de pessoas diferentes se juntam quando o trabalho passa a correr num sistema só."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Automatizar",
+          "sub": "só agora",
+          "detalhe": "Com o processo menor, cada etapa que sobrou ganha um executor: pessoa, automação simples, agente, automação de tela ou integração. Essa decisão é a aula 5. O agente recebe um processo redesenhado, nunca \"faça igual à equipe\"."
+        }
+      ],
+      "legenda": "Competência 2 da área Gestão de IA (INEMA): esse processo ainda deveria existir? Eliminar, simplificar, redesenhar, e só então automatizar.",
+      "dica": "O que fica sempre: exigência real, julgamento e exceção. Eles mudam de lugar e de tamanho, mas não somem."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O redesenho da Horizonte",
+      "sub": "De 13 etapas (v1.0) para 8 (v2.0). Empresa fictícia de estudo; a política de desconto é a mesma do curso de agentes.",
+      "passos": [
+        {
+          "titulo": "Eliminar",
+          "sub": "e achar quem dependia",
+          "texto": [
+            "Comece pelas etapas H e P da folha de etiquetas. Para cada uma, pergunte: quem usava o que essa etapa produzia? Toda etapa cortada alimentava alguém, nem que fosse um relatório de sexta-feira.",
+            "Corte só quando essa pessoa tiver outra fonte. Senão, o hábito volta escondido: alguém recria a planilha por conta própria na semana seguinte."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "A planilha do comercial (etapa 3) alimentava o relatório de metas da Patrícia; o relatório passa a sair do app. O papel (6), o aviso (9) e o e-mail (10) somem quando estoque e financeiro veem o pedido na tela."
+          }
+        },
+        {
+          "titulo": "Simplificar",
+          "sub": "exceção mais amostra",
+          "texto": [
+            "Conferência de tudo nasce de um susto e fica para sempre. Em duas semanas, quem aprova cem coisas por dia aprova sem ler, e a conferência vira carimbo.",
+            "Troque por duas coisas: as exceções que a regra já define, conferidas uma a uma, e uma amostra pequena dos casos comuns, olhada toda semana para ver se a regra continua certa."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "A Patrícia deixa de conferir 170 pedidos por semana. Vê só os descontos entre 5% e 10% e os pedidos acima de R$ 5 mil (política fictícia), mais 10 pedidos comuns sorteados toda segunda."
+          }
+        },
+        {
+          "titulo": "Redesenhar",
+          "sub": "a verificação vai para a entrada",
+          "texto": [
+            "O erro mais caro é o descoberto tarde. Se uma regra pode ser conferida logo que o caso chega, conferi-la no fim só garante retrabalho: o caso já andou, e volta.",
+            "Mova a verificação para onde o erro nasce, e junte as etapas que só eram separadas porque eram de pessoas diferentes."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "Pedido só entra no app com cliente de cadastro completo. Cliente novo vai antes para a Juliana cadastrar. O caso P3, que voltou do financeiro e levou 75 horas, deixa de existir desse jeito."
+          }
+        },
+        {
+          "titulo": "Só então automatizar",
+          "sub": "e o que fica com gente",
+          "texto": [
+            "A versão redesenhada tem menos etapas e cada uma com motivo. Agora sim vale perguntar quem faz cada uma, e a resposta vem na próxima aula.",
+            "Algumas etapas não mudam de dono: a aprovação acima do valor da política, a nota fiscal e as decisões de julgamento. Elas ficam menores e mais bem informadas, não automáticas."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "v2.0: pedido no WhatsApp → montado no app só com cadastro completo → política aplicada, exceções para a Patrícia → estoque vê na tela → separa e dá baixa → pedido vai ao ERP sem redigitar → nota → nota ao cliente."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulação: o Carlos quer a Hora no faturamento",
+      "sub": "Conversa simulada para treinar. O dono quer colocar a agente no processo do jeito que está; você conduz o redesenho. O comentário aparece logo depois de cada resposta.",
+      "personagem": {
+        "nome": "Carlos Mendes · dono (simulação)",
+        "papel": "Horizonte Distribuidora, empresa fictícia de estudo"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Patrícia, vi o painel: a Hora vende sozinha. Quero ela também no faturamento. Ela pega o pedido, digita no ERP e manda a nota, igualzinho a Juliana e o financeiro fazem hoje. Dá para começar segunda?",
+          "opcoes": [
+            {
+              "t": "Dá. Peço ao Rafael para ligar na segunda.",
+              "vai": "fim-acelera",
+              "nota": 0,
+              "comenta": "\"Igualzinho\" leva junto as 13 etapas, inclusive as que só existem para passar papel de mão em mão. A agente vai acelerar o processo de hoje, com os erros dele."
+            },
+            {
+              "t": "Pode ser, mas só nos pedidos pequenos, para testar.",
+              "vai": "etapas",
+              "nota": 1,
+              "comenta": "Recortar é bom, mas o recorte não muda o desenho: o pedido pequeno também passa pela planilha, pelo papel e pela redigitação. Você só testaria o erro em escala menor."
+            },
+            {
+              "t": "Antes de ligar, me dá uma semana. Vou mapear o caminho do pedido com cinco casos e ver quais etapas ainda precisam existir.",
+              "vai": "etapas",
+              "nota": 2,
+              "comenta": "Uma semana de mapa evita meses acelerando o processo errado. E você não disse \"não\": disse \"primeiro\"."
+            }
+          ]
+        },
+        "etapas": {
+          "cliente": "Mapeou? Mas por que mexer? A Juliana copia o pedido na planilha, você confere todos, o financeiro redigita no ERP. Sempre foi assim, e funciona.",
+          "opcoes": [
+            {
+              "t": "Você tem razão, vamos manter e só colocar a Hora.",
+              "vai": "fim-manter",
+              "nota": 0,
+              "comenta": "\"Sempre foi assim\" é a definição de hábito. O mapa mostrou etapas sem motivo e um pedido que levou 75 horas por causa de uma conferência no lugar errado."
+            },
+            {
+              "t": "Vamos cortar tudo o que é manual.",
+              "vai": "conferencia",
+              "nota": 1,
+              "comenta": "A direção está certa, o critério não. \"Manual\" não é motivo: a aprovação acima de R$ 5 mil e a nota fiscal são manuais e precisam ficar. Cada corte precisa do seu motivo."
+            },
+            {
+              "t": "Funciona, mas devagar. A planilha, o papel e o e-mail só existem para levar o pedido de uma mesa à outra. Se estoque e financeiro veem o pedido na tela, somem. A aprovação e a nota ficam.",
+              "vai": "conferencia",
+              "nota": 2,
+              "comenta": "Você cortou com motivo (passagem de mão) e disse o que fica (exigência real). É o que convence um dono: o que muda, por quê, e o que continua igual."
+            }
+          ]
+        },
+        "conferencia": {
+          "cliente": "E a sua conferência de preço em todos os pedidos? Se a Hora fizer essa parte, você fica livre.",
+          "opcoes": [
+            {
+              "t": "Boa: a Hora confere os pedidos que ela mesma montou e aprova.",
+              "vai": "cadastro",
+              "nota": 0,
+              "comenta": "Quem lança não aprova. Pôr a agente para conferir o próprio trabalho tira a conferência e mantém a aparência dela."
+            },
+            {
+              "t": "Prefiro continuar conferindo todos, por segurança.",
+              "vai": "cadastro",
+              "nota": 1,
+              "comenta": "O risco é real, mas conferir 170 pedidos por semana vira carimbo em pouco tempo. Segurança de verdade é olhar com atenção o que a regra manda olhar."
+            },
+            {
+              "t": "Simplifico: a política já diz o que é exceção. Confiro um a um os descontos entre 5% e 10% e os pedidos acima de R$ 5 mil, e sorteio 10 pedidos comuns toda segunda para ver se a regra continua certa.",
+              "vai": "cadastro",
+              "nota": 2,
+              "comenta": "Exceção conferida uma a uma, amostra para vigiar a regra. A necessidade ficou; a forma encolheu."
+            }
+          ]
+        },
+        "cadastro": {
+          "cliente": "Fechado. E o problema do cadastro? Toda semana o financeiro me reclama de pedido sem CNPJ que volta.",
+          "opcoes": [
+            {
+              "t": "A Hora completa o cadastro com o que achar na internet.",
+              "vai": "fim-dado",
+              "nota": 0,
+              "comenta": "Dado inventado no cadastro vira nota errada. Cadastrar cliente novo é decisão de gente, com conferência (política fictícia da Horizonte)."
+            },
+            {
+              "t": "O financeiro cobra o cliente quando faltar.",
+              "vai": "medida",
+              "nota": 1,
+              "comenta": "Resolve o caso, não o processo: a conferência continua no fim, depois da separação. O pedido continua voltando."
+            },
+            {
+              "t": "Mudo a conferência de lugar: pedido só entra no app com cadastro completo. Cliente novo vai antes para a Juliana cadastrar. O financeiro deixa de descobrir no fim.",
+              "vai": "medida",
+              "nota": 2,
+              "comenta": "Redesenhar é isso: a etapa certa no lugar certo. O erro é pego onde nasce, antes de o estoque separar."
+            }
+          ]
+        },
+        "medida": {
+          "cliente": "Gostei. E como eu vou saber se melhorou?",
+          "opcoes": [
+            {
+              "t": "Pelo painel: se subir, melhorou.",
+              "vai": "fim-painel",
+              "nota": 0,
+              "comenta": "O painel começou a contar no dia em que a Hora entrou e só mostra volume. Sem o antes, qualquer subida parece mérito (é a falha F11 do laboratório)."
+            },
+            {
+              "t": "Em um mês a gente vê.",
+              "vai": "fim-vago",
+              "nota": 1,
+              "comenta": "Ver o quê? Sem indicador escolhido e medido antes da mudança, daqui a um mês a resposta vai depender de quem estiver mais animado."
+            },
+            {
+              "t": "Antes de mudar, meço quatro semanas: tempo do pedido até a nota, pedidos que voltam do faturamento e minutos de gente por pedido. Comparo com as quatro semanas depois. E a versão de hoje fica escrita, para voltar se piorar.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Linha de base antes, comparação de períodos iguais e um jeito de voltar. É o que as aulas 6 e 7 detalham."
+            }
+          ]
+        },
+        "fim-acelera": {
+          "fim": true,
+          "titulo": "O processo antigo, mais rápido",
+          "texto": "A Hora passou a redigitar pedidos no ERP. O pedido sem CNPJ continuou chegando ao financeiro, só que mais cedo e já separado. Um mês depois, ninguém sabe dizer se ficou melhor."
+        },
+        "fim-manter": {
+          "fim": true,
+          "titulo": "Sempre foi assim",
+          "texto": "O processo ficou como estava, com a agente por cima. As 13 etapas continuam, e o pedido do cliente novo continua levando três dias para virar nota."
+        },
+        "fim-dado": {
+          "fim": true,
+          "titulo": "Cadastro inventado",
+          "texto": "A agente preencheu um CNPJ achado num site. A nota saiu para a empresa errada e o financeiro precisou cancelar. Dado que falta se pede a quem tem; não se completa por conta própria."
+        },
+        "fim-painel": {
+          "fim": true,
+          "titulo": "Redesenho sem prova",
+          "texto": "O processo mudou, o painel subiu e ninguém consegue separar o efeito do redesenho do efeito da época do ano. Quando alguém questionar, não há o antes para mostrar."
+        },
+        "fim-vago": {
+          "fim": true,
+          "titulo": "Quase lá",
+          "texto": "O redesenho está bom, mas \"em um mês a gente vê\" não diz o que olhar nem com o que comparar. Recomece e escolha a resposta que mede antes de mexer."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Processo redesenhado, com o antes guardado",
+          "texto": "O Carlos aprovou a v2: menos etapas, conferência só das exceções, cadastro na entrada e quatro semanas de linha de base antes da mudança. Se o placar ficou abaixo do máximo, recomece e compare os comentários."
+        }
+      },
+      "licao": "Antes de automatizar: eliminar o que é hábito, com motivo; simplificar a conferência para exceção e amostra; mover a verificação para onde o erro nasce. E medir o antes, para provar o depois."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: folha de redesenho",
+      "sub": "Uma linha por etapa da v1. Toda mudança tem verbo, motivo e quem dependia dela. As abas mostram a Horizonte.",
+      "blocos": [
+        {
+          "rot": "Folha de redesenho (v1 → v2)",
+          "icone": "caneta",
+          "conteudo": "FOLHA DE REDESENHO · processo: <de onde até onde> · de v<1.0> para v<2.0>\nDono: <nome> · Feita por: <nome> · Data: <dd/mm/aaaa> · Base: mapa v<1.0>\n\nVerbos: ELIMINAR · SIMPLIFICAR · MOVER · JUNTAR · MANTER\n\n| # v1 | Etapa | Verbo | Motivo | Quem usava o resultado e de onde vai tirar agora | Risco do corte | Como saber se fez falta |\n|---|---|---|---|---|---|---|\n| <1> | <...> | <verbo> | <...> | <nome · nova fonte> | <...> | <sinal que você vai olhar> |\n\nVERSÃO REDESENHADA (v<2.0>)\n| # v2 | Etapa | Quem faz (provisório; decide-se na aula 5) | Veio de (# v1) |\n|---|---|---|---|\n| 1 | <...> | <...> | <...> |\n\nCONTAGEM: v1 = <n> etapas · v2 = <n> etapas · eliminadas <n> · simplificadas <n> · movidas <n>\nO QUE FICA COM GENTE (exigência, julgamento, exceção): <lista>"
+        },
+        {
+          "rot": "Prompt · o que pode quebrar com o corte",
+          "icone": "chat",
+          "conteudo": "Você é gerente de operações e vai revisar o redesenho de um processo da\nminha empresa. Não aprove nem reprove. Para cada etapa ELIMINADA ou MOVIDA:\n\n1. Diga quem provavelmente usava o resultado dela e se a folha deu a\n   essa pessoa outra fonte.\n2. Aponte um risco que o corte pode criar e que a folha não cita.\n3. Sugira o sinal que mostraria, nas primeiras duas semanas, que o corte\n   fez falta.\n\nNo fim, diga se alguma exigência real (lei, contrato, aprovação de valor,\nnota fiscal) foi cortada por engano.\n\nMapa v1:\n\"\"\"<cole>\"\"\"\nFolha de redesenho:\n\"\"\"<cole>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Folha da Horizonte (exemplo)",
+            "html": "<p><b>Pedido pelo WhatsApp → nota · v1.0 → v2.0</b> · Horizonte, empresa fictícia de estudo</p><table><tr><th># v1</th><th>Etapa</th><th>Verbo</th><th>Motivo e nova fonte</th></tr><tr><td>3</td><td>Copiar para a planilha</td><td>eliminar</td><td>hábito; o relatório de metas sai do app</td></tr><tr><td>4</td><td>Conferir preço de todos</td><td>simplificar</td><td>só exceções da política + 10 sorteados por semana</td></tr><tr><td>6</td><td>Imprimir e levar ao estoque</td><td>eliminar</td><td>passagem de mão; o estoque vê o pedido na tela</td></tr><tr><td>9</td><td>Avisar que separou</td><td>eliminar</td><td>passagem de mão; a baixa no app avisa</td></tr><tr><td>10</td><td>E-mail ao financeiro</td><td>eliminar</td><td>passagem de mão; o pedido vai ao ERP</td></tr><tr><td>11</td><td>Redigitar no ERP</td><td>eliminar</td><td>só existia porque app e ERP não se falam (como ligar: aula 5)</td></tr><tr><td>12</td><td>Conferir cadastro</td><td>mover</td><td>vai para a entrada; cliente novo passa pela Juliana antes</td></tr><tr><td>4 e 5</td><td>Conferência simplificada e aprovação acima de R$ 5 mil</td><td>juntar</td><td>viram uma fila só de exceções da Patrícia</td></tr><tr><td>1, 2, 7, 8, 13</td><td>Responder, montar, conferir estoque, separar, mandar a nota</td><td>manter</td><td>exigência (cliente, estoque, nota)</td></tr></table><p>v1 = 13 etapas · v2 = 8 etapas: 5 eliminadas, a 4 e a 5 juntadas numa fila só, e uma passagem automática do app ao ERP no lugar da redigitação.</p>"
+          },
+          {
+            "rot": "A versão 2.0",
+            "html": "<ol><li>Cliente pede pelo WhatsApp; a Hora ou a Juliana responde.</li><li>Pedido montado no app <b>só com cadastro completo</b>; cliente novo vai antes para a Juliana cadastrar.</li><li>A política vira regra fixa do app: desconto até 5% e pedido até R$ 5 mil seguem; desconto de 5% a 10% e pedido acima de R$ 5 mil vão para a Patrícia, um a um; acima de 10%, só o Carlos. Toda segunda, 10 pedidos comuns sorteados.</li><li>O estoque vê o pedido na tela e confere a disponibilidade.</li><li>Separa e dá baixa no app.</li><li>O pedido vai do app ao ERP sem redigitar.</li><li>O financeiro confere e emite a nota.</li><li>A nota sai ao cliente pela conversa, com registro.</li></ol><p>Quem faz cada etapa ainda é provisório: é a aula 5. Escrever a alçada da agente ação por ação é o curso G3.</p>"
+          },
+          {
+            "rot": "Como conferir / erros comuns",
+            "html": "<ul><li><b>Corte sem nova fonte.</b> Se a coluna \"quem usava\" está vazia, alguém vai recriar a etapa escondido.</li><li><b>\"Manual\" como motivo.</b> Manual não é defeito; hábito e passagem de mão são.</li><li><b>Exigência cortada.</b> Nota, aprovação de valor e obrigações legais ficam, mesmo que mudem de forma.</li><li><b>Conferência que a própria executora aprova.</b> Quem lança não aprova.</li><li><b>Automatizar na folha.</b> A coluna \"quem faz\" é provisória; não escreva \"agente\" antes da aula 5.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "A conversa e a folha da Horizonte para treinar; a do seu processo para valer.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · A conversa com o Carlos",
+          "min": "10 min",
+          "texto": "Faça a simulação até o fim. Se não chegar ao placar máximo, recomece. Depois escreva, para cada uma das cinco falas, em uma linha, por que a resposta de nota 2 é melhor que a de nota 1.",
+          "pronto": "você fez 10 de 10 pontos e tem as 5 linhas escritas, uma por fala."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · A versão 2.0 da Horizonte",
+          "min": "25 min",
+          "texto": "Use o mapa que você fez na aula 3 e a folha de etiquetas da aula 1. Preencha a folha de redesenho das 13 etapas sem olhar a aba e só depois compare. Rode o prompt do que pode quebrar.",
+          "pronto": "as 13 etapas têm verbo e motivo, cada etapa eliminada tem quem usava o resultado e a nova fonte, a v2 tem entre 7 e 9 etapas, e a aprovação acima de R$ 5 mil e a nota fiscal continuam lá."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · A versão redesenhada do seu processo",
+          "min": "45 min",
+          "texto": "Faça a folha de redesenho do seu processo a partir do mapa da aula 3. Mostre a versão nova a quem executa as etapas eliminadas e pergunte o que elas perderiam. Ajuste a folha com as respostas.",
+          "pronto": "a folha tem todas as etapas da v1 com verbo e motivo, pelo menos 2 etapas cortadas ou movidas com motivo e nova fonte, a contagem v1 × v2, a lista do que fica com gente e o nome de quem você consultou."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {
+          "p": "Qual é a ordem certa do redesenho?",
+          "opcoes": [
+            "Automatizar, medir, depois cortar o que sobrou",
+            "Eliminar, simplificar, redesenhar, e só então automatizar",
+            "Simplificar tudo de uma vez e automatizar no mesmo dia"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Cada verbo diminui o que o seguinte precisa tratar. Automatizar primeiro trava no sistema as etapas que deveriam ter saído."
+        },
+        {
+          "p": "Você vai eliminar a cópia do pedido para a planilha. O que precisa fazer antes?",
+          "opcoes": [
+            "Nada: é hábito, pode cortar",
+            "Achar quem usava a planilha (o relatório de metas) e dar a essa pessoa outra fonte",
+            "Pedir a um agente para continuar copiando, por garantia"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Toda etapa cortada alimentava alguém. Sem nova fonte, a etapa volta escondida, numa planilha paralela que ninguém controla."
+        },
+        {
+          "p": "A gerente confere o preço de todos os pedidos desde um susto com descontos. Qual é a simplificação?",
+          "opcoes": [
+            "Parar de conferir",
+            "Conferir uma a uma as exceções que a política define e sortear uma amostra pequena dos pedidos comuns toda semana",
+            "Pôr a agente que monta o pedido para conferir os próprios pedidos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A necessidade continua; a forma encolhe. Exceção com atenção, amostra para vigiar a regra. E quem lança não aprova o próprio trabalho."
+        },
+        {
+          "p": "O pedido de cliente sem CNPJ só é descoberto no faturamento, depois da separação. Qual verbo resolve?",
+          "opcoes": [
+            "Eliminar a conferência de cadastro",
+            "Mover a conferência para a entrada do pedido",
+            "Automatizar a cobrança do CNPJ no fim"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A conferência é necessária; está no lugar errado. Pegar o erro onde ele nasce evita a separação, a devolução e as 75 horas do caso P3."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {
+          "t": "Eliminar",
+          "texto": "Hábito e passagem de mão saem, depois de achar quem dependia deles."
+        },
+        {
+          "t": "Simplificar",
+          "texto": "Conferir tudo vira exceção uma a uma mais amostra semanal."
+        },
+        {
+          "t": "Redesenhar",
+          "texto": "Verificação onde o erro nasce; etapas juntas num sistema só."
+        },
+        {
+          "t": "Só então automatizar",
+          "texto": "O agente recebe o processo redesenhado, nunca \"faça igual\"."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Arquiteto de Trabalho com IA: o erro mais comum é automatizar o processo errado",
+          "href": "https://inematds.github.io/pffia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Área Gestão de IA: regra 1, não automatize um processo ruim",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Agentes: contratar, delegar e supervisionar (G3)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        }
+      ]
+    }
+  ]
+}
